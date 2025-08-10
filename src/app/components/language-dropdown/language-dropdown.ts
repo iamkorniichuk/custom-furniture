@@ -11,11 +11,11 @@ export class LanguageDropdown {
   isOpen = signal(false);
 
   languages = [
-    { code: 'EN', src: '/images/united-kingdom.png', label: 'English' },
-    { code: 'PL', src: '/images/poland.png', label: 'Polski' },
-    { code: 'DE', src: '/images/germany.png', label: 'Deutsche' },
-    { code: 'CZ', src: '/images/czech-republic.png', label: 'Češky' },
-    { code: 'UA', src: '/images/ukraine.png', label: 'Українська' },
+    { code: 'EN', src: '/images/flags/united-kingdom.png', label: 'English' },
+    { code: 'PL', src: '/images/flags/poland.png', label: 'Polski' },
+    { code: 'DE', src: '/images/flags/germany.png', label: 'Deutsche' },
+    { code: 'CZ', src: '/images/flags/czech-republic.png', label: 'Češky' },
+    { code: 'UA', src: '/images/flags/ukraine.png', label: 'Українська' },
   ];
 
   selected = this.languages[0];

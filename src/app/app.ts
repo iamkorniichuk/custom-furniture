@@ -1,9 +1,9 @@
 import { Component, signal } from '@angular/core';
-import { LanguageDropdown } from './components/language-dropdown/language-dropdown';
+import { Hero } from './components/hero/hero';
 
 @Component({
   selector: 'app-root',
-  imports: [LanguageDropdown],
+  imports: [Hero],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
