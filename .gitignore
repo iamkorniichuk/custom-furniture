@@ -1,5 +1,8 @@
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
+# Client-specific files
+/public/translations/
+
 # Compiled output
 /dist
 /tmp

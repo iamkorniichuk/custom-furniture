@@ -7,9 +7,9 @@
 
   <div class="z-30 absolute top-0 left-0 right-0 flex justify-between items-center p-3">
     <div class="flex space-x-6 text-white font-medium text-lg">
-      <a href="#">Portfolio</a>
-      <a href="#">Pricing</a>
-      <a href="#">Contacts</a>
+      <a href="#">{{ 'navbar.portfolio' | translate }}</a>
+      <a href="#">{{ 'navbar.pricing' | translate }}</a>
+      <a href="#">{{ 'navbar.contacts' | translate }}</a>
     </div>
 
     <app-language-dropdown/>
@@ -17,27 +17,27 @@
   <div class="z-20 absolute inset-0 flex justify-center items-center">
     <div class="size-3/5 min-h-min bg-white p-6 flex flex-col justify-between">
         <div>
-          <h3 class="font-bold leading-none text-[10vh] mb-6">Custom Furniture</h3>
-          <p class="leading-7">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis repellendus voluptatum sed, laudantium deleniti consectetur voluptate perferendis quis ullam illo suscipit, vel dolorem aperiam pariatur ducimus placeat veniam mollitia. Pariatur.</p>
+          <h3 class="font-bold leading-none text-[10vh] mb-6">{{ 'hero.title' | translate }}</h3>
+          <p class="leading-7">{{ 'hero.description' | translate }}</p>
         </div>
         <div class="flex justify-between">
           <a href="#" class="inline-flex items-center">
-            <img class="size-[16px] mr-1" src="/images/icons/mail.png" alt="Mail"/>
+            <img class="size-[16px] mr-1" src="/images/icons/mail.png" [alt]="'contacts.mail' | translate"/>
             <span>example@mail.com</span>
           </a>
           <a href="#" class="inline-flex items-center">
-            <img class="size-[16px] mr-1" src="/images/icons/phone.png" alt="Phone"/>
+            <img class="size-[16px] mr-1" src="/images/icons/phone.png" [alt]="'contacts.phone' | translate"/>
             <span>+123 456 78 90</span>
           </a>
           <a href="#" class="inline-flex items-center">
-            <img class="size-[16px] mr-1" src="/images/icons/facebook.png" alt="Facebook"/>
+            <img class="size-[16px] mr-1" src="/images/icons/facebook.png" [alt]="'contacts.facebook' | translate"/>
             <span>/custom-furniture</span>
           </a>
         </div>
     </div>
   </div>
   <a href="#" class="z-20 absolute bottom-1/20 left-1/2 transform -translate-x-1/2 text-white">
-    <div class="text-[20px] leading-[20px]">Scroll to Portfolio</div>
+    <div class="text-[20px] leading-[20px]">{{ 'hero.scrollPortfolio' | translate }}</div>
     <div class="flex justify-center items-center">
       <svg class="h-6 text-white" viewBox="0 0 20 20" fill="currentColor">
         <path

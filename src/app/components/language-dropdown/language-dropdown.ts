@@ -1,5 +1,7 @@
-import { Component, signal } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
 import { ClickOutside } from '../../directives/click-outside';
+import { TranslateService } from '@ngx-translate/core';
+import { AVAILABLE_LANGUAGES, FALLBACK_LANGUAGE, Language } from '../../language.config';
 
 @Component({
   selector: 'app-language-dropdown',
@@ -8,28 +10,37 @@ import { ClickOutside } from '../../directives/click-outside';
   styleUrl: './language-dropdown.css'
 })
 export class LanguageDropdown {
-  isOpen = signal(false);
+  private translate = inject(TranslateService);
+  isDropdownOpen = signal(false);
 
-  languages = [
-    { code: 'EN', src: '/images/flags/united-kingdom.png', label: 'English' },
-    { code: 'PL', src: '/images/flags/poland.png', label: 'Polski' },
-    { code: 'DE', src: '/images/flags/germany.png', label: 'Deutsche' },
-    { code: 'CZ', src: '/images/flags/czech-republic.png', label: 'Češky' },
-    { code: 'UA', src: '/images/flags/ukraine.png', label: 'Українська' },
-  ];
+  readonly availableLanguages = AVAILABLE_LANGUAGES;
+  selectedLanguage = FALLBACK_LANGUAGE
 
-  selected = this.languages[0];
+  constructor() {
+    const languageCodes = AVAILABLE_LANGUAGES.map(l => l.code);
+    this.translate.addLangs(languageCodes);
+    this.translate.setFallbackLang(FALLBACK_LANGUAGE.code);
 
+    const browserLanguageCode = navigator.language.split('-')[0].toLocaleLowerCase();
+    const browserLanguage = AVAILABLE_LANGUAGES.find(l => l.code === browserLanguageCode) || FALLBACK_LANGUAGE;
+    this.applyLanguage(browserLanguage);
+  }
+  
   toggleDropdown() {
-    this.isOpen.update((value) => !value);
+    this.isDropdownOpen.update((value) => !value);
+  }
+  
+  private applyLanguage(language: Language) {
+    this.selectedLanguage = language;
+    this.translate.use(language.code);
   }
 
-  selectLanguage(lang: any) {
-    this.selected = lang;
-    this.isOpen.set(false);
+  selectLanguage(language: Language) {
+    this.applyLanguage(language);
+    this.isDropdownOpen.set(false);
   }
 
   close() {
-    this.isOpen.set(false);
+    this.isDropdownOpen.set(false);
   }
 }
