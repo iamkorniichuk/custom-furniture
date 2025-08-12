@@ -4,8 +4,8 @@
     type="button"
     (click)="toggleDropdown()"
   >
-    <img class="w-5 h-auto" [src]="selectedLanguage.src" [alt]="selectedLanguage.label"/>
-    <span class="w-5 h-auto ml-2 mr-1" >{{ selectedLanguage.code.toUpperCase() }}</span>
+    <img class="w-5 h-auto" [src]="selectedLanguage().src" [alt]="selectedLanguage().label"/>
+    <span class="w-5 h-auto ml-2 mr-1" >{{ selectedLanguage().code.toUpperCase() }}</span>
 
     <svg class="h-6 w-auto text-white" [class.rotate-180]="isDropdownOpen()" viewBox="0 0 20 20" fill="currentColor">
       <path
@@ -18,8 +18,8 @@
 
   @if (isDropdownOpen()) {
     <div class="absolute top-8 w-full left-0 grid gap-2">
-      @for (item of availableLanguages; track item.code) {
-        @if (item.code != selectedLanguage.code) {
+      @for (item of availableLanguages; track item.label) {
+        @if (item != selectedLanguage()) {
           <a class="inline-flex items-center text-white cursor-pointer" href="#" (click)="selectLanguage(item)">
               <img class="w-5 h-auto mr-2" [src]="item.src" [alt]="item.label"/>
               <span>{{ item.code.toUpperCase() }}</span>
