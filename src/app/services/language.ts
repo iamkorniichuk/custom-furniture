@@ -25,7 +25,7 @@ export class LanguageService {
   readonly selectedLanguage = signal(this.availableLanguages[this.fallbackLanguageCode]);
 
   constructor(
-    private translate: TranslateService,
+    public translate: TranslateService,
     private router: Router,
     private route: ActivatedRoute
   ) {
