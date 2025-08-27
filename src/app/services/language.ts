@@ -1,7 +1,7 @@
 import { Injectable, signal } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
-import { filter } from 'rxjs';
+import { filter, first } from 'rxjs';
 
 export type Language = {
   code: string;
@@ -33,29 +33,43 @@ export class LanguageService {
     this.translate.setFallbackLang(this.fallbackLanguageCode);
 
     this.router.events
-      .pipe(filter(e => e instanceof NavigationEnd))
+      .pipe(
+        filter(e => e instanceof NavigationEnd),
+        first(),
+      )
       .subscribe(() => {
-        const routeLanguageCode = this.route.root.firstChild?.snapshot.paramMap.get(this.LANGUAGE_KEY);
-        if (this.isSuitableLanguageCode(routeLanguageCode) && routeLanguageCode !== this.translate.getCurrentLang()) {
-          this.setLanguage(routeLanguageCode);
-        }
+        const currentLanguageCode = this.extractCurrentLanguageCode();
+        this.setLanguage(currentLanguageCode);
+        this.navigateToCurrentLanguage();
+
+        this.router.events
+          .pipe(filter(e => e instanceof NavigationEnd))
+          .subscribe(() => {
+            const routeLanguageCode = this.getRouteLanguageCode();
+            if (this.isSuitableLanguageCode(routeLanguageCode) && routeLanguageCode !== this.translate.getCurrentLang()) {
+              this.setLanguage(routeLanguageCode);
+            }
+          });
       })
-
-    const routeLanguage = this.route.snapshot.paramMap.get(this.LANGUAGE_KEY);
-    const storedLanguage = localStorage.getItem(this.LANGUAGE_KEY);
-    const browserLanguage = navigator.language.split('-')[0].toLowerCase();
-  
-    let languageCode = this.fallbackLanguageCode;
-    if (this.isSuitableLanguageCode(routeLanguage)) {
-      languageCode = routeLanguage;
-    } else if (this.isSuitableLanguageCode(storedLanguage)) {
-      languageCode = storedLanguage;
-    } else if (this.isSuitableLanguageCode(browserLanguage)) {
-      languageCode = browserLanguage;
     }
+  
+  private getRouteLanguageCode(): string
+  {
+    const path = this.router.url.split(/[?#]/)[0]
+    const segments = path.split('/').filter(Boolean);
+    return segments[0];
+  }
 
-    this.setLanguage(languageCode);
-    this.navigateToLanguage();
+  private extractCurrentLanguageCode(): string
+  {
+    const routeLanguageCode = this.getRouteLanguageCode();
+    const storedLanguageCode = localStorage.getItem(this.LANGUAGE_KEY);
+    const browserLanguageCode = navigator.language.split('-')[0].toLowerCase();
+
+    if (this.isSuitableLanguageCode(routeLanguageCode)) return routeLanguageCode;
+    if (this.isSuitableLanguageCode(storedLanguageCode)) return storedLanguageCode;
+    if (this.isSuitableLanguageCode(browserLanguageCode)) return browserLanguageCode;
+    return this.fallbackLanguageCode;
   }
 
   setLanguage(languageCode: string) {
@@ -67,12 +81,12 @@ export class LanguageService {
     localStorage.setItem(this.LANGUAGE_KEY, languageCode);
   }
 
-  navigateToLanguage() {
+  navigateToCurrentLanguage() {
     const languageCode = this.selectedLanguage().code;
-    const url = this.router.url;
 
-    const segments = url.split('/').filter(Boolean);
-    const routeLanguageCode = this.route.snapshot.paramMap.get(this.LANGUAGE_KEY);
+    const path = this.router.url.split(/[?#]/)[0]
+    const segments = path.split('/').filter(Boolean);
+    const routeLanguageCode = segments[0];
 
     if (routeLanguageCode === languageCode) return;
 
@@ -80,8 +94,12 @@ export class LanguageService {
       segments.shift();
     }
 
-    const newSegments = [languageCode, ...segments];
-    this.router.navigate(['/', ...newSegments], {replaceUrl: true})
+    const newSegments = ['/', languageCode, ...segments];
+    this.router.navigate(newSegments, {
+      replaceUrl: true,
+      queryParamsHandling: 'preserve',
+      preserveFragment: true,
+    });
   }
 
   private isSuitableLanguageCode(languageCode: string | null | undefined): languageCode is string {
