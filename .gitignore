@@ -3,9 +3,6 @@
 # Environments
 environments/
 
-# Client-specific files
-/public/translations/
-
 # Compiled output
 /dist
 /tmp
