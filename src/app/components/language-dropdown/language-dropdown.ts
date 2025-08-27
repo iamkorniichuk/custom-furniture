@@ -25,6 +25,7 @@ export class LanguageDropdown {
 
   selectLanguage(language: Language) {
     this.languageService.setLanguage(language.code);
+    this.languageService.navigateToCurrentLanguage();
     this.close();
   }
 }

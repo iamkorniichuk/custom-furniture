@@ -20,10 +20,10 @@
     <div class="absolute top-8 w-full left-0 grid gap-2">
       @for (item of availableLanguages; track item.label) {
         @if (item != selectedLanguage()) {
-          <a class="inline-flex items-center text-white cursor-pointer" href="#" (click)="selectLanguage(item)">
+          <span (click)="selectLanguage(item)" class="inline-flex items-center text-white cursor-pointer">
               <img class="w-5 h-auto mr-2" [src]="item.src" [alt]="item.label"/>
               <span>{{ item.code.toUpperCase() }}</span>
-          </a>
+          </span>
         }
       }
     </div>

@@ -53,11 +53,22 @@ export class LanguageService {
       })
     }
   
-  private getRouteLanguageCode(): string
-  {
+  private getCurrentUrlSegments(): string[]{
     const path = this.router.url.split(/[?#]/)[0]
     const segments = path.split('/').filter(Boolean);
-    return segments[0];
+    return segments;
+  }
+
+  private withLanguageSegment(languageCode: string, segments: string[]): string[]{
+    if (this.isSuitableLanguageCode(segments[0])) {
+      segments = segments.slice(1);
+    }
+    return [languageCode, ...segments];
+  }
+  
+  private getRouteLanguageCode(): string
+  {
+    return this.getCurrentUrlSegments()[0];
   }
 
   private extractCurrentLanguageCode(): string
@@ -83,24 +94,18 @@ export class LanguageService {
 
   navigateToCurrentLanguage() {
     const languageCode = this.selectedLanguage().code;
+    const segments = this.getCurrentUrlSegments();
+    const newSegments = this.withLanguageSegment(languageCode, segments);
 
-    const path = this.router.url.split(/[?#]/)[0]
-    const segments = path.split('/').filter(Boolean);
-    const routeLanguageCode = segments[0];
+    if (newSegments[0] === this.getRouteLanguageCode()) return;
 
-    if (routeLanguageCode === languageCode) return;
-
-    if (this.isSuitableLanguageCode(routeLanguageCode)) {
-      segments.shift();
-    }
-
-    const newSegments = ['/', languageCode, ...segments];
-    this.router.navigate(newSegments, {
+    this.router.navigate(['/', ...newSegments], {
       replaceUrl: true,
       queryParamsHandling: 'preserve',
       preserveFragment: true,
     });
   }
+
 
   private isSuitableLanguageCode(languageCode: string | null | undefined): languageCode is string {
     return typeof languageCode === 'string' && languageCode in this.availableLanguages;
