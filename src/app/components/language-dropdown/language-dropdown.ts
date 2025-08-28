@@ -1,14 +1,14 @@
 import { Component, inject, signal } from '@angular/core';
-import { ClickOutside } from '../../directives/click-outside';
+import { ClickOutsideDirective } from '../../directives/click-outside';
 import { LanguageService, Language } from '../../services/language';
 
 @Component({
   selector: 'app-language-dropdown',
-  imports: [ClickOutside],
+  imports: [ClickOutsideDirective],
   templateUrl: './language-dropdown.html',
   styleUrl: './language-dropdown.css'
 })
-export class LanguageDropdown {
+export class LanguageDropdownComponent {
   private languageService = inject(LanguageService);
   readonly availableLanguages = Object.values(this.languageService.availableLanguages);
   selectedLanguage = this.languageService.selectedLanguage;

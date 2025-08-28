@@ -2,19 +2,17 @@ import { AfterViewInit, Component } from '@angular/core';
 import { Router, NavigationEnd }from '@angular/router';
 import { filter } from 'rxjs';
 
-import { Hero } from "../../components/hero/hero";
-import { SectionObserver } from '../../services/section-observer';
+import { HeroComponent } from "./sections/hero/hero";
+import { SectionObserverService } from '../../services/section-observer';
 
 @Component({
   selector: 'app-home',
-  imports: [Hero],
+  imports: [HeroComponent],
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
-export class Home implements AfterViewInit {
-  private observer?: IntersectionObserver;
-
-  constructor(private router: Router, private sectionObserver: SectionObserver) {
+export class HomeComponent implements AfterViewInit {
+  constructor(private router: Router, private sectionObserver: SectionObserverService) {
       this.router.events
         .pipe(filter(e => e instanceof NavigationEnd))
         .subscribe(() => {

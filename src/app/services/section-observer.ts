@@ -4,7 +4,7 @@ import { BehaviorSubject } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class SectionObserver implements OnDestroy {
+export class SectionObserverService implements OnDestroy {
   private observer?: IntersectionObserver;
   private currentSectionSubject = new BehaviorSubject<string|null>(null);
   readonly currentSection$ = this.currentSectionSubject.asObservable();
