@@ -1,8 +1,9 @@
-import { AfterViewInit, Component, OnDestroy } from '@angular/core';
+import { AfterViewInit, Component } from '@angular/core';
 import { Router, NavigationEnd }from '@angular/router';
 import { filter } from 'rxjs';
 
 import { Hero } from "../../components/hero/hero";
+import { SectionObserver } from '../../services/section-observer';
 
 @Component({
   selector: 'app-home',
@@ -10,10 +11,10 @@ import { Hero } from "../../components/hero/hero";
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
-export class Home implements AfterViewInit, OnDestroy {
+export class Home implements AfterViewInit {
   private observer?: IntersectionObserver;
 
-  constructor(private router: Router) {
+  constructor(private router: Router, private sectionObserver: SectionObserver) {
       this.router.events
         .pipe(filter(e => e instanceof NavigationEnd))
         .subscribe(() => {
@@ -26,26 +27,10 @@ export class Home implements AfterViewInit, OnDestroy {
     }
 
   ngAfterViewInit() {
-    const sections = document.querySelectorAll<HTMLElement>('section[id]');
-
-    this.observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const path = this.router.url.split('#')[0];
-            history.replaceState(null, '', path + '#' + entry.target.id);
-          }
-        });
-      },
-      {
-        threshold: 0.6,
-      }
-    );
-
-    sections.forEach((section) => this.observer!.observe(section));
-  }
-
-  ngOnDestroy() {
-    this.observer?.disconnect();
+    this.sectionObserver.start();
+    this.sectionObserver.currentSection$.subscribe(section => {
+      const path = this.router.url.split('#')[0];
+      history.replaceState(null, '', path + '#' + section);
+    });
   }
 }
