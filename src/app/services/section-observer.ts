@@ -2,11 +2,11 @@ import { Injectable, OnDestroy } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class SectionObserverService implements OnDestroy {
   private observer?: IntersectionObserver;
-  private currentSectionSubject = new BehaviorSubject<string|null>(null);
+  private currentSectionSubject = new BehaviorSubject<string | null>(null);
   readonly currentSection$ = this.currentSectionSubject.asObservable();
 
   start() {
@@ -20,9 +20,9 @@ export class SectionObserverService implements OnDestroy {
             const id = entry.target.id;
             this.currentSectionSubject.next(id);
           }
-        })
+        });
       },
-      { threshold: 0.6 }
+      { threshold: 0.6 },
     );
 
     sections.forEach((section) => this.observer!.observe(section));

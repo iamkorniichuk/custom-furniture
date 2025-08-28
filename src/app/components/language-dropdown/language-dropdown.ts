@@ -6,19 +6,21 @@ import { LanguageService, Language } from '../../services/language';
   selector: 'app-language-dropdown',
   imports: [ClickOutsideDirective],
   templateUrl: './language-dropdown.html',
-  styleUrl: './language-dropdown.css'
+  styleUrl: './language-dropdown.css',
 })
 export class LanguageDropdownComponent {
   private languageService = inject(LanguageService);
-  readonly availableLanguages = Object.values(this.languageService.availableLanguages);
+  readonly availableLanguages = Object.values(
+    this.languageService.availableLanguages,
+  );
   selectedLanguage = this.languageService.selectedLanguage;
 
   isDropdownOpen = signal(false);
-  
+
   toggleDropdown() {
     this.isDropdownOpen.update((isOpen) => !isOpen);
   }
-  
+
   close() {
     this.isDropdownOpen.set(false);
   }

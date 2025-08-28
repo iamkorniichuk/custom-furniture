@@ -8,9 +8,8 @@ describe('LanguageDropdownComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [LanguageDropdownComponent]
-    })
-    .compileComponents();
+      imports: [LanguageDropdownComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(LanguageDropdownComponent);
     component = fixture.componentInstance;

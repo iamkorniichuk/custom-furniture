@@ -1,8 +1,11 @@
-<nav [class]="classes()" class="fixed z-50 top-0 left-0 right-0 flex justify-between items-center p-3">
-    <div class="flex space-x-6 font-medium text-lg">
-        <a href="#">{{ 'navbar.portfolio' | translate }}</a>
-        <a href="#">{{ 'navbar.pricing' | translate }}</a>
-        <a href="#">{{ 'navbar.contacts' | translate }}</a>
-    </div>
-    <app-language-dropdown/>
+<nav
+  [class]="classes()"
+  class="fixed z-50 top-0 left-0 right-0 flex justify-between items-center p-3"
+>
+  <div class="flex space-x-6 font-medium text-lg">
+    <a href="#">{{ "navbar.portfolio" | translate }}</a>
+    <a href="#">{{ "navbar.pricing" | translate }}</a>
+    <a href="#">{{ "navbar.contacts" | translate }}</a>
+  </div>
+  <app-language-dropdown />
 </nav>

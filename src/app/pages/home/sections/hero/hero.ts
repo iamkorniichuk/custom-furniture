@@ -6,6 +6,6 @@ import { RouterModule } from '@angular/router';
   selector: 'app-hero',
   imports: [TranslatePipe, RouterModule],
   templateUrl: './hero.html',
-  styleUrl: './hero.css'
+  styleUrl: './hero.css',
 })
 export class HeroComponent {}

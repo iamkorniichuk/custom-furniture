@@ -3,11 +3,11 @@ import { HomeComponent } from './pages/home/home';
 import { NotFoundComponent } from './pages/not-found/not-found';
 
 export const routes: Routes = [
-    {
-        path: ':language',
-        children: [
-            {path: '', component: HomeComponent},
-            {path: '**', component: NotFoundComponent},
-        ]
-    },
+  {
+    path: ':language',
+    children: [
+      { path: '', component: HomeComponent },
+      { path: '**', component: NotFoundComponent },
+    ],
+  },
 ];
