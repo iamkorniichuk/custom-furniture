@@ -31,6 +31,7 @@ export class HomeComponent implements AfterViewInit {
   ngAfterViewInit() {
     this.sectionObserver.start();
     this.sectionObserver.currentSection$.subscribe((section) => {
+      if (section === null) return;
       const path = this.router.url.split('#')[0];
       history.replaceState(null, '', path + '#' + section);
     });

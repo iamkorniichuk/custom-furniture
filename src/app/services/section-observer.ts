@@ -13,14 +13,19 @@ export class SectionObserverService implements OnDestroy {
     this.observer?.disconnect();
 
     const sections = document.querySelectorAll<HTMLElement>('section[id]');
+    if (sections.length === 0) {
+      this.currentSectionSubject.next(null);
+      return;
+    }
     this.observer = new IntersectionObserver(
       (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const id = entry.target.id;
-            this.currentSectionSubject.next(id);
-          }
-        });
+        const visible = entries.find((entry) => entry.isIntersecting);
+
+        if (visible) {
+          this.currentSectionSubject.next(visible.target.id);
+        } else {
+          this.currentSectionSubject.next(null);
+        }
       },
       { threshold: 0.6 },
     );
