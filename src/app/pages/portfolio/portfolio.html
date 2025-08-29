@@ -1,0 +1,16 @@
+<div class="grid grid-cols-6 gap-12 auto-rows-[1fr] grid-flow-row-dense">
+  @for (item of portfolio(); track $index) {
+    <div
+      class="flex flex-col overflow-hidden rounded-xl"
+      [class.col-span-2]="item.images[0].orientation === 'landscape'"
+    >
+      <img
+        [src]="item.images[0].paths.medium"
+        alt="{{ item.title_en }}"
+        class="w-full object-cover flex-1"
+      />
+
+      <h3 class="text-m mt-2 truncate bg-white px-2">{{ item.title_en }}</h3>
+    </div>
+  }
+</div>
