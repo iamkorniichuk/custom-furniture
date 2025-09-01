@@ -5,6 +5,7 @@
     "title_en": "Bar Stance Wood Kitchen Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "portrait",
@@ -62,6 +63,7 @@
     "title_en": "Black Angle Wardrobe",
     "title_pl": "",
     "title_ua": "",
+    "room": "bedroom",
     "images": [
       {
         "orientation": "portrait",
@@ -95,6 +97,7 @@
     "title_en": "Black White Kitchen Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "landscape",
@@ -240,6 +243,7 @@
     "title_en": "Blue Laundry Basket Bathroom Furniture",
     "title_pl": "",
     "title_ua": "",
+    "room": "bathroom",
     "images": [
       {
         "orientation": "landscape",
@@ -305,6 +309,7 @@
     "title_en": "Brown Kitchen Furniture",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "landscape",
@@ -330,6 +335,7 @@
     "title_en": "Business Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "business",
     "images": [
       {
         "orientation": "portrait",
@@ -443,6 +449,7 @@
     "title_en": "Business Glass Island",
     "title_pl": "",
     "title_ua": "",
+    "room": "business",
     "images": [
       {
         "orientation": "landscape",
@@ -460,6 +467,7 @@
     "title_en": "Consulting Room Furniture",
     "title_pl": "",
     "title_ua": "",
+    "room": "business",
     "images": [
       {
         "orientation": "landscape",
@@ -509,6 +517,7 @@
     "title_en": "Corridor Wood Sofa",
     "title_pl": "",
     "title_ua": "",
+    "room": "corridor",
     "images": [
       {
         "orientation": "portrait",
@@ -534,6 +543,7 @@
     "title_en": "Curve Shelve Wardrobe",
     "title_pl": "",
     "title_ua": "",
+    "room": "bedroom",
     "images": [
       {
         "orientation": "portrait",
@@ -567,6 +577,7 @@
     "title_en": "Glass Luxury White Wardrobe",
     "title_pl": "",
     "title_ua": "",
+    "room": "bedroom",
     "images": [
       {
         "orientation": "portrait",
@@ -592,6 +603,7 @@
     "title_en": "Green Bathroom Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "bathroom",
     "images": [
       {
         "orientation": "portrait",
@@ -633,6 +645,7 @@
     "title_en": "Green Glass Big Kitchen Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "portrait",
@@ -690,6 +703,7 @@
     "title_en": "Green Kitchen Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "landscape",
@@ -739,6 +753,7 @@
     "title_en": "Green Light Bathroom Furniture",
     "title_pl": "",
     "title_ua": "",
+    "room": "bathroom",
     "images": [
       {
         "orientation": "landscape",
@@ -796,6 +811,7 @@
     "title_en": "Green White Kitchen Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "portrait",
@@ -877,6 +893,7 @@
     "title_en": "Guestroom Fitted Wardrobe",
     "title_pl": "",
     "title_ua": "",
+    "room": "guestroom",
     "images": [
       {
         "orientation": "portrait",
@@ -918,6 +935,7 @@
     "title_en": "Guestroom White Wood Tv Furniture",
     "title_pl": "",
     "title_ua": "",
+    "room": "guestroom",
     "images": [
       {
         "orientation": "landscape",
@@ -967,6 +985,7 @@
     "title_en": "High Wood White Kitchen Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "landscape",
@@ -1008,6 +1027,7 @@
     "title_en": "Kidroom Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "kidroom",
     "images": [
       {
         "orientation": "portrait",
@@ -1057,6 +1077,7 @@
     "title_en": "Kitchen Window Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "portrait",
@@ -1114,6 +1135,7 @@
     "title_en": "Kitchen Wood Gray Furniture",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "portrait",
@@ -1163,6 +1185,7 @@
     "title_en": "Levatating Tv Wardrobe",
     "title_pl": "",
     "title_ua": "",
+    "room": "guestroom",
     "images": [
       {
         "orientation": "landscape",
@@ -1196,6 +1219,7 @@
     "title_en": "Levetating White Guestroom Furniture",
     "title_pl": "",
     "title_ua": "",
+    "room": "guestroom",
     "images": [
       {
         "orientation": "landscape",
@@ -1229,6 +1253,7 @@
     "title_en": "Light Angle Wardrobe",
     "title_pl": "",
     "title_ua": "",
+    "room": "bedroom",
     "images": [
       {
         "orientation": "landscape",
@@ -1270,6 +1295,7 @@
     "title_en": "Light White Angle Bedroom",
     "title_pl": "",
     "title_ua": "",
+    "room": "bedroom",
     "images": [
       {
         "orientation": "landscape",
@@ -1311,6 +1337,7 @@
     "title_en": "Light White Bathroom Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "bathroom",
     "images": [
       {
         "orientation": "portrait",
@@ -1344,6 +1371,7 @@
     "title_en": "Makeup Stance Wardrobe",
     "title_pl": "",
     "title_ua": "",
+    "room": "bedroom",
     "images": [
       {
         "orientation": "portrait",
@@ -1361,6 +1389,7 @@
     "title_en": "Minimalistic Kitchen Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "landscape",
@@ -1402,6 +1431,7 @@
     "title_en": "Tech Business Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "business",
     "images": [
       {
         "orientation": "landscape",
@@ -1459,6 +1489,7 @@
     "title_en": "White Black Kitchen Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "landscape",
@@ -1492,6 +1523,7 @@
     "title_en": "White Cooking Island Kitchen Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "landscape",
@@ -1525,6 +1557,7 @@
     "title_en": "White Double Tap Cabinet",
     "title_pl": "",
     "title_ua": "",
+    "room": "bathroom",
     "images": [
       {
         "orientation": "landscape",
@@ -1566,6 +1599,7 @@
     "title_en": "White Kitchen Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "portrait",
@@ -1599,6 +1633,7 @@
     "title_en": "White Kitchen Window Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "portrait",
@@ -1632,6 +1667,7 @@
     "title_en": "White Minimalistic Kitchen Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "portrait",
@@ -1673,6 +1709,7 @@
     "title_en": "Wood Black Consulting Room Furniture",
     "title_pl": "",
     "title_ua": "",
+    "room": "business",
     "images": [
       {
         "orientation": "portrait",
@@ -1714,6 +1751,7 @@
     "title_en": "Wood Black Glass Kitchen Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "landscape",
@@ -1779,6 +1817,7 @@
     "title_en": "Wood Black White Kitchen Window Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "portrait",
@@ -1812,6 +1851,7 @@
     "title_en": "Wood Dark Levatating Furniture",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "landscape",
@@ -1853,6 +1893,7 @@
     "title_en": "Wood Stairs Furniture",
     "title_pl": "",
     "title_ua": "",
+    "room": "bedroom",
     "images": [
       {
         "orientation": "portrait",
@@ -1926,6 +1967,7 @@
     "title_en": "Wood White Corridor Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "corridor",
     "images": [
       {
         "orientation": "portrait",
@@ -1983,6 +2025,7 @@
     "title_en": "Wood White Kitchen Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "portrait",
@@ -2032,6 +2075,7 @@
     "title_en": "Wood White Kitchen Furniture",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "landscape",
@@ -2081,6 +2125,7 @@
     "title_en": "Wood White Luxury Kitchen Fitted Interior",
     "title_pl": "",
     "title_ua": "",
+    "room": "kitchen",
     "images": [
       {
         "orientation": "landscape",
@@ -2114,6 +2159,7 @@
     "title_en": "Wood White Wardrobe",
     "title_pl": "",
     "title_ua": "",
+    "room": "kidroom",
     "images": [
       {
         "orientation": "portrait",
