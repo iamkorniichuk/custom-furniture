@@ -1,4 +1,4 @@
 <app-navbar></app-navbar>
-<main [class.mt-16]="!allowNavbarOverlap()">
+<main class="overflow-hidden" [class.mt-16]="!allowNavbarOverlap()">
   <router-outlet></router-outlet>
 </main>

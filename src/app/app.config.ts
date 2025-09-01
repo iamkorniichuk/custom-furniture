@@ -16,17 +16,23 @@ import { getStorage, provideStorage } from '@angular/fire/storage';
 import { routes } from './app.routes';
 import { LanguageService } from './services/language';
 import { environment } from '../environments/environment';
+import { NavbarStateService } from './services/navbar-state';
 
-export const languageInitializer = async () => {
+const languageInitializer = async () => {
   const languageService = inject(LanguageService);
   const languageCode = languageService.selectedLanguage().code;
 
   await firstValueFrom(languageService.translate.use(languageCode));
 };
 
+const navbarStateInitializer = () => {
+  inject(NavbarStateService);
+};
+
 export const appConfig: ApplicationConfig = {
   providers: [
     provideAppInitializer(languageInitializer),
+    provideAppInitializer(navbarStateInitializer),
     provideBrowserGlobalErrorListeners(),
     provideZonelessChangeDetection(),
     provideRouter(routes),
