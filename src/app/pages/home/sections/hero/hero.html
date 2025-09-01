@@ -3,11 +3,18 @@
   class="relative h-screen w-full overflow-hidden snap-start snap-always"
 >
   <div
-    class="z-0 absolute inset-0 bg-cover bg-center bg-no-repeat"
-    style="
-      background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.bassettfurniture.com%2Fon%2Fdemandware.static%2F-%2FSites-bassett-Library%2Fdefault%2Fdwd3e7a906%2F2676-LSECTA-Beckham-FA21.jpeg&f=1&nofb=1&ipt=cb16a153990c57ea9f12e671e7fab4f10831e6b49b0becc855702945b029f84b);
-    "
+    class="z-0 absolute inset-0 bg-cover bg-center bg-no-repeat transition-opacity duration-1000"
+    [style.backgroundImage]="`url(${backgroundImage1()})`"
+    [class.opacity-0]="!showBackgroundImage1()"
+    [class.opacity-100]="showBackgroundImage1()"
   ></div>
+  <div
+    class="z-0 absolute inset-0 bg-cover bg-center bg-no-repeat transition-opacity duration-1000"
+    [style.backgroundImage]="`url(${backgroundImage2()})`"
+    [class.opacity-0]="showBackgroundImage1()"
+    [class.opacity-100]="!showBackgroundImage1()"
+  ></div>
+
   <div
     class="z-10 absolute inset-0 flex flex-col justify-between pointer-events-none"
   >
