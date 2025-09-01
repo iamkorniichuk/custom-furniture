@@ -1,5 +1,9 @@
 <nav
-  [class]="classes()"
+  [ngClass]="
+    allowOverlap()
+      ? 'bg-transparent text-white'
+      : 'bg-white text-black shadow-md'
+  "
   class="fixed z-50 top-0 left-0 right-0 flex justify-between items-center p-3"
 >
   <div class="flex space-x-6 font-medium text-lg">

@@ -1,28 +1,22 @@
-import { Component, inject, signal } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { NgClass } from '@angular/common';
 import { TranslatePipe } from '@ngx-translate/core';
 import { RouterLink } from '@angular/router';
 
 import { LanguageDropdownComponent } from '../language-dropdown/language-dropdown';
-import { SectionObserverService } from '../../services/section-observer';
 import { LanguageService } from '../../services/language';
+import { NavbarStateService } from '../../services/navbar-state';
 
 @Component({
   selector: 'app-navbar',
-  imports: [LanguageDropdownComponent, TranslatePipe, RouterLink],
+  imports: [LanguageDropdownComponent, TranslatePipe, RouterLink, NgClass],
   templateUrl: './navbar.html',
   styleUrl: './navbar.css',
 })
 export class NavbarComponent {
-  private sectionObserver = inject(SectionObserverService);
   private languageService = inject(LanguageService);
+  private navbarState = inject(NavbarStateService);
 
-  classes = signal('bg-white text-black shadow-md');
+  allowOverlap = this.navbarState.allowOverlap;
   selectedLanguage = this.languageService.selectedLanguage;
-
-  constructor() {
-    this.sectionObserver.currentSection$.subscribe((section) => {
-      if (section === 'hero') this.classes.set('bg-transparent text-white');
-      else this.classes.set('bg-white text-black shadow-md');
-    });
-  }
 }

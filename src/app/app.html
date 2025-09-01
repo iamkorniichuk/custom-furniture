@@ -1,1 +1,4 @@
-<app-navbar></app-navbar> <router-outlet></router-outlet>
+<app-navbar></app-navbar>
+<main [class.mt-16]="!allowNavbarOverlap()">
+  <router-outlet></router-outlet>
+</main>
