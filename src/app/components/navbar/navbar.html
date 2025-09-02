@@ -4,9 +4,9 @@
       ? 'bg-transparent text-white'
       : 'bg-white text-black shadow-md'
   "
-  class="fixed z-50 top-0 left-0 right-0 flex justify-between items-center p-3"
+  class="fixed z-50 top-0 left-0 right-0 font-medium text-lg flex justify-between items-center py-3 px-6"
 >
-  <div class="flex space-x-6 items-center font-medium text-lg">
+  <div class="flex space-x-6 items-center relative">
     <a [routerLink]="['/', selectedLanguage().code]">
       <img
         class="w-auto h-7"
@@ -14,11 +14,12 @@
         [alt]="'navbar.name' | translate"
       />
     </a>
-    <a [routerLink]="['/', selectedLanguage().code, 'portfolio']">{{
-      "navbar.portfolio" | translate
-    }}</a>
+
+    <app-portfolio-dropdown />
+
     <a href="#">{{ "navbar.pricing" | translate }}</a>
     <a href="#">{{ "navbar.contacts" | translate }}</a>
   </div>
+
   <app-language-dropdown />
 </nav>

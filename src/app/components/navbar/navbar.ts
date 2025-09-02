@@ -6,10 +6,17 @@ import { RouterLink } from '@angular/router';
 import { LanguageDropdownComponent } from '../language-dropdown/language-dropdown';
 import { LanguageService } from '../../services/language';
 import { NavbarStateService } from '../../services/navbar-state';
+import { PortfolioDropdownComponent } from '../portfolio-dropdown/portfolio-dropdown';
 
 @Component({
   selector: 'app-navbar',
-  imports: [LanguageDropdownComponent, TranslatePipe, RouterLink, NgClass],
+  imports: [
+    LanguageDropdownComponent,
+    TranslatePipe,
+    RouterLink,
+    NgClass,
+    PortfolioDropdownComponent,
+  ],
   templateUrl: './navbar.html',
   styleUrl: './navbar.css',
 })
