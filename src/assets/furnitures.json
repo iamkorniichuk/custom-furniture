@@ -8,6 +8,14 @@
     "room": "kitchen",
     "images": [
       {
+        "orientation": "landscape",
+        "paths": {
+          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbar-stance-wood-kitchen-fitted-interior-2_large.webp?alt=media",
+          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbar-stance-wood-kitchen-fitted-interior-2_medium.webp?alt=media",
+          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbar-stance-wood-kitchen-fitted-interior-2_small.webp?alt=media"
+        }
+      },
+      {
         "orientation": "portrait",
         "paths": {
           "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbar-stance-wood-kitchen-fitted-interior-0_large.webp?alt=media",
@@ -21,14 +29,6 @@
           "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbar-stance-wood-kitchen-fitted-interior-1_large.webp?alt=media",
           "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbar-stance-wood-kitchen-fitted-interior-1_medium.webp?alt=media",
           "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbar-stance-wood-kitchen-fitted-interior-1_small.webp?alt=media"
-        }
-      },
-      {
-        "orientation": "landscape",
-        "paths": {
-          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbar-stance-wood-kitchen-fitted-interior-2_large.webp?alt=media",
-          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbar-stance-wood-kitchen-fitted-interior-2_medium.webp?alt=media",
-          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbar-stance-wood-kitchen-fitted-interior-2_small.webp?alt=media"
         }
       },
       {
@@ -338,6 +338,14 @@
     "room": "business",
     "images": [
       {
+        "orientation": "landscape",
+        "paths": {
+          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbusiness-fitted-interior-11_large.webp?alt=media",
+          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbusiness-fitted-interior-11_medium.webp?alt=media",
+          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbusiness-fitted-interior-11_small.webp?alt=media"
+        }
+      },
+      {
         "orientation": "portrait",
         "paths": {
           "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbusiness-fitted-interior-0_large.webp?alt=media",
@@ -359,14 +367,6 @@
           "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbusiness-fitted-interior-10_large.webp?alt=media",
           "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbusiness-fitted-interior-10_medium.webp?alt=media",
           "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbusiness-fitted-interior-10_small.webp?alt=media"
-        }
-      },
-      {
-        "orientation": "landscape",
-        "paths": {
-          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbusiness-fitted-interior-11_large.webp?alt=media",
-          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbusiness-fitted-interior-11_medium.webp?alt=media",
-          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fbusiness-fitted-interior-11_small.webp?alt=media"
         }
       },
       {
@@ -580,19 +580,19 @@
     "room": "bedroom",
     "images": [
       {
-        "orientation": "portrait",
-        "paths": {
-          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fglass-luxury-white-wardrobe-0_large.webp?alt=media",
-          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fglass-luxury-white-wardrobe-0_medium.webp?alt=media",
-          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fglass-luxury-white-wardrobe-0_small.webp?alt=media"
-        }
-      },
-      {
         "orientation": "landscape",
         "paths": {
           "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fglass-luxury-white-wardrobe-1_large.webp?alt=media",
           "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fglass-luxury-white-wardrobe-1_medium.webp?alt=media",
           "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fglass-luxury-white-wardrobe-1_small.webp?alt=media"
+        }
+      },
+      {
+        "orientation": "portrait",
+        "paths": {
+          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fglass-luxury-white-wardrobe-0_large.webp?alt=media",
+          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fglass-luxury-white-wardrobe-0_medium.webp?alt=media",
+          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fglass-luxury-white-wardrobe-0_small.webp?alt=media"
         }
       }
     ]
@@ -814,6 +814,14 @@
     "room": "kitchen",
     "images": [
       {
+        "orientation": "landscape",
+        "paths": {
+          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fgreen-white-kitchen-fitted-interior-5_large.webp?alt=media",
+          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fgreen-white-kitchen-fitted-interior-5_medium.webp?alt=media",
+          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fgreen-white-kitchen-fitted-interior-5_small.webp?alt=media"
+        }
+      },
+      {
         "orientation": "portrait",
         "paths": {
           "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fgreen-white-kitchen-fitted-interior-0_large.webp?alt=media",
@@ -856,14 +864,6 @@
       {
         "orientation": "landscape",
         "paths": {
-          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fgreen-white-kitchen-fitted-interior-5_large.webp?alt=media",
-          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fgreen-white-kitchen-fitted-interior-5_medium.webp?alt=media",
-          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fgreen-white-kitchen-fitted-interior-5_small.webp?alt=media"
-        }
-      },
-      {
-        "orientation": "landscape",
-        "paths": {
           "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fgreen-white-kitchen-fitted-interior-6_large.webp?alt=media",
           "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fgreen-white-kitchen-fitted-interior-6_medium.webp?alt=media",
           "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fgreen-white-kitchen-fitted-interior-6_small.webp?alt=media"
@@ -896,19 +896,19 @@
     "room": "guestroom",
     "images": [
       {
-        "orientation": "portrait",
-        "paths": {
-          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fguestroom-fitted-wardrobe-0_large.webp?alt=media",
-          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fguestroom-fitted-wardrobe-0_medium.webp?alt=media",
-          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fguestroom-fitted-wardrobe-0_small.webp?alt=media"
-        }
-      },
-      {
         "orientation": "landscape",
         "paths": {
           "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fguestroom-fitted-wardrobe-1_large.webp?alt=media",
           "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fguestroom-fitted-wardrobe-1_medium.webp?alt=media",
           "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fguestroom-fitted-wardrobe-1_small.webp?alt=media"
+        }
+      },
+      {
+        "orientation": "portrait",
+        "paths": {
+          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fguestroom-fitted-wardrobe-0_large.webp?alt=media",
+          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fguestroom-fitted-wardrobe-0_medium.webp?alt=media",
+          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fguestroom-fitted-wardrobe-0_small.webp?alt=media"
         }
       },
       {
@@ -1030,19 +1030,19 @@
     "room": "kidroom",
     "images": [
       {
-        "orientation": "portrait",
-        "paths": {
-          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fkidroom-fitted-interior-0_large.webp?alt=media",
-          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fkidroom-fitted-interior-0_medium.webp?alt=media",
-          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fkidroom-fitted-interior-0_small.webp?alt=media"
-        }
-      },
-      {
         "orientation": "landscape",
         "paths": {
           "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fkidroom-fitted-interior-1_large.webp?alt=media",
           "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fkidroom-fitted-interior-1_medium.webp?alt=media",
           "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fkidroom-fitted-interior-1_small.webp?alt=media"
+        }
+      },
+      {
+        "orientation": "portrait",
+        "paths": {
+          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fkidroom-fitted-interior-0_large.webp?alt=media",
+          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fkidroom-fitted-interior-0_medium.webp?alt=media",
+          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fkidroom-fitted-interior-0_small.webp?alt=media"
         }
       },
       {
@@ -1080,19 +1080,19 @@
     "room": "kitchen",
     "images": [
       {
-        "orientation": "portrait",
-        "paths": {
-          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fkitchen-window-fitted-interior-0_large.webp?alt=media",
-          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fkitchen-window-fitted-interior-0_medium.webp?alt=media",
-          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fkitchen-window-fitted-interior-0_small.webp?alt=media"
-        }
-      },
-      {
         "orientation": "landscape",
         "paths": {
           "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fkitchen-window-fitted-interior-1_large.webp?alt=media",
           "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fkitchen-window-fitted-interior-1_medium.webp?alt=media",
           "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fkitchen-window-fitted-interior-1_small.webp?alt=media"
+        }
+      },
+      {
+        "orientation": "portrait",
+        "paths": {
+          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fkitchen-window-fitted-interior-0_large.webp?alt=media",
+          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fkitchen-window-fitted-interior-0_medium.webp?alt=media",
+          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fkitchen-window-fitted-interior-0_small.webp?alt=media"
         }
       },
       {
@@ -1602,6 +1602,14 @@
     "room": "kitchen",
     "images": [
       {
+        "orientation": "landscape",
+        "paths": {
+          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwhite-kitchen-fitted-interior-2_large.webp?alt=media",
+          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwhite-kitchen-fitted-interior-2_medium.webp?alt=media",
+          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwhite-kitchen-fitted-interior-2_small.webp?alt=media"
+        }
+      },
+      {
         "orientation": "portrait",
         "paths": {
           "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwhite-kitchen-fitted-interior-0_large.webp?alt=media",
@@ -1616,14 +1624,6 @@
           "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwhite-kitchen-fitted-interior-1_medium.webp?alt=media",
           "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwhite-kitchen-fitted-interior-1_small.webp?alt=media"
         }
-      },
-      {
-        "orientation": "landscape",
-        "paths": {
-          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwhite-kitchen-fitted-interior-2_large.webp?alt=media",
-          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwhite-kitchen-fitted-interior-2_medium.webp?alt=media",
-          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwhite-kitchen-fitted-interior-2_small.webp?alt=media"
-        }
       }
     ]
   },
@@ -1635,6 +1635,14 @@
     "title_ua": "Білий кухонний вікно, встановлений інтер'єр",
     "room": "kitchen",
     "images": [
+      {
+        "orientation": "landscape",
+        "paths": {
+          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwhite-kitchen-window-fitted-interior-2_large.webp?alt=media",
+          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwhite-kitchen-window-fitted-interior-2_medium.webp?alt=media",
+          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwhite-kitchen-window-fitted-interior-2_small.webp?alt=media"
+        }
+      },
       {
         "orientation": "portrait",
         "paths": {
@@ -1649,14 +1657,6 @@
           "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwhite-kitchen-window-fitted-interior-1_large.webp?alt=media",
           "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwhite-kitchen-window-fitted-interior-1_medium.webp?alt=media",
           "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwhite-kitchen-window-fitted-interior-1_small.webp?alt=media"
-        }
-      },
-      {
-        "orientation": "landscape",
-        "paths": {
-          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwhite-kitchen-window-fitted-interior-2_large.webp?alt=media",
-          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwhite-kitchen-window-fitted-interior-2_medium.webp?alt=media",
-          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwhite-kitchen-window-fitted-interior-2_small.webp?alt=media"
         }
       }
     ]
@@ -1896,19 +1896,19 @@
     "room": "bedroom",
     "images": [
       {
-        "orientation": "portrait",
-        "paths": {
-          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-stairs-furniture-0_large.webp?alt=media",
-          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-stairs-furniture-0_medium.webp?alt=media",
-          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-stairs-furniture-0_small.webp?alt=media"
-        }
-      },
-      {
         "orientation": "landscape",
         "paths": {
           "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-stairs-furniture-1_large.webp?alt=media",
           "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-stairs-furniture-1_medium.webp?alt=media",
           "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-stairs-furniture-1_small.webp?alt=media"
+        }
+      },
+      {
+        "orientation": "portrait",
+        "paths": {
+          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-stairs-furniture-0_large.webp?alt=media",
+          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-stairs-furniture-0_medium.webp?alt=media",
+          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-stairs-furniture-0_small.webp?alt=media"
         }
       },
       {
@@ -1978,19 +1978,19 @@
         }
       },
       {
-        "orientation": "portrait",
-        "paths": {
-          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-white-corridor-fitted-interior-1_large.webp?alt=media",
-          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-white-corridor-fitted-interior-1_medium.webp?alt=media",
-          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-white-corridor-fitted-interior-1_small.webp?alt=media"
-        }
-      },
-      {
         "orientation": "landscape",
         "paths": {
           "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-white-corridor-fitted-interior-2_large.webp?alt=media",
           "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-white-corridor-fitted-interior-2_medium.webp?alt=media",
           "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-white-corridor-fitted-interior-2_small.webp?alt=media"
+        }
+      },
+      {
+        "orientation": "portrait",
+        "paths": {
+          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-white-corridor-fitted-interior-1_large.webp?alt=media",
+          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-white-corridor-fitted-interior-1_medium.webp?alt=media",
+          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-white-corridor-fitted-interior-1_small.webp?alt=media"
         }
       },
       {
@@ -2028,6 +2028,14 @@
     "room": "kitchen",
     "images": [
       {
+        "orientation": "landscape",
+        "paths": {
+          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-white-kitchen-fitted-interior-4_large.webp?alt=media",
+          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-white-kitchen-fitted-interior-4_medium.webp?alt=media",
+          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-white-kitchen-fitted-interior-4_small.webp?alt=media"
+        }
+      },
+      {
         "orientation": "portrait",
         "paths": {
           "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-white-kitchen-fitted-interior-0_large.webp?alt=media",
@@ -2057,14 +2065,6 @@
           "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-white-kitchen-fitted-interior-3_large.webp?alt=media",
           "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-white-kitchen-fitted-interior-3_medium.webp?alt=media",
           "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-white-kitchen-fitted-interior-3_small.webp?alt=media"
-        }
-      },
-      {
-        "orientation": "landscape",
-        "paths": {
-          "large": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-white-kitchen-fitted-interior-4_large.webp?alt=media",
-          "medium": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-white-kitchen-fitted-interior-4_medium.webp?alt=media",
-          "small": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/furnitures%2Fwood-white-kitchen-fitted-interior-4_small.webp?alt=media"
         }
       }
     ]

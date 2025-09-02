@@ -1,5 +1,4 @@
 import { Component, signal, computed, effect, inject } from '@angular/core';
-import { NgClass } from '@angular/common';
 import { Router, ActivatedRoute } from '@angular/router';
 
 import portfolioData from '../../../assets/furnitures.json';
@@ -46,7 +45,7 @@ interface Project extends Record<string, unknown> {
 
 @Component({
   selector: 'app-portfolio',
-  imports: [NgClass, TranslatedPipe],
+  imports: [TranslatedPipe],
   templateUrl: './portfolio.html',
   styleUrl: './portfolio.css',
 })
@@ -148,6 +147,7 @@ export class PortfolioComponent {
   });
 
   setRoom(room: Room) {
-    this.selectedRoom.set(room);
+    if (room == this.selectedRoom()) this.selectedRoom.set(this.rooms[0]);
+    else this.selectedRoom.set(room);
   }
 }
