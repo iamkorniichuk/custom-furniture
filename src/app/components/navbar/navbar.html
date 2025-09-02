@@ -6,7 +6,14 @@
   "
   class="fixed z-50 top-0 left-0 right-0 flex justify-between items-center p-3"
 >
-  <div class="flex space-x-6 font-medium text-lg">
+  <div class="flex space-x-6 items-center font-medium text-lg">
+    <a [routerLink]="['/', selectedLanguage().code]">
+      <img
+        class="w-auto h-7"
+        src="images/icons/logo.png"
+        [alt]="'navbar.name' | translate"
+      />
+    </a>
     <a [routerLink]="['/', selectedLanguage().code, 'portfolio']">{{
       "navbar.portfolio" | translate
     }}</a>
