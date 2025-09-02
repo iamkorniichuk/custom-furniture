@@ -3,6 +3,7 @@ import { NgClass } from '@angular/common';
 import { Router, ActivatedRoute } from '@angular/router';
 
 import portfolioData from '../../../assets/furnitures.json';
+import { TranslatedPipe } from '../../pipes/translated-pipe';
 
 interface ImagePaths {
   large: string;
@@ -24,12 +25,16 @@ type RoomCode =
   | 'business'
   | 'corridor';
 
-interface Room {
+interface Room extends Record<string, unknown> {
   code: RoomCode | null;
+  title_cz: string;
+  title_de: string;
   title_en: string;
+  title_pl: string;
+  title_ua: string;
 }
 
-interface Project {
+interface Project extends Record<string, unknown> {
   title_cz: string;
   title_de: string;
   title_en: string;
@@ -41,7 +46,7 @@ interface Project {
 
 @Component({
   selector: 'app-portfolio',
-  imports: [NgClass],
+  imports: [NgClass, TranslatedPipe],
   templateUrl: './portfolio.html',
   styleUrl: './portfolio.css',
 })
@@ -51,14 +56,70 @@ export class PortfolioComponent {
 
   private portfolio = portfolioData as Project[];
   rooms: Room[] = [
-    { code: null, title_en: 'All' },
-    { code: 'kitchen', title_en: 'Kitchen' },
-    { code: 'kidroom', title_en: 'Kid Room' },
-    { code: 'guestroom', title_en: 'Guest Room' },
-    { code: 'bathroom', title_en: 'Bathroom' },
-    { code: 'bedroom', title_en: 'Bedroom' },
-    { code: 'business', title_en: 'Business' },
-    { code: 'corridor', title_en: 'Corridor' },
+    {
+      code: null,
+      title_cz: 'Vše',
+      title_de: 'Alle',
+      title_en: 'All',
+      title_pl: 'Wszystkie',
+      title_ua: 'Всі',
+    },
+    {
+      code: 'kitchen',
+      title_cz: 'Kuchyně',
+      title_de: 'Küche',
+      title_en: 'Kitchen',
+      title_pl: 'Kuchnia',
+      title_ua: 'Кухня',
+    },
+    {
+      code: 'kidroom',
+      title_cz: 'Dětský pokoj',
+      title_de: 'Kinderzimmer',
+      title_en: 'Kid Room',
+      title_pl: 'Pokój dziecięcy',
+      title_ua: 'Дитяча',
+    },
+    {
+      code: 'guestroom',
+      title_cz: 'Pokoj pro hosty',
+      title_de: 'Gästezimmer',
+      title_en: 'Guest Room',
+      title_pl: 'Pokój gościnny',
+      title_ua: 'Гостьова',
+    },
+    {
+      code: 'bathroom',
+      title_cz: 'Koupelna',
+      title_de: 'Badezimmer',
+      title_en: 'Bathroom',
+      title_pl: 'Łazienka',
+      title_ua: 'Ванна',
+    },
+    {
+      code: 'bedroom',
+      title_cz: 'Ložnice',
+      title_de: 'Schlafzimmer',
+      title_en: 'Bedroom',
+      title_pl: 'Sypialnia',
+      title_ua: 'Спальня',
+    },
+    {
+      code: 'business',
+      title_cz: 'Obchod',
+      title_de: 'Geschäft',
+      title_en: 'Business',
+      title_pl: 'Biznes',
+      title_ua: 'Бізнес',
+    },
+    {
+      code: 'corridor',
+      title_cz: 'Chodba',
+      title_de: 'Flur',
+      title_en: 'Corridor',
+      title_pl: 'Korytarz',
+      title_ua: 'Коридок',
+    },
   ];
   selectedRoom = signal<Room>(this.rooms[0]);
 
