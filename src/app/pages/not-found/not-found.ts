@@ -1,9 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
+
+import { LanguageService } from '../../services/language';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-not-found',
-  imports: [],
+  imports: [TranslatePipe, RouterLink],
   templateUrl: './not-found.html',
   styleUrl: './not-found.css',
 })
-export class NotFoundComponent {}
+export class NotFoundComponent {
+  private languageService = inject(LanguageService);
+
+  selectedLanguage = this.languageService.selectedLanguage;
+}
