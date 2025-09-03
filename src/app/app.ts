@@ -1,7 +1,6 @@
-import { Component, inject, signal } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './components/navbar/navbar';
-import { NavbarStateService } from './services/navbar-state';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +10,4 @@ import { NavbarStateService } from './services/navbar-state';
 })
 export class App {
   protected readonly title = signal('custom-furniture');
-  private navbarState = inject(NavbarStateService);
-
-  allowNavbarOverlap = this.navbarState.allowOverlap;
 }
