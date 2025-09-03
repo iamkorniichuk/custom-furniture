@@ -22,8 +22,8 @@ export class LanguageService {
     },
     pl: { code: 'pl', src: '/images/flags/poland.png', label: 'Polski' },
     de: { code: 'de', src: '/images/flags/germany.png', label: 'Deutsch' },
-    cz: {
-      code: 'cz',
+    cs: {
+      code: 'cs',
       src: '/images/flags/czech-republic.png',
       label: 'Čeština',
     },

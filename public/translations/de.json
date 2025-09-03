@@ -1,11 +1,15 @@
 {
-	"contacts.facebook": "Facebook",
-	"contacts.mail": "E-Mail",
-	"contacts.phone": "Telefonnummer",
-	"hero.description": "Möbel nach Maß – das ist der komplette Prozess der Innenraumgestaltung ohne Stress. Von der Idee und dem Entwurf bis zur Installation fertiger Möbel in Ihrem Zuhause oder Büro – wir kümmern uns um alles. Wir helfen Ihnen, Zeit zu sparen und Nerven zu schonen: Wir entwickeln Designs nach Ihren Wünschen; wählen Materialien, die Stil und Haltbarkeit verbinden; fertigen maßgeschneiderte Möbel mit Millimeterpräzision; organisieren Lieferung und professionelle Montage. Sie erhalten einen Raum, in dem alles durchdacht ist und Ihrem Komfort dient. Unser Ziel ist es nicht nur, Möbel zu machen, sondern Lösungen zu schaffen, die jahrelang halten und tägliche Freude bereiten.",
-	"hero.scroll": "Weiter scrollen",
-	"hero.title": "Möbel nach Maß",
-	"navbar.contacts": "Kontakt",
-	"navbar.portfolio": "Portfolio",
-	"navbar.pricing": "Preise"
+  "contacts.facebook": "Facebook",
+  "contacts.mail": "E-Mail",
+  "contacts.phone": "Telefonnummer",
+  "hero.description": "Möbel nach Maß – das ist der komplette Prozess der Innenraumgestaltung ohne Stress. Von der Idee und dem Entwurf bis zur Installation fertiger Möbel in Ihrem Zuhause oder Büro – wir kümmern uns um alles. Wir helfen Ihnen, Zeit zu sparen und Nerven zu schonen: Wir entwickeln Designs nach Ihren Wünschen; wählen Materialien, die Stil und Haltbarkeit verbinden; fertigen maßgeschneiderte Möbel mit Millimeterpräzision; organisieren Lieferung und professionelle Montage. Sie erhalten einen Raum, in dem alles durchdacht ist und Ihrem Komfort dient. Unser Ziel ist es nicht nur, Möbel zu machen, sondern Lösungen zu schaffen, die jahrelang halten und tägliche Freude bereiten.",
+  "hero.scroll": "Weiter scrollen",
+  "hero.title": "Möbel nach Maß",
+  "navbar.contacts": "Kontakt",
+  "navbar.name": "Möbel nach Maß",
+  "navbar.portfolio": "Portfolio",
+  "navbar.pricing": "Preise",
+  "not-found.description": "Die Seite ist nicht verfügbar, gelöscht oder verborgen. Bitte versuchen Sie es später erneut oder wenden Sie sich an die Entwickler.",
+  "not-found.home": "Zurück zur Startseite",
+  "not-found.title": "Seite nicht gefunden!"
 }

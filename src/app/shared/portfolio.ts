@@ -22,7 +22,7 @@ export type RoomCode =
 
 export interface Room extends Record<string, unknown> {
   code: RoomCode | null;
-  title_cz: string;
+  title_cs: string;
   title_de: string;
   title_en: string;
   title_pl: string;
@@ -30,7 +30,7 @@ export interface Room extends Record<string, unknown> {
 }
 
 export interface Project extends Record<string, unknown> {
-  title_cz: string;
+  title_cs: string;
   title_de: string;
   title_en: string;
   title_pl: string;
@@ -42,7 +42,7 @@ export interface Project extends Record<string, unknown> {
 export const roomOptions: Room[] = [
   {
     code: null,
-    title_cz: 'Vše',
+    title_cs: 'Vše',
     title_de: 'Alle',
     title_en: 'All',
     title_pl: 'Wszystkie',
@@ -50,7 +50,7 @@ export const roomOptions: Room[] = [
   },
   {
     code: 'kitchen',
-    title_cz: 'Kuchyně',
+    title_cs: 'Kuchyně',
     title_de: 'Küche',
     title_en: 'Kitchen',
     title_pl: 'Kuchnia',
@@ -58,7 +58,7 @@ export const roomOptions: Room[] = [
   },
   {
     code: 'kidroom',
-    title_cz: 'Dětský pokoj',
+    title_cs: 'Dětský pokoj',
     title_de: 'Kinderzimmer',
     title_en: 'Kid Room',
     title_pl: 'Pokój dziecięcy',
@@ -66,7 +66,7 @@ export const roomOptions: Room[] = [
   },
   {
     code: 'guestroom',
-    title_cz: 'Pokoj pro hosty',
+    title_cs: 'Pokoj pro hosty',
     title_de: 'Gästezimmer',
     title_en: 'Guest Room',
     title_pl: 'Pokój gościnny',
@@ -74,7 +74,7 @@ export const roomOptions: Room[] = [
   },
   {
     code: 'bathroom',
-    title_cz: 'Koupelna',
+    title_cs: 'Koupelna',
     title_de: 'Badezimmer',
     title_en: 'Bathroom',
     title_pl: 'Łazienka',
@@ -82,7 +82,7 @@ export const roomOptions: Room[] = [
   },
   {
     code: 'bedroom',
-    title_cz: 'Ložnice',
+    title_cs: 'Ložnice',
     title_de: 'Schlafzimmer',
     title_en: 'Bedroom',
     title_pl: 'Sypialnia',
@@ -90,7 +90,7 @@ export const roomOptions: Room[] = [
   },
   {
     code: 'business',
-    title_cz: 'Obchod',
+    title_cs: 'Obchod',
     title_de: 'Geschäft',
     title_en: 'Business',
     title_pl: 'Biznes',
@@ -98,7 +98,7 @@ export const roomOptions: Room[] = [
   },
   {
     code: 'corridor',
-    title_cz: 'Chodba',
+    title_cs: 'Chodba',
     title_de: 'Flur',
     title_en: 'Corridor',
     title_pl: 'Korytarz',

@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "translate": "ngx-translate-extract --input ./src --output ./public/translations/{en,pl,de,cz,ua}.json --clean --sort --format json",
+    "translate": "ngx-translate-extract --input ./src --output ./public/translations/{en,pl,de,cs,ua}.json --clean --sort --format json",
     "lint": "ng lint --fix",
     "format": "prettier --write \"src/**/*.{ts,html,css,json,scss,md}\"",
     "prepare": "husky"
