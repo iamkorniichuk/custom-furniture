@@ -1,23 +1,22 @@
-<div class="relative group">
+<ng-template #menu>
+  @for (room of roomOptions; track room.code) {
+    <a
+      [routerLink]="['/', selectedLanguage().code, 'portfolio']"
+      [queryParams]="{ room: room.code }"
+      class="whitespace-nowrap block px-4 py-2 hover:bg-black hover:text-white"
+    >
+      {{ room | translated: "title" }}
+    </a>
+  }
+</ng-template>
+
+<ng-template #trigger>
   <a
     [routerLink]="['/', selectedLanguage().code, 'portfolio']"
     class="flex items-center gap-1"
   >
     {{ "navbar.portfolio" | translate }}
-    <app-arrow-icon class="w-4 h-4" />
   </a>
+</ng-template>
 
-  <div
-    class="absolute left-0 bg-white text-black shadow-md invisible group-hover:visible z-50"
-  >
-    @for (room of roomOptions; track room.code) {
-      <a
-        [routerLink]="['/', selectedLanguage().code, 'portfolio']"
-        [queryParams]="{ room: room.code }"
-        class="whitespace-nowrap block px-4 py-2 hover:bg-black hover:text-white"
-      >
-        {{ room | translated: "title" }}
-      </a>
-    }
-  </div>
-</div>
+<app-dropdown [trigger]="trigger" [menu]="menu" />

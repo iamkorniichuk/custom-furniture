@@ -1,10 +1,11 @@
 import { Component, inject } from '@angular/core';
+
 import { LanguageService, Language } from '../../services/language';
-import { ArrowIconComponent } from '../arrow-icon/arrow-icon';
+import { DropdownComponent } from '../dropdown/dropdown';
 
 @Component({
   selector: 'app-language-dropdown',
-  imports: [ArrowIconComponent],
+  imports: [DropdownComponent],
   templateUrl: './language-dropdown.html',
   styleUrl: './language-dropdown.css',
 })

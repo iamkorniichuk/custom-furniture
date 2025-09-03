@@ -5,11 +5,11 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { roomOptions } from '../../shared/portfolio';
 import { LanguageService } from '../../services/language';
 import { TranslatedPipe } from '../../pipes/translated-pipe';
-import { ArrowIconComponent } from '../arrow-icon/arrow-icon';
+import { DropdownComponent } from '../dropdown/dropdown';
 
 @Component({
   selector: 'app-portfolio-dropdown',
-  imports: [TranslatedPipe, TranslatePipe, RouterLink, ArrowIconComponent],
+  imports: [TranslatedPipe, TranslatePipe, RouterLink, DropdownComponent],
   templateUrl: './portfolio-dropdown.html',
   styleUrl: './portfolio-dropdown.css',
 })

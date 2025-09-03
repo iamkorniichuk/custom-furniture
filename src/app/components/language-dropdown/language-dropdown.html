@@ -1,31 +1,27 @@
-<div class="relative group inline-block">
-  <span class="flex items-center gap-1">
-    <img
-      class="w-5 h-auto"
-      [src]="selectedLanguage().src"
-      [alt]="selectedLanguage().label"
-    />
-    <span class="ml-2 mr-1">{{ selectedLanguage().code.toUpperCase() }}</span>
-
-    <app-arrow-icon class="w-4 h-4" />
-  </span>
-
-  <div
-    class="absolute right-0 bg-white text-black shadow-md invisible group-hover:visible z-50 min-w-max"
-  >
-    @for (item of availableLanguages; track item.label) {
-      @if (item !== selectedLanguage()) {
-        <button
-          (click)="selectLanguage(item)"
-          (keyup.enter)="selectLanguage(item)"
-          role="button"
-          tabindex="0"
-          class="block px-4 py-2 w-full flex items-center gap-1 hover:bg-black hover:text-white"
-        >
-          <img class="w-5 h-auto" [src]="item.src" [alt]="item.label" />
-          <span class="ml-2 mr-1">{{ item.label }}</span>
-        </button>
-      }
+<ng-template #menu>
+  @for (item of availableLanguages; track item.label) {
+    @if (item !== selectedLanguage()) {
+      <button
+        (click)="selectLanguage(item)"
+        (keyup.enter)="selectLanguage(item)"
+        role="button"
+        tabindex="0"
+        class="block px-4 py-2 w-full flex items-center gap-1 hover:bg-black hover:text-white"
+      >
+        <img class="w-5 h-auto" [src]="item.src" [alt]="item.label" />
+        <span class="ml-2 mr-1">{{ item.label }}</span>
+      </button>
     }
-  </div>
-</div>
+  }
+</ng-template>
+
+<ng-template #trigger>
+  <img
+    class="w-5 h-auto"
+    [src]="selectedLanguage().src"
+    [alt]="selectedLanguage().label"
+  />
+  <span class="ml-2 mr-1">{{ selectedLanguage().code.toUpperCase() }}</span>
+</ng-template>
+
+<app-dropdown [trigger]="trigger" [menu]="menu" />

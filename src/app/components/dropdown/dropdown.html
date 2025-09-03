@@ -1,0 +1,30 @@
+<div class="hidden lg:inline-block relative group">
+  <span class="flex items-center gap-1 cursor-pointer">
+    <ng-container *ngTemplateOutlet="trigger"></ng-container>
+    <app-arrow-icon class="w-4 h-4" />
+  </span>
+
+  <div
+    class="absolute right-0 bg-white text-black shadow-md invisible group-hover:visible z-50 min-w-max"
+  >
+    <ng-container *ngTemplateOutlet="menu"></ng-container>
+  </div>
+</div>
+
+<div class="block lg:hidden relative">
+  <button
+    #mobileTrigger
+    type="button"
+    class="flex items-center gap-1 cursor-pointer"
+    (click)="toggle()"
+  >
+    <ng-container *ngTemplateOutlet="trigger"></ng-container>
+    <app-arrow-icon class="w-4 h-4" />
+  </button>
+
+  @if (isOpen()) {
+    <div class="absolute right-0 bg-white text-black shadow-md z-50 min-w-max">
+      <ng-container *ngTemplateOutlet="menu"></ng-container>
+    </div>
+  }
+</div>
