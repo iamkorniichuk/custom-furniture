@@ -1,6 +1,6 @@
 <section
   id="hero"
-  class="relative h-screen w-full overflow-hidden snap-start snap-always"
+  class="relative h-[100dvh] w-full overflow-hidden snap-start snap-always"
 >
   <div
     class="z-0 absolute inset-0 bg-cover bg-center bg-no-repeat transition-opacity duration-1000"
@@ -27,17 +27,26 @@
   </div>
 
   <div class="z-20 absolute inset-0 flex justify-center items-center">
-    <div class="size-3/5 min-h-min bg-white p-6 flex flex-col justify-between">
+    <div
+      class="w-auto max-w-[90%] sm:max-w-lg md:max-w-2xl lg:max-w-3xl h-auto max-h-[90vh] bg-white p-4 sm:p-6 md:p-8 flex flex-col justify-between"
+    >
       <div>
-        <h3 class="font-bold leading-none text-[10vh] mb-6">
+        <h3
+          class="font-bold leading-none text-3xl sm:text-5xl md:text-6xl lg:text-7xl mb-4"
+        >
           {{ "hero.title" | translate }}
         </h3>
-        <p class="leading-7">{{ "hero.description" | translate }}</p>
+        <p class="leading-relaxed text-sm sm:text-base md:text-lg">
+          {{ "hero.description" | translate }}
+        </p>
       </div>
-      <div class="flex justify-between">
+
+      <div
+        class="flex flex-wrap justify-between gap-3 text-sm sm:text-base mt-8"
+      >
         <a href="#" class="inline-flex items-center">
           <img
-            class="size-[16px] mr-1"
+            class="size-4 sm:size-5 mr-2"
             src="/images/icons/mail.png"
             [alt]="'contacts.mail' | translate"
           />
@@ -45,7 +54,7 @@
         </a>
         <a href="#" class="inline-flex items-center">
           <img
-            class="size-[16px] mr-1"
+            class="size-4 sm:size-5 mr-2"
             src="/images/icons/phone.png"
             [alt]="'contacts.phone' | translate"
           />
@@ -53,7 +62,7 @@
         </a>
         <a href="#" class="inline-flex items-center">
           <img
-            class="size-[16px] mr-1"
+            class="size-4 sm:size-5 mr-2"
             src="/images/icons/facebook.png"
             [alt]="'contacts.facebook' | translate"
           />
@@ -67,17 +76,11 @@
     fragment="sample"
     class="z-20 absolute bottom-1/20 left-1/2 transform -translate-x-1/2 text-white"
   >
-    <div class="text-[20px] leading-[20px]">
+    <div class="text-sm sm:text-base md:text-lg">
       {{ "hero.scroll" | translate }}
     </div>
     <div class="flex justify-center items-center">
-      <svg class="h-6 text-white" viewBox="0 0 20 20" fill="currentColor">
-        <path
-          fill-rule="evenodd"
-          d="M5.23 7.21a.75.75 0 011.06.02L10 10.939l3.71-3.71a.75.75 0 111.06 1.061l-4.24 4.24a.75.75 0 01-1.06 0L5.25 8.27a.75.75 0 01-.02-1.06z"
-          clip-rule="evenodd"
-        />
-      </svg>
+      <app-arrow-icon class="h-5" />
     </div>
   </a>
 </section>

@@ -3,10 +3,11 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { RouterModule } from '@angular/router';
 
 import backgroundData from '../../../../../assets/backgrounds.json';
+import { ArrowIconComponent } from '../../../../components/arrow-icon/arrow-icon';
 
 @Component({
   selector: 'app-hero',
-  imports: [TranslatePipe, RouterModule],
+  imports: [TranslatePipe, RouterModule, ArrowIconComponent],
   templateUrl: './hero.html',
   styleUrl: './hero.css',
 })
