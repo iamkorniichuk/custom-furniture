@@ -24,6 +24,6 @@ export class NavbarComponent {
   private languageService = inject(LanguageService);
   private navbarState = inject(NavbarStateService);
 
-  allowOverlap = this.navbarState.allowOverlap;
+  isTransparent = this.navbarState.isTransparent;
   selectedLanguage = this.languageService.selectedLanguage;
 }
