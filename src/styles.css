@@ -20,3 +20,27 @@
 body {
   font-family: "Inter", sans-serif;
 }
+
+:root {
+  --navbar-h: 2.54rem;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --navbar-h: 3.22rem;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    --navbar-h: 3.47rem;
+  }
+}
+@media (min-width: 1024px) {
+  :root {
+    --navbar-h: 3.72rem;
+  }
+}
+
+.h-available {
+  height: calc(100dvh - var(--navbar-h));
+}
