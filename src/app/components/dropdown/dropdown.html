@@ -12,14 +12,11 @@
 </div>
 
 <div class="block lg:hidden relative">
-  <button
-    #mobileTrigger
-    type="button"
-    class="flex items-center gap-1 cursor-pointer"
-    (click)="toggle()"
-  >
-    <ng-container *ngTemplateOutlet="trigger"></ng-container>
-    <app-arrow-icon class="w-4 h-4" />
+  <button #mobileTrigger type="button" (click)="toggle()">
+    <div class="flex items-center gap-1 cursor-pointer pointer-events-none">
+      <ng-container *ngTemplateOutlet="trigger"></ng-container>
+      <app-arrow-icon class="w-4 h-4" />
+    </div>
   </button>
 
   @if (isOpen()) {
