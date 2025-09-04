@@ -3,10 +3,12 @@ import { ActivatedRoute } from '@angular/router';
 
 import { TranslatedPipe } from '../../pipes/translated-pipe';
 import { portfolio, Room, RoomCode, roomOptions } from '../../shared/portfolio';
+import { NgClass } from '@angular/common';
+import { ArrowIconComponent } from '../../components/arrow-icon/arrow-icon';
 
 @Component({
   selector: 'app-portfolio',
-  imports: [TranslatedPipe],
+  imports: [TranslatedPipe, NgClass, ArrowIconComponent],
   templateUrl: './portfolio.html',
   styleUrl: './portfolio.css',
 })
@@ -14,11 +16,29 @@ export class PortfolioComponent implements OnInit {
   private route = inject(ActivatedRoute);
 
   selectedRoom = signal<Room>(roomOptions[0]);
+  currentIndexes: number[] = [];
 
   projects = computed(() => {
     if (this.selectedRoom().code === null) return portfolio;
     return portfolio.filter((row) => row.room === this.selectedRoom().code);
   });
+
+  constructor() {
+    this.currentIndexes = this.projects().map(() => 0);
+  }
+
+  goToNext(projectIndex: number) {
+    const project = this.projects()[projectIndex];
+    this.currentIndexes[projectIndex] =
+      (this.currentIndexes[projectIndex] + 1) % project.images.length;
+  }
+
+  goToPrevious(projectIndex: number) {
+    const project = this.projects()[projectIndex];
+    this.currentIndexes[projectIndex] =
+      (this.currentIndexes[projectIndex] - 1 + project.images.length) %
+      project.images.length;
+  }
 
   ngOnInit() {
     this.route.queryParamMap.subscribe((params) => {
