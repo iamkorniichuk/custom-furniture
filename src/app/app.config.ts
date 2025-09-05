@@ -10,12 +10,9 @@ import { provideTranslateService } from '@ngx-translate/core';
 import { provideHttpClient } from '@angular/common/http';
 import { provideTranslateHttpLoader } from '@ngx-translate/http-loader';
 import { firstValueFrom } from 'rxjs';
-import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
-import { getStorage, provideStorage } from '@angular/fire/storage';
 
 import { routes } from './app.routes';
 import { LanguageService } from './services/language';
-import { environment } from '../environments/environment';
 import { NavbarStateService } from './services/navbar-state';
 
 const languageInitializer = async () => {
@@ -44,7 +41,5 @@ export const appConfig: ApplicationConfig = {
       }),
       fallbackLang: 'en',
     }),
-    provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideStorage(() => getStorage()),
   ],
 };

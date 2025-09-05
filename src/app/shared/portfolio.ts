@@ -1,7 +1,7 @@
 import portfolioData from '../../assets/furnitures.json';
 
 interface ImagePaths {
-  large: string;
+  original: string;
   medium: string;
   small: string;
 }
