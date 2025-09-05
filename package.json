@@ -1,10 +1,10 @@
 {
   "name": "custom-furniture",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "translate": "ngx-translate-extract --input ./src --output ./public/translations/{en,pl,de,cs,ua}.json --clean --sort --format json",
