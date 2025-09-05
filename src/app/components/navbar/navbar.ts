@@ -1,7 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { TranslatePipe } from '@ngx-translate/core';
-import { RouterLink } from '@angular/router';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 import { LanguageDropdownComponent } from '../language-dropdown/language-dropdown';
 import { LanguageService } from '../../services/language';
@@ -14,6 +14,7 @@ import { PortfolioDropdownComponent } from '../portfolio-dropdown/portfolio-drop
     LanguageDropdownComponent,
     TranslatePipe,
     RouterLink,
+    RouterLinkActive,
     NgClass,
     PortfolioDropdownComponent,
   ],

@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 import { TranslatePipe } from '@ngx-translate/core';
 
 import { roomOptions } from '../../shared/portfolio';
@@ -9,7 +9,13 @@ import { DropdownComponent } from '../dropdown/dropdown';
 
 @Component({
   selector: 'app-portfolio-dropdown',
-  imports: [TranslatedPipe, TranslatePipe, RouterLink, DropdownComponent],
+  imports: [
+    TranslatedPipe,
+    TranslatePipe,
+    RouterLink,
+    RouterLinkActive,
+    DropdownComponent,
+  ],
   templateUrl: './portfolio-dropdown.html',
   styleUrl: './portfolio-dropdown.css',
 })

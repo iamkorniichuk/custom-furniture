@@ -12,8 +12,13 @@
 </div>
 
 <div class="block lg:hidden relative">
-  <button #mobileTrigger type="button" (click)="toggle()">
-    <div class="flex items-center gap-1 cursor-pointer pointer-events-none">
+  <button
+    #mobileTrigger
+    type="button"
+    class="hover:underline cursor-pointer"
+    (click)="toggle()"
+  >
+    <div class="flex items-center gap-1 pointer-events-none">
       <ng-container *ngTemplateOutlet="trigger"></ng-container>
       <app-arrow-icon class="w-4 h-4" />
     </div>

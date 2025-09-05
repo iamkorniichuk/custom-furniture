@@ -3,6 +3,8 @@
     <a
       [routerLink]="['/', selectedLanguage().code, 'portfolio']"
       [queryParams]="{ room: room.code }"
+      routerLinkActive="font-bold"
+      [routerLinkActiveOptions]="{ exact: true }"
       class="whitespace-nowrap block px-4 py-2 hover:bg-black hover:text-white"
     >
       {{ room | translated: "title" }}
@@ -13,6 +15,7 @@
 <ng-template #trigger>
   <a
     [routerLink]="['/', selectedLanguage().code, 'portfolio']"
+    routerLinkActive="font-bold"
     class="flex items-center gap-1"
   >
     {{ "navbar.portfolio" | translate }}

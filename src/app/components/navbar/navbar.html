@@ -17,8 +17,20 @@
 
     <app-portfolio-dropdown />
 
-    <a href="#">{{ "navbar.pricing" | translate }}</a>
-    <a href="#">{{ "navbar.contacts" | translate }}</a>
+    <a
+      class="hover:underline"
+      routerLinkActive="font-bold"
+      [routerLinkActiveOptions]="{ exact: true }"
+      href="#"
+      >{{ "navbar.pricing" | translate }}</a
+    >
+    <a
+      class="hover:underline"
+      routerLinkActive="font-bold"
+      [routerLinkActiveOptions]="{ exact: true }"
+      href="#"
+      >{{ "navbar.contacts" | translate }}</a
+    >
   </div>
 
   <app-language-dropdown />
