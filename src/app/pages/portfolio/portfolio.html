@@ -31,12 +31,32 @@
           </p>
         </div>
         <div class="flex relative overflow-hidden group">
-          <img
-            [src]="row.images[currentIndexes[$index]].paths.original"
-            [alt]="row | translated: 'title'"
-            class="w-full h-full object-cover"
-            loading="lazy"
-          />
+          <picture class="w-full h-full">
+            <source
+              [srcset]="row.images[currentIndexes[$index]].paths.original"
+              media="(min-width: 2561px)"
+            />
+            <source
+              [srcset]="row.images[currentIndexes[$index]].paths.xlarge"
+              media="(min-width: 1921px)"
+            />
+            <source
+              [srcset]="row.images[currentIndexes[$index]].paths.large"
+              media="(min-width: 1281px)"
+            />
+            <source
+              [srcset]="row.images[currentIndexes[$index]].paths.medium"
+              media="(min-width: 641px)"
+            />
+            <img
+              [src]="row.images[currentIndexes[$index]].paths.small"
+              [alt]="row | translated: 'title'"
+              class="w-full h-full object-cover"
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
+
           <div
             class="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
           >

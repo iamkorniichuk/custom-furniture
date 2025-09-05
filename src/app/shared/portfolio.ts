@@ -1,15 +1,5 @@
 import portfolioData from '../../assets/furnitures.json';
-
-interface ImagePaths {
-  original: string;
-  medium: string;
-  small: string;
-}
-
-interface Image {
-  orientation: 'portrait' | 'landscape';
-  paths: ImagePaths;
-}
+import { Image } from './images';
 
 export type RoomCode =
   | 'kitchen'

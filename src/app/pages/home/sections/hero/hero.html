@@ -2,19 +2,46 @@
   id="hero"
   class="relative h-[100dvh] w-full overflow-hidden snap-start snap-always"
 >
-  <div
-    class="z-0 absolute inset-0 bg-cover bg-center bg-no-repeat transition-opacity duration-1000"
-    [style.backgroundImage]="`url(${backgroundImage1()})`"
+  <picture
+    class="z-0 absolute inset-0 transition-opacity duration-1000"
     [class.opacity-0]="!showBackgroundImage1()"
     [class.opacity-100]="showBackgroundImage1()"
-  ></div>
-  <div
-    class="z-0 absolute inset-0 bg-cover bg-center bg-no-repeat transition-opacity duration-1000"
-    [style.backgroundImage]="`url(${backgroundImage2()})`"
+  >
+    <source
+      [srcset]="backgroundImage1()?.original"
+      media="(min-width: 2561px)"
+    />
+    <source [srcset]="backgroundImage1()?.xlarge" media="(min-width: 1921px)" />
+    <source [srcset]="backgroundImage1()?.large" media="(min-width: 1601px)" />
+    <source [srcset]="backgroundImage1()?.medium" media="(min-width: 801px)" />
+    <img
+      [src]="backgroundImage1()?.small"
+      alt="Background image 1"
+      class="w-full h-full object-cover"
+      loading="eager"
+      decoding="async"
+    />
+  </picture>
+  <picture
+    class="z-0 absolute inset-0 transition-opacity duration-1000"
     [class.opacity-0]="showBackgroundImage1()"
     [class.opacity-100]="!showBackgroundImage1()"
-  ></div>
-
+  >
+    <source
+      [srcset]="backgroundImage2()?.original"
+      media="(min-width: 2561px)"
+    />
+    <source [srcset]="backgroundImage2()?.xlarge" media="(min-width: 1921px)" />
+    <source [srcset]="backgroundImage2()?.large" media="(min-width: 1601px)" />
+    <source [srcset]="backgroundImage2()?.medium" media="(min-width: 801px)" />
+    <img
+      [src]="backgroundImage2()?.small"
+      alt="Background image 2"
+      class="w-full h-full object-cover"
+      loading="lazy"
+      decoding="async"
+    />
+  </picture>
   <div
     class="z-10 absolute inset-0 flex flex-col justify-between pointer-events-none"
   >

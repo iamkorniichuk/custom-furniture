@@ -12,7 +12,9 @@
         "paths": {
           "original": "/furnitures/bar-stance-wood-kitchen-fitted-interior-2.webp",
           "medium": "/furnitures/bar-stance-wood-kitchen-fitted-interior-2_medium.webp",
-          "small": "/furnitures/bar-stance-wood-kitchen-fitted-interior-2_small.webp"
+          "small": "/furnitures/bar-stance-wood-kitchen-fitted-interior-2_small.webp",
+          "large": "/furnitures/bar-stance-wood-kitchen-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/bar-stance-wood-kitchen-fitted-interior-2_xlarge.webp"
         }
       },
       {
@@ -20,7 +22,9 @@
         "paths": {
           "original": "/furnitures/bar-stance-wood-kitchen-fitted-interior-0.webp",
           "medium": "/furnitures/bar-stance-wood-kitchen-fitted-interior-0_medium.webp",
-          "small": "/furnitures/bar-stance-wood-kitchen-fitted-interior-0_small.webp"
+          "small": "/furnitures/bar-stance-wood-kitchen-fitted-interior-0_small.webp",
+          "large": "/furnitures/bar-stance-wood-kitchen-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/bar-stance-wood-kitchen-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -28,7 +32,9 @@
         "paths": {
           "original": "/furnitures/bar-stance-wood-kitchen-fitted-interior-1.webp",
           "medium": "/furnitures/bar-stance-wood-kitchen-fitted-interior-1_medium.webp",
-          "small": "/furnitures/bar-stance-wood-kitchen-fitted-interior-1_small.webp"
+          "small": "/furnitures/bar-stance-wood-kitchen-fitted-interior-1_small.webp",
+          "large": "/furnitures/bar-stance-wood-kitchen-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/bar-stance-wood-kitchen-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -36,7 +42,9 @@
         "paths": {
           "original": "/furnitures/bar-stance-wood-kitchen-fitted-interior-3.webp",
           "medium": "/furnitures/bar-stance-wood-kitchen-fitted-interior-3_medium.webp",
-          "small": "/furnitures/bar-stance-wood-kitchen-fitted-interior-3_small.webp"
+          "small": "/furnitures/bar-stance-wood-kitchen-fitted-interior-3_small.webp",
+          "large": "/furnitures/bar-stance-wood-kitchen-fitted-interior-3_large.webp",
+          "xlarge": "/furnitures/bar-stance-wood-kitchen-fitted-interior-3_xlarge.webp"
         }
       },
       {
@@ -44,7 +52,9 @@
         "paths": {
           "original": "/furnitures/bar-stance-wood-kitchen-fitted-interior-4.webp",
           "medium": "/furnitures/bar-stance-wood-kitchen-fitted-interior-4_medium.webp",
-          "small": "/furnitures/bar-stance-wood-kitchen-fitted-interior-4_small.webp"
+          "small": "/furnitures/bar-stance-wood-kitchen-fitted-interior-4_small.webp",
+          "large": "/furnitures/bar-stance-wood-kitchen-fitted-interior-4_large.webp",
+          "xlarge": "/furnitures/bar-stance-wood-kitchen-fitted-interior-4_xlarge.webp"
         }
       },
       {
@@ -52,7 +62,9 @@
         "paths": {
           "original": "/furnitures/bar-stance-wood-kitchen-fitted-interior-5.webp",
           "medium": "/furnitures/bar-stance-wood-kitchen-fitted-interior-5_medium.webp",
-          "small": "/furnitures/bar-stance-wood-kitchen-fitted-interior-5_small.webp"
+          "small": "/furnitures/bar-stance-wood-kitchen-fitted-interior-5_small.webp",
+          "large": "/furnitures/bar-stance-wood-kitchen-fitted-interior-5_large.webp",
+          "xlarge": "/furnitures/bar-stance-wood-kitchen-fitted-interior-5_xlarge.webp"
         }
       }
     ]
@@ -70,7 +82,9 @@
         "paths": {
           "original": "/furnitures/black-angle-wardrobe-0.webp",
           "medium": "/furnitures/black-angle-wardrobe-0_medium.webp",
-          "small": "/furnitures/black-angle-wardrobe-0_small.webp"
+          "small": "/furnitures/black-angle-wardrobe-0_small.webp",
+          "large": "/furnitures/black-angle-wardrobe-0_large.webp",
+          "xlarge": "/furnitures/black-angle-wardrobe-0_xlarge.webp"
         }
       },
       {
@@ -78,7 +92,9 @@
         "paths": {
           "original": "/furnitures/black-angle-wardrobe-1.webp",
           "medium": "/furnitures/black-angle-wardrobe-1_medium.webp",
-          "small": "/furnitures/black-angle-wardrobe-1_small.webp"
+          "small": "/furnitures/black-angle-wardrobe-1_small.webp",
+          "large": "/furnitures/black-angle-wardrobe-1_large.webp",
+          "xlarge": "/furnitures/black-angle-wardrobe-1_xlarge.webp"
         }
       },
       {
@@ -86,7 +102,9 @@
         "paths": {
           "original": "/furnitures/black-angle-wardrobe-2.webp",
           "medium": "/furnitures/black-angle-wardrobe-2_medium.webp",
-          "small": "/furnitures/black-angle-wardrobe-2_small.webp"
+          "small": "/furnitures/black-angle-wardrobe-2_small.webp",
+          "large": "/furnitures/black-angle-wardrobe-2_large.webp",
+          "xlarge": "/furnitures/black-angle-wardrobe-2_xlarge.webp"
         }
       }
     ]
@@ -104,7 +122,9 @@
         "paths": {
           "original": "/furnitures/black-white-kitchen-fitted-interior-0.webp",
           "medium": "/furnitures/black-white-kitchen-fitted-interior-0_medium.webp",
-          "small": "/furnitures/black-white-kitchen-fitted-interior-0_small.webp"
+          "small": "/furnitures/black-white-kitchen-fitted-interior-0_small.webp",
+          "large": "/furnitures/black-white-kitchen-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/black-white-kitchen-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -112,7 +132,9 @@
         "paths": {
           "original": "/furnitures/black-white-kitchen-fitted-interior-1.webp",
           "medium": "/furnitures/black-white-kitchen-fitted-interior-1_medium.webp",
-          "small": "/furnitures/black-white-kitchen-fitted-interior-1_small.webp"
+          "small": "/furnitures/black-white-kitchen-fitted-interior-1_small.webp",
+          "large": "/furnitures/black-white-kitchen-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/black-white-kitchen-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -120,7 +142,9 @@
         "paths": {
           "original": "/furnitures/black-white-kitchen-fitted-interior-10.webp",
           "medium": "/furnitures/black-white-kitchen-fitted-interior-10_medium.webp",
-          "small": "/furnitures/black-white-kitchen-fitted-interior-10_small.webp"
+          "small": "/furnitures/black-white-kitchen-fitted-interior-10_small.webp",
+          "large": "/furnitures/black-white-kitchen-fitted-interior-10_large.webp",
+          "xlarge": "/furnitures/black-white-kitchen-fitted-interior-10_xlarge.webp"
         }
       },
       {
@@ -128,7 +152,9 @@
         "paths": {
           "original": "/furnitures/black-white-kitchen-fitted-interior-11.webp",
           "medium": "/furnitures/black-white-kitchen-fitted-interior-11_medium.webp",
-          "small": "/furnitures/black-white-kitchen-fitted-interior-11_small.webp"
+          "small": "/furnitures/black-white-kitchen-fitted-interior-11_small.webp",
+          "large": "/furnitures/black-white-kitchen-fitted-interior-11_large.webp",
+          "xlarge": "/furnitures/black-white-kitchen-fitted-interior-11_xlarge.webp"
         }
       },
       {
@@ -136,7 +162,9 @@
         "paths": {
           "original": "/furnitures/black-white-kitchen-fitted-interior-12.webp",
           "medium": "/furnitures/black-white-kitchen-fitted-interior-12_medium.webp",
-          "small": "/furnitures/black-white-kitchen-fitted-interior-12_small.webp"
+          "small": "/furnitures/black-white-kitchen-fitted-interior-12_small.webp",
+          "large": "/furnitures/black-white-kitchen-fitted-interior-12_large.webp",
+          "xlarge": "/furnitures/black-white-kitchen-fitted-interior-12_xlarge.webp"
         }
       },
       {
@@ -144,7 +172,9 @@
         "paths": {
           "original": "/furnitures/black-white-kitchen-fitted-interior-13.webp",
           "medium": "/furnitures/black-white-kitchen-fitted-interior-13_medium.webp",
-          "small": "/furnitures/black-white-kitchen-fitted-interior-13_small.webp"
+          "small": "/furnitures/black-white-kitchen-fitted-interior-13_small.webp",
+          "large": "/furnitures/black-white-kitchen-fitted-interior-13_large.webp",
+          "xlarge": "/furnitures/black-white-kitchen-fitted-interior-13_xlarge.webp"
         }
       },
       {
@@ -152,7 +182,9 @@
         "paths": {
           "original": "/furnitures/black-white-kitchen-fitted-interior-14.webp",
           "medium": "/furnitures/black-white-kitchen-fitted-interior-14_medium.webp",
-          "small": "/furnitures/black-white-kitchen-fitted-interior-14_small.webp"
+          "small": "/furnitures/black-white-kitchen-fitted-interior-14_small.webp",
+          "large": "/furnitures/black-white-kitchen-fitted-interior-14_large.webp",
+          "xlarge": "/furnitures/black-white-kitchen-fitted-interior-14_xlarge.webp"
         }
       },
       {
@@ -160,7 +192,9 @@
         "paths": {
           "original": "/furnitures/black-white-kitchen-fitted-interior-15.webp",
           "medium": "/furnitures/black-white-kitchen-fitted-interior-15_medium.webp",
-          "small": "/furnitures/black-white-kitchen-fitted-interior-15_small.webp"
+          "small": "/furnitures/black-white-kitchen-fitted-interior-15_small.webp",
+          "large": "/furnitures/black-white-kitchen-fitted-interior-15_large.webp",
+          "xlarge": "/furnitures/black-white-kitchen-fitted-interior-15_xlarge.webp"
         }
       },
       {
@@ -168,7 +202,9 @@
         "paths": {
           "original": "/furnitures/black-white-kitchen-fitted-interior-16.webp",
           "medium": "/furnitures/black-white-kitchen-fitted-interior-16_medium.webp",
-          "small": "/furnitures/black-white-kitchen-fitted-interior-16_small.webp"
+          "small": "/furnitures/black-white-kitchen-fitted-interior-16_small.webp",
+          "large": "/furnitures/black-white-kitchen-fitted-interior-16_large.webp",
+          "xlarge": "/furnitures/black-white-kitchen-fitted-interior-16_xlarge.webp"
         }
       },
       {
@@ -176,7 +212,9 @@
         "paths": {
           "original": "/furnitures/black-white-kitchen-fitted-interior-2.webp",
           "medium": "/furnitures/black-white-kitchen-fitted-interior-2_medium.webp",
-          "small": "/furnitures/black-white-kitchen-fitted-interior-2_small.webp"
+          "small": "/furnitures/black-white-kitchen-fitted-interior-2_small.webp",
+          "large": "/furnitures/black-white-kitchen-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/black-white-kitchen-fitted-interior-2_xlarge.webp"
         }
       },
       {
@@ -184,7 +222,9 @@
         "paths": {
           "original": "/furnitures/black-white-kitchen-fitted-interior-3.webp",
           "medium": "/furnitures/black-white-kitchen-fitted-interior-3_medium.webp",
-          "small": "/furnitures/black-white-kitchen-fitted-interior-3_small.webp"
+          "small": "/furnitures/black-white-kitchen-fitted-interior-3_small.webp",
+          "large": "/furnitures/black-white-kitchen-fitted-interior-3_large.webp",
+          "xlarge": "/furnitures/black-white-kitchen-fitted-interior-3_xlarge.webp"
         }
       },
       {
@@ -192,7 +232,9 @@
         "paths": {
           "original": "/furnitures/black-white-kitchen-fitted-interior-4.webp",
           "medium": "/furnitures/black-white-kitchen-fitted-interior-4_medium.webp",
-          "small": "/furnitures/black-white-kitchen-fitted-interior-4_small.webp"
+          "small": "/furnitures/black-white-kitchen-fitted-interior-4_small.webp",
+          "large": "/furnitures/black-white-kitchen-fitted-interior-4_large.webp",
+          "xlarge": "/furnitures/black-white-kitchen-fitted-interior-4_xlarge.webp"
         }
       },
       {
@@ -200,7 +242,9 @@
         "paths": {
           "original": "/furnitures/black-white-kitchen-fitted-interior-5.webp",
           "medium": "/furnitures/black-white-kitchen-fitted-interior-5_medium.webp",
-          "small": "/furnitures/black-white-kitchen-fitted-interior-5_small.webp"
+          "small": "/furnitures/black-white-kitchen-fitted-interior-5_small.webp",
+          "large": "/furnitures/black-white-kitchen-fitted-interior-5_large.webp",
+          "xlarge": "/furnitures/black-white-kitchen-fitted-interior-5_xlarge.webp"
         }
       },
       {
@@ -208,7 +252,9 @@
         "paths": {
           "original": "/furnitures/black-white-kitchen-fitted-interior-6.webp",
           "medium": "/furnitures/black-white-kitchen-fitted-interior-6_medium.webp",
-          "small": "/furnitures/black-white-kitchen-fitted-interior-6_small.webp"
+          "small": "/furnitures/black-white-kitchen-fitted-interior-6_small.webp",
+          "large": "/furnitures/black-white-kitchen-fitted-interior-6_large.webp",
+          "xlarge": "/furnitures/black-white-kitchen-fitted-interior-6_xlarge.webp"
         }
       },
       {
@@ -216,7 +262,9 @@
         "paths": {
           "original": "/furnitures/black-white-kitchen-fitted-interior-7.webp",
           "medium": "/furnitures/black-white-kitchen-fitted-interior-7_medium.webp",
-          "small": "/furnitures/black-white-kitchen-fitted-interior-7_small.webp"
+          "small": "/furnitures/black-white-kitchen-fitted-interior-7_small.webp",
+          "large": "/furnitures/black-white-kitchen-fitted-interior-7_large.webp",
+          "xlarge": "/furnitures/black-white-kitchen-fitted-interior-7_xlarge.webp"
         }
       },
       {
@@ -224,7 +272,9 @@
         "paths": {
           "original": "/furnitures/black-white-kitchen-fitted-interior-9.webp",
           "medium": "/furnitures/black-white-kitchen-fitted-interior-9_medium.webp",
-          "small": "/furnitures/black-white-kitchen-fitted-interior-9_small.webp"
+          "small": "/furnitures/black-white-kitchen-fitted-interior-9_small.webp",
+          "large": "/furnitures/black-white-kitchen-fitted-interior-9_large.webp",
+          "xlarge": "/furnitures/black-white-kitchen-fitted-interior-9_xlarge.webp"
         }
       }
     ]
@@ -242,7 +292,9 @@
         "paths": {
           "original": "/furnitures/blue-laundry-basket-bathroom-furniture-0.webp",
           "medium": "/furnitures/blue-laundry-basket-bathroom-furniture-0_medium.webp",
-          "small": "/furnitures/blue-laundry-basket-bathroom-furniture-0_small.webp"
+          "small": "/furnitures/blue-laundry-basket-bathroom-furniture-0_small.webp",
+          "large": "/furnitures/blue-laundry-basket-bathroom-furniture-0_large.webp",
+          "xlarge": "/furnitures/blue-laundry-basket-bathroom-furniture-0_xlarge.webp"
         }
       },
       {
@@ -250,7 +302,9 @@
         "paths": {
           "original": "/furnitures/blue-laundry-basket-bathroom-furniture-1.webp",
           "medium": "/furnitures/blue-laundry-basket-bathroom-furniture-1_medium.webp",
-          "small": "/furnitures/blue-laundry-basket-bathroom-furniture-1_small.webp"
+          "small": "/furnitures/blue-laundry-basket-bathroom-furniture-1_small.webp",
+          "large": "/furnitures/blue-laundry-basket-bathroom-furniture-1_large.webp",
+          "xlarge": "/furnitures/blue-laundry-basket-bathroom-furniture-1_xlarge.webp"
         }
       },
       {
@@ -258,7 +312,9 @@
         "paths": {
           "original": "/furnitures/blue-laundry-basket-bathroom-furniture-2.webp",
           "medium": "/furnitures/blue-laundry-basket-bathroom-furniture-2_medium.webp",
-          "small": "/furnitures/blue-laundry-basket-bathroom-furniture-2_small.webp"
+          "small": "/furnitures/blue-laundry-basket-bathroom-furniture-2_small.webp",
+          "large": "/furnitures/blue-laundry-basket-bathroom-furniture-2_large.webp",
+          "xlarge": "/furnitures/blue-laundry-basket-bathroom-furniture-2_xlarge.webp"
         }
       },
       {
@@ -266,7 +322,9 @@
         "paths": {
           "original": "/furnitures/blue-laundry-basket-bathroom-furniture-3.webp",
           "medium": "/furnitures/blue-laundry-basket-bathroom-furniture-3_medium.webp",
-          "small": "/furnitures/blue-laundry-basket-bathroom-furniture-3_small.webp"
+          "small": "/furnitures/blue-laundry-basket-bathroom-furniture-3_small.webp",
+          "large": "/furnitures/blue-laundry-basket-bathroom-furniture-3_large.webp",
+          "xlarge": "/furnitures/blue-laundry-basket-bathroom-furniture-3_xlarge.webp"
         }
       },
       {
@@ -274,7 +332,9 @@
         "paths": {
           "original": "/furnitures/blue-laundry-basket-bathroom-furniture-4.webp",
           "medium": "/furnitures/blue-laundry-basket-bathroom-furniture-4_medium.webp",
-          "small": "/furnitures/blue-laundry-basket-bathroom-furniture-4_small.webp"
+          "small": "/furnitures/blue-laundry-basket-bathroom-furniture-4_small.webp",
+          "large": "/furnitures/blue-laundry-basket-bathroom-furniture-4_large.webp",
+          "xlarge": "/furnitures/blue-laundry-basket-bathroom-furniture-4_xlarge.webp"
         }
       },
       {
@@ -282,7 +342,9 @@
         "paths": {
           "original": "/furnitures/blue-laundry-basket-bathroom-furniture-5.webp",
           "medium": "/furnitures/blue-laundry-basket-bathroom-furniture-5_medium.webp",
-          "small": "/furnitures/blue-laundry-basket-bathroom-furniture-5_small.webp"
+          "small": "/furnitures/blue-laundry-basket-bathroom-furniture-5_small.webp",
+          "large": "/furnitures/blue-laundry-basket-bathroom-furniture-5_large.webp",
+          "xlarge": "/furnitures/blue-laundry-basket-bathroom-furniture-5_xlarge.webp"
         }
       },
       {
@@ -290,7 +352,9 @@
         "paths": {
           "original": "/furnitures/blue-laundry-basket-bathroom-furniture-6.webp",
           "medium": "/furnitures/blue-laundry-basket-bathroom-furniture-6_medium.webp",
-          "small": "/furnitures/blue-laundry-basket-bathroom-furniture-6_small.webp"
+          "small": "/furnitures/blue-laundry-basket-bathroom-furniture-6_small.webp",
+          "large": "/furnitures/blue-laundry-basket-bathroom-furniture-6_large.webp",
+          "xlarge": "/furnitures/blue-laundry-basket-bathroom-furniture-6_xlarge.webp"
         }
       }
     ]
@@ -308,7 +372,9 @@
         "paths": {
           "original": "/furnitures/brown-kitchen-furniture-0.webp",
           "medium": "/furnitures/brown-kitchen-furniture-0_medium.webp",
-          "small": "/furnitures/brown-kitchen-furniture-0_small.webp"
+          "small": "/furnitures/brown-kitchen-furniture-0_small.webp",
+          "large": "/furnitures/brown-kitchen-furniture-0_large.webp",
+          "xlarge": "/furnitures/brown-kitchen-furniture-0_xlarge.webp"
         }
       },
       {
@@ -316,7 +382,9 @@
         "paths": {
           "original": "/furnitures/brown-kitchen-furniture-1.webp",
           "medium": "/furnitures/brown-kitchen-furniture-1_medium.webp",
-          "small": "/furnitures/brown-kitchen-furniture-1_small.webp"
+          "small": "/furnitures/brown-kitchen-furniture-1_small.webp",
+          "large": "/furnitures/brown-kitchen-furniture-1_large.webp",
+          "xlarge": "/furnitures/brown-kitchen-furniture-1_xlarge.webp"
         }
       }
     ]
@@ -334,7 +402,9 @@
         "paths": {
           "original": "/furnitures/business-fitted-interior-11.webp",
           "medium": "/furnitures/business-fitted-interior-11_medium.webp",
-          "small": "/furnitures/business-fitted-interior-11_small.webp"
+          "small": "/furnitures/business-fitted-interior-11_small.webp",
+          "large": "/furnitures/business-fitted-interior-11_large.webp",
+          "xlarge": "/furnitures/business-fitted-interior-11_xlarge.webp"
         }
       },
       {
@@ -342,7 +412,9 @@
         "paths": {
           "original": "/furnitures/business-fitted-interior-0.webp",
           "medium": "/furnitures/business-fitted-interior-0_medium.webp",
-          "small": "/furnitures/business-fitted-interior-0_small.webp"
+          "small": "/furnitures/business-fitted-interior-0_small.webp",
+          "large": "/furnitures/business-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/business-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -350,7 +422,9 @@
         "paths": {
           "original": "/furnitures/business-fitted-interior-1.webp",
           "medium": "/furnitures/business-fitted-interior-1_medium.webp",
-          "small": "/furnitures/business-fitted-interior-1_small.webp"
+          "small": "/furnitures/business-fitted-interior-1_small.webp",
+          "large": "/furnitures/business-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/business-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -358,7 +432,9 @@
         "paths": {
           "original": "/furnitures/business-fitted-interior-10.webp",
           "medium": "/furnitures/business-fitted-interior-10_medium.webp",
-          "small": "/furnitures/business-fitted-interior-10_small.webp"
+          "small": "/furnitures/business-fitted-interior-10_small.webp",
+          "large": "/furnitures/business-fitted-interior-10_large.webp",
+          "xlarge": "/furnitures/business-fitted-interior-10_xlarge.webp"
         }
       },
       {
@@ -366,7 +442,9 @@
         "paths": {
           "original": "/furnitures/business-fitted-interior-12.webp",
           "medium": "/furnitures/business-fitted-interior-12_medium.webp",
-          "small": "/furnitures/business-fitted-interior-12_small.webp"
+          "small": "/furnitures/business-fitted-interior-12_small.webp",
+          "large": "/furnitures/business-fitted-interior-12_large.webp",
+          "xlarge": "/furnitures/business-fitted-interior-12_xlarge.webp"
         }
       },
       {
@@ -374,7 +452,9 @@
         "paths": {
           "original": "/furnitures/business-fitted-interior-2.webp",
           "medium": "/furnitures/business-fitted-interior-2_medium.webp",
-          "small": "/furnitures/business-fitted-interior-2_small.webp"
+          "small": "/furnitures/business-fitted-interior-2_small.webp",
+          "large": "/furnitures/business-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/business-fitted-interior-2_xlarge.webp"
         }
       },
       {
@@ -382,7 +462,9 @@
         "paths": {
           "original": "/furnitures/business-fitted-interior-3.webp",
           "medium": "/furnitures/business-fitted-interior-3_medium.webp",
-          "small": "/furnitures/business-fitted-interior-3_small.webp"
+          "small": "/furnitures/business-fitted-interior-3_small.webp",
+          "large": "/furnitures/business-fitted-interior-3_large.webp",
+          "xlarge": "/furnitures/business-fitted-interior-3_xlarge.webp"
         }
       },
       {
@@ -390,7 +472,9 @@
         "paths": {
           "original": "/furnitures/business-fitted-interior-4.webp",
           "medium": "/furnitures/business-fitted-interior-4_medium.webp",
-          "small": "/furnitures/business-fitted-interior-4_small.webp"
+          "small": "/furnitures/business-fitted-interior-4_small.webp",
+          "large": "/furnitures/business-fitted-interior-4_large.webp",
+          "xlarge": "/furnitures/business-fitted-interior-4_xlarge.webp"
         }
       },
       {
@@ -398,7 +482,9 @@
         "paths": {
           "original": "/furnitures/business-fitted-interior-5.webp",
           "medium": "/furnitures/business-fitted-interior-5_medium.webp",
-          "small": "/furnitures/business-fitted-interior-5_small.webp"
+          "small": "/furnitures/business-fitted-interior-5_small.webp",
+          "large": "/furnitures/business-fitted-interior-5_large.webp",
+          "xlarge": "/furnitures/business-fitted-interior-5_xlarge.webp"
         }
       },
       {
@@ -406,7 +492,9 @@
         "paths": {
           "original": "/furnitures/business-fitted-interior-6.webp",
           "medium": "/furnitures/business-fitted-interior-6_medium.webp",
-          "small": "/furnitures/business-fitted-interior-6_small.webp"
+          "small": "/furnitures/business-fitted-interior-6_small.webp",
+          "large": "/furnitures/business-fitted-interior-6_large.webp",
+          "xlarge": "/furnitures/business-fitted-interior-6_xlarge.webp"
         }
       },
       {
@@ -414,7 +502,9 @@
         "paths": {
           "original": "/furnitures/business-fitted-interior-7.webp",
           "medium": "/furnitures/business-fitted-interior-7_medium.webp",
-          "small": "/furnitures/business-fitted-interior-7_small.webp"
+          "small": "/furnitures/business-fitted-interior-7_small.webp",
+          "large": "/furnitures/business-fitted-interior-7_large.webp",
+          "xlarge": "/furnitures/business-fitted-interior-7_xlarge.webp"
         }
       },
       {
@@ -422,7 +512,9 @@
         "paths": {
           "original": "/furnitures/business-fitted-interior-8.webp",
           "medium": "/furnitures/business-fitted-interior-8_medium.webp",
-          "small": "/furnitures/business-fitted-interior-8_small.webp"
+          "small": "/furnitures/business-fitted-interior-8_small.webp",
+          "large": "/furnitures/business-fitted-interior-8_large.webp",
+          "xlarge": "/furnitures/business-fitted-interior-8_xlarge.webp"
         }
       },
       {
@@ -430,7 +522,9 @@
         "paths": {
           "original": "/furnitures/business-fitted-interior-9.webp",
           "medium": "/furnitures/business-fitted-interior-9_medium.webp",
-          "small": "/furnitures/business-fitted-interior-9_small.webp"
+          "small": "/furnitures/business-fitted-interior-9_small.webp",
+          "large": "/furnitures/business-fitted-interior-9_large.webp",
+          "xlarge": "/furnitures/business-fitted-interior-9_xlarge.webp"
         }
       }
     ]
@@ -448,7 +542,9 @@
         "paths": {
           "original": "/furnitures/business-glass-island-0.webp",
           "medium": "/furnitures/business-glass-island-0_medium.webp",
-          "small": "/furnitures/business-glass-island-0_small.webp"
+          "small": "/furnitures/business-glass-island-0_small.webp",
+          "large": "/furnitures/business-glass-island-0_large.webp",
+          "xlarge": "/furnitures/business-glass-island-0_xlarge.webp"
         }
       }
     ]
@@ -466,7 +562,9 @@
         "paths": {
           "original": "/furnitures/consulting-room-furniture-0.webp",
           "medium": "/furnitures/consulting-room-furniture-0_medium.webp",
-          "small": "/furnitures/consulting-room-furniture-0_small.webp"
+          "small": "/furnitures/consulting-room-furniture-0_small.webp",
+          "large": "/furnitures/consulting-room-furniture-0_large.webp",
+          "xlarge": "/furnitures/consulting-room-furniture-0_xlarge.webp"
         }
       },
       {
@@ -474,7 +572,9 @@
         "paths": {
           "original": "/furnitures/consulting-room-furniture-1.webp",
           "medium": "/furnitures/consulting-room-furniture-1_medium.webp",
-          "small": "/furnitures/consulting-room-furniture-1_small.webp"
+          "small": "/furnitures/consulting-room-furniture-1_small.webp",
+          "large": "/furnitures/consulting-room-furniture-1_large.webp",
+          "xlarge": "/furnitures/consulting-room-furniture-1_xlarge.webp"
         }
       },
       {
@@ -482,7 +582,9 @@
         "paths": {
           "original": "/furnitures/consulting-room-furniture-2.webp",
           "medium": "/furnitures/consulting-room-furniture-2_medium.webp",
-          "small": "/furnitures/consulting-room-furniture-2_small.webp"
+          "small": "/furnitures/consulting-room-furniture-2_small.webp",
+          "large": "/furnitures/consulting-room-furniture-2_large.webp",
+          "xlarge": "/furnitures/consulting-room-furniture-2_xlarge.webp"
         }
       },
       {
@@ -490,7 +592,9 @@
         "paths": {
           "original": "/furnitures/consulting-room-furniture-3.webp",
           "medium": "/furnitures/consulting-room-furniture-3_medium.webp",
-          "small": "/furnitures/consulting-room-furniture-3_small.webp"
+          "small": "/furnitures/consulting-room-furniture-3_small.webp",
+          "large": "/furnitures/consulting-room-furniture-3_large.webp",
+          "xlarge": "/furnitures/consulting-room-furniture-3_xlarge.webp"
         }
       },
       {
@@ -498,7 +602,9 @@
         "paths": {
           "original": "/furnitures/consulting-room-furniture-4.webp",
           "medium": "/furnitures/consulting-room-furniture-4_medium.webp",
-          "small": "/furnitures/consulting-room-furniture-4_small.webp"
+          "small": "/furnitures/consulting-room-furniture-4_small.webp",
+          "large": "/furnitures/consulting-room-furniture-4_large.webp",
+          "xlarge": "/furnitures/consulting-room-furniture-4_xlarge.webp"
         }
       }
     ]
@@ -516,7 +622,9 @@
         "paths": {
           "original": "/furnitures/corridor-wood-sofa-0.webp",
           "medium": "/furnitures/corridor-wood-sofa-0_medium.webp",
-          "small": "/furnitures/corridor-wood-sofa-0_small.webp"
+          "small": "/furnitures/corridor-wood-sofa-0_small.webp",
+          "large": "/furnitures/corridor-wood-sofa-0_large.webp",
+          "xlarge": "/furnitures/corridor-wood-sofa-0_xlarge.webp"
         }
       },
       {
@@ -524,7 +632,9 @@
         "paths": {
           "original": "/furnitures/corridor-wood-sofa-1.webp",
           "medium": "/furnitures/corridor-wood-sofa-1_medium.webp",
-          "small": "/furnitures/corridor-wood-sofa-1_small.webp"
+          "small": "/furnitures/corridor-wood-sofa-1_small.webp",
+          "large": "/furnitures/corridor-wood-sofa-1_large.webp",
+          "xlarge": "/furnitures/corridor-wood-sofa-1_xlarge.webp"
         }
       }
     ]
@@ -542,7 +652,9 @@
         "paths": {
           "original": "/furnitures/curve-shelve-wardrobe-0.webp",
           "medium": "/furnitures/curve-shelve-wardrobe-0_medium.webp",
-          "small": "/furnitures/curve-shelve-wardrobe-0_small.webp"
+          "small": "/furnitures/curve-shelve-wardrobe-0_small.webp",
+          "large": "/furnitures/curve-shelve-wardrobe-0_large.webp",
+          "xlarge": "/furnitures/curve-shelve-wardrobe-0_xlarge.webp"
         }
       },
       {
@@ -550,7 +662,9 @@
         "paths": {
           "original": "/furnitures/curve-shelve-wardrobe-1.webp",
           "medium": "/furnitures/curve-shelve-wardrobe-1_medium.webp",
-          "small": "/furnitures/curve-shelve-wardrobe-1_small.webp"
+          "small": "/furnitures/curve-shelve-wardrobe-1_small.webp",
+          "large": "/furnitures/curve-shelve-wardrobe-1_large.webp",
+          "xlarge": "/furnitures/curve-shelve-wardrobe-1_xlarge.webp"
         }
       },
       {
@@ -558,7 +672,9 @@
         "paths": {
           "original": "/furnitures/curve-shelve-wardrobe-2.webp",
           "medium": "/furnitures/curve-shelve-wardrobe-2_medium.webp",
-          "small": "/furnitures/curve-shelve-wardrobe-2_small.webp"
+          "small": "/furnitures/curve-shelve-wardrobe-2_small.webp",
+          "large": "/furnitures/curve-shelve-wardrobe-2_large.webp",
+          "xlarge": "/furnitures/curve-shelve-wardrobe-2_xlarge.webp"
         }
       }
     ]
@@ -576,7 +692,9 @@
         "paths": {
           "original": "/furnitures/glass-luxury-white-wardrobe-1.webp",
           "medium": "/furnitures/glass-luxury-white-wardrobe-1_medium.webp",
-          "small": "/furnitures/glass-luxury-white-wardrobe-1_small.webp"
+          "small": "/furnitures/glass-luxury-white-wardrobe-1_small.webp",
+          "large": "/furnitures/glass-luxury-white-wardrobe-1_large.webp",
+          "xlarge": "/furnitures/glass-luxury-white-wardrobe-1_xlarge.webp"
         }
       },
       {
@@ -584,7 +702,9 @@
         "paths": {
           "original": "/furnitures/glass-luxury-white-wardrobe-0.webp",
           "medium": "/furnitures/glass-luxury-white-wardrobe-0_medium.webp",
-          "small": "/furnitures/glass-luxury-white-wardrobe-0_small.webp"
+          "small": "/furnitures/glass-luxury-white-wardrobe-0_small.webp",
+          "large": "/furnitures/glass-luxury-white-wardrobe-0_large.webp",
+          "xlarge": "/furnitures/glass-luxury-white-wardrobe-0_xlarge.webp"
         }
       }
     ]
@@ -602,7 +722,9 @@
         "paths": {
           "original": "/furnitures/green-bathroom-fitted-interior-0.webp",
           "medium": "/furnitures/green-bathroom-fitted-interior-0_medium.webp",
-          "small": "/furnitures/green-bathroom-fitted-interior-0_small.webp"
+          "small": "/furnitures/green-bathroom-fitted-interior-0_small.webp",
+          "large": "/furnitures/green-bathroom-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/green-bathroom-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -610,7 +732,9 @@
         "paths": {
           "original": "/furnitures/green-bathroom-fitted-interior-1.webp",
           "medium": "/furnitures/green-bathroom-fitted-interior-1_medium.webp",
-          "small": "/furnitures/green-bathroom-fitted-interior-1_small.webp"
+          "small": "/furnitures/green-bathroom-fitted-interior-1_small.webp",
+          "large": "/furnitures/green-bathroom-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/green-bathroom-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -618,7 +742,9 @@
         "paths": {
           "original": "/furnitures/green-bathroom-fitted-interior-2.webp",
           "medium": "/furnitures/green-bathroom-fitted-interior-2_medium.webp",
-          "small": "/furnitures/green-bathroom-fitted-interior-2_small.webp"
+          "small": "/furnitures/green-bathroom-fitted-interior-2_small.webp",
+          "large": "/furnitures/green-bathroom-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/green-bathroom-fitted-interior-2_xlarge.webp"
         }
       },
       {
@@ -626,7 +752,9 @@
         "paths": {
           "original": "/furnitures/green-bathroom-fitted-interior-3.webp",
           "medium": "/furnitures/green-bathroom-fitted-interior-3_medium.webp",
-          "small": "/furnitures/green-bathroom-fitted-interior-3_small.webp"
+          "small": "/furnitures/green-bathroom-fitted-interior-3_small.webp",
+          "large": "/furnitures/green-bathroom-fitted-interior-3_large.webp",
+          "xlarge": "/furnitures/green-bathroom-fitted-interior-3_xlarge.webp"
         }
       }
     ]
@@ -644,7 +772,9 @@
         "paths": {
           "original": "/furnitures/green-glass-big-kitchen-fitted-interior-0.webp",
           "medium": "/furnitures/green-glass-big-kitchen-fitted-interior-0_medium.webp",
-          "small": "/furnitures/green-glass-big-kitchen-fitted-interior-0_small.webp"
+          "small": "/furnitures/green-glass-big-kitchen-fitted-interior-0_small.webp",
+          "large": "/furnitures/green-glass-big-kitchen-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/green-glass-big-kitchen-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -652,7 +782,9 @@
         "paths": {
           "original": "/furnitures/green-glass-big-kitchen-fitted-interior-1.webp",
           "medium": "/furnitures/green-glass-big-kitchen-fitted-interior-1_medium.webp",
-          "small": "/furnitures/green-glass-big-kitchen-fitted-interior-1_small.webp"
+          "small": "/furnitures/green-glass-big-kitchen-fitted-interior-1_small.webp",
+          "large": "/furnitures/green-glass-big-kitchen-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/green-glass-big-kitchen-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -660,7 +792,9 @@
         "paths": {
           "original": "/furnitures/green-glass-big-kitchen-fitted-interior-2.webp",
           "medium": "/furnitures/green-glass-big-kitchen-fitted-interior-2_medium.webp",
-          "small": "/furnitures/green-glass-big-kitchen-fitted-interior-2_small.webp"
+          "small": "/furnitures/green-glass-big-kitchen-fitted-interior-2_small.webp",
+          "large": "/furnitures/green-glass-big-kitchen-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/green-glass-big-kitchen-fitted-interior-2_xlarge.webp"
         }
       },
       {
@@ -668,7 +802,9 @@
         "paths": {
           "original": "/furnitures/green-glass-big-kitchen-fitted-interior-3.webp",
           "medium": "/furnitures/green-glass-big-kitchen-fitted-interior-3_medium.webp",
-          "small": "/furnitures/green-glass-big-kitchen-fitted-interior-3_small.webp"
+          "small": "/furnitures/green-glass-big-kitchen-fitted-interior-3_small.webp",
+          "large": "/furnitures/green-glass-big-kitchen-fitted-interior-3_large.webp",
+          "xlarge": "/furnitures/green-glass-big-kitchen-fitted-interior-3_xlarge.webp"
         }
       },
       {
@@ -676,7 +812,9 @@
         "paths": {
           "original": "/furnitures/green-glass-big-kitchen-fitted-interior-4.webp",
           "medium": "/furnitures/green-glass-big-kitchen-fitted-interior-4_medium.webp",
-          "small": "/furnitures/green-glass-big-kitchen-fitted-interior-4_small.webp"
+          "small": "/furnitures/green-glass-big-kitchen-fitted-interior-4_small.webp",
+          "large": "/furnitures/green-glass-big-kitchen-fitted-interior-4_large.webp",
+          "xlarge": "/furnitures/green-glass-big-kitchen-fitted-interior-4_xlarge.webp"
         }
       },
       {
@@ -684,7 +822,9 @@
         "paths": {
           "original": "/furnitures/green-glass-big-kitchen-fitted-interior-5.webp",
           "medium": "/furnitures/green-glass-big-kitchen-fitted-interior-5_medium.webp",
-          "small": "/furnitures/green-glass-big-kitchen-fitted-interior-5_small.webp"
+          "small": "/furnitures/green-glass-big-kitchen-fitted-interior-5_small.webp",
+          "large": "/furnitures/green-glass-big-kitchen-fitted-interior-5_large.webp",
+          "xlarge": "/furnitures/green-glass-big-kitchen-fitted-interior-5_xlarge.webp"
         }
       }
     ]
@@ -702,7 +842,9 @@
         "paths": {
           "original": "/furnitures/green-kitchen-fitted-interior-0.webp",
           "medium": "/furnitures/green-kitchen-fitted-interior-0_medium.webp",
-          "small": "/furnitures/green-kitchen-fitted-interior-0_small.webp"
+          "small": "/furnitures/green-kitchen-fitted-interior-0_small.webp",
+          "large": "/furnitures/green-kitchen-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/green-kitchen-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -710,7 +852,9 @@
         "paths": {
           "original": "/furnitures/green-kitchen-fitted-interior-1.webp",
           "medium": "/furnitures/green-kitchen-fitted-interior-1_medium.webp",
-          "small": "/furnitures/green-kitchen-fitted-interior-1_small.webp"
+          "small": "/furnitures/green-kitchen-fitted-interior-1_small.webp",
+          "large": "/furnitures/green-kitchen-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/green-kitchen-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -718,7 +862,9 @@
         "paths": {
           "original": "/furnitures/green-kitchen-fitted-interior-2.webp",
           "medium": "/furnitures/green-kitchen-fitted-interior-2_medium.webp",
-          "small": "/furnitures/green-kitchen-fitted-interior-2_small.webp"
+          "small": "/furnitures/green-kitchen-fitted-interior-2_small.webp",
+          "large": "/furnitures/green-kitchen-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/green-kitchen-fitted-interior-2_xlarge.webp"
         }
       },
       {
@@ -726,7 +872,9 @@
         "paths": {
           "original": "/furnitures/green-kitchen-fitted-interior-3.webp",
           "medium": "/furnitures/green-kitchen-fitted-interior-3_medium.webp",
-          "small": "/furnitures/green-kitchen-fitted-interior-3_small.webp"
+          "small": "/furnitures/green-kitchen-fitted-interior-3_small.webp",
+          "large": "/furnitures/green-kitchen-fitted-interior-3_large.webp",
+          "xlarge": "/furnitures/green-kitchen-fitted-interior-3_xlarge.webp"
         }
       },
       {
@@ -734,7 +882,9 @@
         "paths": {
           "original": "/furnitures/green-kitchen-fitted-interior-4.webp",
           "medium": "/furnitures/green-kitchen-fitted-interior-4_medium.webp",
-          "small": "/furnitures/green-kitchen-fitted-interior-4_small.webp"
+          "small": "/furnitures/green-kitchen-fitted-interior-4_small.webp",
+          "large": "/furnitures/green-kitchen-fitted-interior-4_large.webp",
+          "xlarge": "/furnitures/green-kitchen-fitted-interior-4_xlarge.webp"
         }
       }
     ]
@@ -752,7 +902,9 @@
         "paths": {
           "original": "/furnitures/green-light-bathroom-furniture-0.webp",
           "medium": "/furnitures/green-light-bathroom-furniture-0_medium.webp",
-          "small": "/furnitures/green-light-bathroom-furniture-0_small.webp"
+          "small": "/furnitures/green-light-bathroom-furniture-0_small.webp",
+          "large": "/furnitures/green-light-bathroom-furniture-0_large.webp",
+          "xlarge": "/furnitures/green-light-bathroom-furniture-0_xlarge.webp"
         }
       },
       {
@@ -760,7 +912,9 @@
         "paths": {
           "original": "/furnitures/green-light-bathroom-furniture-1.webp",
           "medium": "/furnitures/green-light-bathroom-furniture-1_medium.webp",
-          "small": "/furnitures/green-light-bathroom-furniture-1_small.webp"
+          "small": "/furnitures/green-light-bathroom-furniture-1_small.webp",
+          "large": "/furnitures/green-light-bathroom-furniture-1_large.webp",
+          "xlarge": "/furnitures/green-light-bathroom-furniture-1_xlarge.webp"
         }
       },
       {
@@ -768,7 +922,9 @@
         "paths": {
           "original": "/furnitures/green-light-bathroom-furniture-3.webp",
           "medium": "/furnitures/green-light-bathroom-furniture-3_medium.webp",
-          "small": "/furnitures/green-light-bathroom-furniture-3_small.webp"
+          "small": "/furnitures/green-light-bathroom-furniture-3_small.webp",
+          "large": "/furnitures/green-light-bathroom-furniture-3_large.webp",
+          "xlarge": "/furnitures/green-light-bathroom-furniture-3_xlarge.webp"
         }
       },
       {
@@ -776,7 +932,9 @@
         "paths": {
           "original": "/furnitures/green-light-bathroom-furniture-4.webp",
           "medium": "/furnitures/green-light-bathroom-furniture-4_medium.webp",
-          "small": "/furnitures/green-light-bathroom-furniture-4_small.webp"
+          "small": "/furnitures/green-light-bathroom-furniture-4_small.webp",
+          "large": "/furnitures/green-light-bathroom-furniture-4_large.webp",
+          "xlarge": "/furnitures/green-light-bathroom-furniture-4_xlarge.webp"
         }
       },
       {
@@ -784,7 +942,9 @@
         "paths": {
           "original": "/furnitures/green-light-bathroom-furniture-5.webp",
           "medium": "/furnitures/green-light-bathroom-furniture-5_medium.webp",
-          "small": "/furnitures/green-light-bathroom-furniture-5_small.webp"
+          "small": "/furnitures/green-light-bathroom-furniture-5_small.webp",
+          "large": "/furnitures/green-light-bathroom-furniture-5_large.webp",
+          "xlarge": "/furnitures/green-light-bathroom-furniture-5_xlarge.webp"
         }
       }
     ]
@@ -802,7 +962,9 @@
         "paths": {
           "original": "/furnitures/green-white-kitchen-fitted-interior-5.webp",
           "medium": "/furnitures/green-white-kitchen-fitted-interior-5_medium.webp",
-          "small": "/furnitures/green-white-kitchen-fitted-interior-5_small.webp"
+          "small": "/furnitures/green-white-kitchen-fitted-interior-5_small.webp",
+          "large": "/furnitures/green-white-kitchen-fitted-interior-5_large.webp",
+          "xlarge": "/furnitures/green-white-kitchen-fitted-interior-5_xlarge.webp"
         }
       },
       {
@@ -810,7 +972,9 @@
         "paths": {
           "original": "/furnitures/green-white-kitchen-fitted-interior-0.webp",
           "medium": "/furnitures/green-white-kitchen-fitted-interior-0_medium.webp",
-          "small": "/furnitures/green-white-kitchen-fitted-interior-0_small.webp"
+          "small": "/furnitures/green-white-kitchen-fitted-interior-0_small.webp",
+          "large": "/furnitures/green-white-kitchen-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/green-white-kitchen-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -818,7 +982,9 @@
         "paths": {
           "original": "/furnitures/green-white-kitchen-fitted-interior-1.webp",
           "medium": "/furnitures/green-white-kitchen-fitted-interior-1_medium.webp",
-          "small": "/furnitures/green-white-kitchen-fitted-interior-1_small.webp"
+          "small": "/furnitures/green-white-kitchen-fitted-interior-1_small.webp",
+          "large": "/furnitures/green-white-kitchen-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/green-white-kitchen-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -826,7 +992,9 @@
         "paths": {
           "original": "/furnitures/green-white-kitchen-fitted-interior-2.webp",
           "medium": "/furnitures/green-white-kitchen-fitted-interior-2_medium.webp",
-          "small": "/furnitures/green-white-kitchen-fitted-interior-2_small.webp"
+          "small": "/furnitures/green-white-kitchen-fitted-interior-2_small.webp",
+          "large": "/furnitures/green-white-kitchen-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/green-white-kitchen-fitted-interior-2_xlarge.webp"
         }
       },
       {
@@ -834,7 +1002,9 @@
         "paths": {
           "original": "/furnitures/green-white-kitchen-fitted-interior-4.webp",
           "medium": "/furnitures/green-white-kitchen-fitted-interior-4_medium.webp",
-          "small": "/furnitures/green-white-kitchen-fitted-interior-4_small.webp"
+          "small": "/furnitures/green-white-kitchen-fitted-interior-4_small.webp",
+          "large": "/furnitures/green-white-kitchen-fitted-interior-4_large.webp",
+          "xlarge": "/furnitures/green-white-kitchen-fitted-interior-4_xlarge.webp"
         }
       },
       {
@@ -842,7 +1012,9 @@
         "paths": {
           "original": "/furnitures/green-white-kitchen-fitted-interior-6.webp",
           "medium": "/furnitures/green-white-kitchen-fitted-interior-6_medium.webp",
-          "small": "/furnitures/green-white-kitchen-fitted-interior-6_small.webp"
+          "small": "/furnitures/green-white-kitchen-fitted-interior-6_small.webp",
+          "large": "/furnitures/green-white-kitchen-fitted-interior-6_large.webp",
+          "xlarge": "/furnitures/green-white-kitchen-fitted-interior-6_xlarge.webp"
         }
       },
       {
@@ -850,7 +1022,9 @@
         "paths": {
           "original": "/furnitures/green-white-kitchen-fitted-interior-7.webp",
           "medium": "/furnitures/green-white-kitchen-fitted-interior-7_medium.webp",
-          "small": "/furnitures/green-white-kitchen-fitted-interior-7_small.webp"
+          "small": "/furnitures/green-white-kitchen-fitted-interior-7_small.webp",
+          "large": "/furnitures/green-white-kitchen-fitted-interior-7_large.webp",
+          "xlarge": "/furnitures/green-white-kitchen-fitted-interior-7_xlarge.webp"
         }
       }
     ]
@@ -868,7 +1042,9 @@
         "paths": {
           "original": "/furnitures/guestroom-fitted-wardrobe-3.webp",
           "medium": "/furnitures/guestroom-fitted-wardrobe-3_medium.webp",
-          "small": "/furnitures/guestroom-fitted-wardrobe-3_small.webp"
+          "small": "/furnitures/guestroom-fitted-wardrobe-3_small.webp",
+          "large": "/furnitures/guestroom-fitted-wardrobe-3_large.webp",
+          "xlarge": "/furnitures/guestroom-fitted-wardrobe-3_xlarge.webp"
         }
       },
       {
@@ -876,7 +1052,9 @@
         "paths": {
           "original": "/furnitures/guestroom-fitted-wardrobe-0.webp",
           "medium": "/furnitures/guestroom-fitted-wardrobe-0_medium.webp",
-          "small": "/furnitures/guestroom-fitted-wardrobe-0_small.webp"
+          "small": "/furnitures/guestroom-fitted-wardrobe-0_small.webp",
+          "large": "/furnitures/guestroom-fitted-wardrobe-0_large.webp",
+          "xlarge": "/furnitures/guestroom-fitted-wardrobe-0_xlarge.webp"
         }
       },
       {
@@ -884,7 +1062,9 @@
         "paths": {
           "original": "/furnitures/guestroom-fitted-wardrobe-2.webp",
           "medium": "/furnitures/guestroom-fitted-wardrobe-2_medium.webp",
-          "small": "/furnitures/guestroom-fitted-wardrobe-2_small.webp"
+          "small": "/furnitures/guestroom-fitted-wardrobe-2_small.webp",
+          "large": "/furnitures/guestroom-fitted-wardrobe-2_large.webp",
+          "xlarge": "/furnitures/guestroom-fitted-wardrobe-2_xlarge.webp"
         }
       }
     ]
@@ -902,7 +1082,9 @@
         "paths": {
           "original": "/furnitures/guestroom-white-wood-tv-furniture-0.webp",
           "medium": "/furnitures/guestroom-white-wood-tv-furniture-0_medium.webp",
-          "small": "/furnitures/guestroom-white-wood-tv-furniture-0_small.webp"
+          "small": "/furnitures/guestroom-white-wood-tv-furniture-0_small.webp",
+          "large": "/furnitures/guestroom-white-wood-tv-furniture-0_large.webp",
+          "xlarge": "/furnitures/guestroom-white-wood-tv-furniture-0_xlarge.webp"
         }
       },
       {
@@ -910,7 +1092,9 @@
         "paths": {
           "original": "/furnitures/guestroom-white-wood-tv-furniture-1.webp",
           "medium": "/furnitures/guestroom-white-wood-tv-furniture-1_medium.webp",
-          "small": "/furnitures/guestroom-white-wood-tv-furniture-1_small.webp"
+          "small": "/furnitures/guestroom-white-wood-tv-furniture-1_small.webp",
+          "large": "/furnitures/guestroom-white-wood-tv-furniture-1_large.webp",
+          "xlarge": "/furnitures/guestroom-white-wood-tv-furniture-1_xlarge.webp"
         }
       },
       {
@@ -918,7 +1102,9 @@
         "paths": {
           "original": "/furnitures/guestroom-white-wood-tv-furniture-2.webp",
           "medium": "/furnitures/guestroom-white-wood-tv-furniture-2_medium.webp",
-          "small": "/furnitures/guestroom-white-wood-tv-furniture-2_small.webp"
+          "small": "/furnitures/guestroom-white-wood-tv-furniture-2_small.webp",
+          "large": "/furnitures/guestroom-white-wood-tv-furniture-2_large.webp",
+          "xlarge": "/furnitures/guestroom-white-wood-tv-furniture-2_xlarge.webp"
         }
       },
       {
@@ -926,7 +1112,9 @@
         "paths": {
           "original": "/furnitures/guestroom-white-wood-tv-furniture-3.webp",
           "medium": "/furnitures/guestroom-white-wood-tv-furniture-3_medium.webp",
-          "small": "/furnitures/guestroom-white-wood-tv-furniture-3_small.webp"
+          "small": "/furnitures/guestroom-white-wood-tv-furniture-3_small.webp",
+          "large": "/furnitures/guestroom-white-wood-tv-furniture-3_large.webp",
+          "xlarge": "/furnitures/guestroom-white-wood-tv-furniture-3_xlarge.webp"
         }
       },
       {
@@ -934,7 +1122,9 @@
         "paths": {
           "original": "/furnitures/guestroom-white-wood-tv-furniture-4.webp",
           "medium": "/furnitures/guestroom-white-wood-tv-furniture-4_medium.webp",
-          "small": "/furnitures/guestroom-white-wood-tv-furniture-4_small.webp"
+          "small": "/furnitures/guestroom-white-wood-tv-furniture-4_small.webp",
+          "large": "/furnitures/guestroom-white-wood-tv-furniture-4_large.webp",
+          "xlarge": "/furnitures/guestroom-white-wood-tv-furniture-4_xlarge.webp"
         }
       }
     ]
@@ -952,7 +1142,9 @@
         "paths": {
           "original": "/furnitures/high-wood-white-kitchen-fitted-interior-0.webp",
           "medium": "/furnitures/high-wood-white-kitchen-fitted-interior-0_medium.webp",
-          "small": "/furnitures/high-wood-white-kitchen-fitted-interior-0_small.webp"
+          "small": "/furnitures/high-wood-white-kitchen-fitted-interior-0_small.webp",
+          "large": "/furnitures/high-wood-white-kitchen-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/high-wood-white-kitchen-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -960,7 +1152,9 @@
         "paths": {
           "original": "/furnitures/high-wood-white-kitchen-fitted-interior-1.webp",
           "medium": "/furnitures/high-wood-white-kitchen-fitted-interior-1_medium.webp",
-          "small": "/furnitures/high-wood-white-kitchen-fitted-interior-1_small.webp"
+          "small": "/furnitures/high-wood-white-kitchen-fitted-interior-1_small.webp",
+          "large": "/furnitures/high-wood-white-kitchen-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/high-wood-white-kitchen-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -968,7 +1162,9 @@
         "paths": {
           "original": "/furnitures/high-wood-white-kitchen-fitted-interior-2.webp",
           "medium": "/furnitures/high-wood-white-kitchen-fitted-interior-2_medium.webp",
-          "small": "/furnitures/high-wood-white-kitchen-fitted-interior-2_small.webp"
+          "small": "/furnitures/high-wood-white-kitchen-fitted-interior-2_small.webp",
+          "large": "/furnitures/high-wood-white-kitchen-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/high-wood-white-kitchen-fitted-interior-2_xlarge.webp"
         }
       },
       {
@@ -976,7 +1172,9 @@
         "paths": {
           "original": "/furnitures/high-wood-white-kitchen-fitted-interior-3.webp",
           "medium": "/furnitures/high-wood-white-kitchen-fitted-interior-3_medium.webp",
-          "small": "/furnitures/high-wood-white-kitchen-fitted-interior-3_small.webp"
+          "small": "/furnitures/high-wood-white-kitchen-fitted-interior-3_small.webp",
+          "large": "/furnitures/high-wood-white-kitchen-fitted-interior-3_large.webp",
+          "xlarge": "/furnitures/high-wood-white-kitchen-fitted-interior-3_xlarge.webp"
         }
       }
     ]
@@ -994,7 +1192,9 @@
         "paths": {
           "original": "/furnitures/kidroom-fitted-interior-1.webp",
           "medium": "/furnitures/kidroom-fitted-interior-1_medium.webp",
-          "small": "/furnitures/kidroom-fitted-interior-1_small.webp"
+          "small": "/furnitures/kidroom-fitted-interior-1_small.webp",
+          "large": "/furnitures/kidroom-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/kidroom-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -1002,7 +1202,9 @@
         "paths": {
           "original": "/furnitures/kidroom-fitted-interior-0.webp",
           "medium": "/furnitures/kidroom-fitted-interior-0_medium.webp",
-          "small": "/furnitures/kidroom-fitted-interior-0_small.webp"
+          "small": "/furnitures/kidroom-fitted-interior-0_small.webp",
+          "large": "/furnitures/kidroom-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/kidroom-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -1010,7 +1212,9 @@
         "paths": {
           "original": "/furnitures/kidroom-fitted-interior-2.webp",
           "medium": "/furnitures/kidroom-fitted-interior-2_medium.webp",
-          "small": "/furnitures/kidroom-fitted-interior-2_small.webp"
+          "small": "/furnitures/kidroom-fitted-interior-2_small.webp",
+          "large": "/furnitures/kidroom-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/kidroom-fitted-interior-2_xlarge.webp"
         }
       },
       {
@@ -1018,7 +1222,9 @@
         "paths": {
           "original": "/furnitures/kidroom-fitted-interior-3.webp",
           "medium": "/furnitures/kidroom-fitted-interior-3_medium.webp",
-          "small": "/furnitures/kidroom-fitted-interior-3_small.webp"
+          "small": "/furnitures/kidroom-fitted-interior-3_small.webp",
+          "large": "/furnitures/kidroom-fitted-interior-3_large.webp",
+          "xlarge": "/furnitures/kidroom-fitted-interior-3_xlarge.webp"
         }
       },
       {
@@ -1026,7 +1232,9 @@
         "paths": {
           "original": "/furnitures/kidroom-fitted-interior-4.webp",
           "medium": "/furnitures/kidroom-fitted-interior-4_medium.webp",
-          "small": "/furnitures/kidroom-fitted-interior-4_small.webp"
+          "small": "/furnitures/kidroom-fitted-interior-4_small.webp",
+          "large": "/furnitures/kidroom-fitted-interior-4_large.webp",
+          "xlarge": "/furnitures/kidroom-fitted-interior-4_xlarge.webp"
         }
       }
     ]
@@ -1044,7 +1252,9 @@
         "paths": {
           "original": "/furnitures/kitchen-window-fitted-interior-1.webp",
           "medium": "/furnitures/kitchen-window-fitted-interior-1_medium.webp",
-          "small": "/furnitures/kitchen-window-fitted-interior-1_small.webp"
+          "small": "/furnitures/kitchen-window-fitted-interior-1_small.webp",
+          "large": "/furnitures/kitchen-window-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/kitchen-window-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -1052,7 +1262,9 @@
         "paths": {
           "original": "/furnitures/kitchen-window-fitted-interior-0.webp",
           "medium": "/furnitures/kitchen-window-fitted-interior-0_medium.webp",
-          "small": "/furnitures/kitchen-window-fitted-interior-0_small.webp"
+          "small": "/furnitures/kitchen-window-fitted-interior-0_small.webp",
+          "large": "/furnitures/kitchen-window-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/kitchen-window-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -1060,7 +1272,9 @@
         "paths": {
           "original": "/furnitures/kitchen-window-fitted-interior-2.webp",
           "medium": "/furnitures/kitchen-window-fitted-interior-2_medium.webp",
-          "small": "/furnitures/kitchen-window-fitted-interior-2_small.webp"
+          "small": "/furnitures/kitchen-window-fitted-interior-2_small.webp",
+          "large": "/furnitures/kitchen-window-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/kitchen-window-fitted-interior-2_xlarge.webp"
         }
       },
       {
@@ -1068,7 +1282,9 @@
         "paths": {
           "original": "/furnitures/kitchen-window-fitted-interior-3.webp",
           "medium": "/furnitures/kitchen-window-fitted-interior-3_medium.webp",
-          "small": "/furnitures/kitchen-window-fitted-interior-3_small.webp"
+          "small": "/furnitures/kitchen-window-fitted-interior-3_small.webp",
+          "large": "/furnitures/kitchen-window-fitted-interior-3_large.webp",
+          "xlarge": "/furnitures/kitchen-window-fitted-interior-3_xlarge.webp"
         }
       },
       {
@@ -1076,7 +1292,9 @@
         "paths": {
           "original": "/furnitures/kitchen-window-fitted-interior-4.webp",
           "medium": "/furnitures/kitchen-window-fitted-interior-4_medium.webp",
-          "small": "/furnitures/kitchen-window-fitted-interior-4_small.webp"
+          "small": "/furnitures/kitchen-window-fitted-interior-4_small.webp",
+          "large": "/furnitures/kitchen-window-fitted-interior-4_large.webp",
+          "xlarge": "/furnitures/kitchen-window-fitted-interior-4_xlarge.webp"
         }
       },
       {
@@ -1084,7 +1302,9 @@
         "paths": {
           "original": "/furnitures/kitchen-window-fitted-interior-5.webp",
           "medium": "/furnitures/kitchen-window-fitted-interior-5_medium.webp",
-          "small": "/furnitures/kitchen-window-fitted-interior-5_small.webp"
+          "small": "/furnitures/kitchen-window-fitted-interior-5_small.webp",
+          "large": "/furnitures/kitchen-window-fitted-interior-5_large.webp",
+          "xlarge": "/furnitures/kitchen-window-fitted-interior-5_xlarge.webp"
         }
       }
     ]
@@ -1102,7 +1322,9 @@
         "paths": {
           "original": "/furnitures/kitchen-wood-gray-furniture-0.webp",
           "medium": "/furnitures/kitchen-wood-gray-furniture-0_medium.webp",
-          "small": "/furnitures/kitchen-wood-gray-furniture-0_small.webp"
+          "small": "/furnitures/kitchen-wood-gray-furniture-0_small.webp",
+          "large": "/furnitures/kitchen-wood-gray-furniture-0_large.webp",
+          "xlarge": "/furnitures/kitchen-wood-gray-furniture-0_xlarge.webp"
         }
       },
       {
@@ -1110,7 +1332,9 @@
         "paths": {
           "original": "/furnitures/kitchen-wood-gray-furniture-1.webp",
           "medium": "/furnitures/kitchen-wood-gray-furniture-1_medium.webp",
-          "small": "/furnitures/kitchen-wood-gray-furniture-1_small.webp"
+          "small": "/furnitures/kitchen-wood-gray-furniture-1_small.webp",
+          "large": "/furnitures/kitchen-wood-gray-furniture-1_large.webp",
+          "xlarge": "/furnitures/kitchen-wood-gray-furniture-1_xlarge.webp"
         }
       },
       {
@@ -1118,7 +1342,9 @@
         "paths": {
           "original": "/furnitures/kitchen-wood-gray-furniture-2.webp",
           "medium": "/furnitures/kitchen-wood-gray-furniture-2_medium.webp",
-          "small": "/furnitures/kitchen-wood-gray-furniture-2_small.webp"
+          "small": "/furnitures/kitchen-wood-gray-furniture-2_small.webp",
+          "large": "/furnitures/kitchen-wood-gray-furniture-2_large.webp",
+          "xlarge": "/furnitures/kitchen-wood-gray-furniture-2_xlarge.webp"
         }
       },
       {
@@ -1126,7 +1352,9 @@
         "paths": {
           "original": "/furnitures/kitchen-wood-gray-furniture-3.webp",
           "medium": "/furnitures/kitchen-wood-gray-furniture-3_medium.webp",
-          "small": "/furnitures/kitchen-wood-gray-furniture-3_small.webp"
+          "small": "/furnitures/kitchen-wood-gray-furniture-3_small.webp",
+          "large": "/furnitures/kitchen-wood-gray-furniture-3_large.webp",
+          "xlarge": "/furnitures/kitchen-wood-gray-furniture-3_xlarge.webp"
         }
       },
       {
@@ -1134,7 +1362,9 @@
         "paths": {
           "original": "/furnitures/kitchen-wood-gray-furniture-4.webp",
           "medium": "/furnitures/kitchen-wood-gray-furniture-4_medium.webp",
-          "small": "/furnitures/kitchen-wood-gray-furniture-4_small.webp"
+          "small": "/furnitures/kitchen-wood-gray-furniture-4_small.webp",
+          "large": "/furnitures/kitchen-wood-gray-furniture-4_large.webp",
+          "xlarge": "/furnitures/kitchen-wood-gray-furniture-4_xlarge.webp"
         }
       }
     ]
@@ -1152,7 +1382,9 @@
         "paths": {
           "original": "/furnitures/levatating-tv-wardrobe-0.webp",
           "medium": "/furnitures/levatating-tv-wardrobe-0_medium.webp",
-          "small": "/furnitures/levatating-tv-wardrobe-0_small.webp"
+          "small": "/furnitures/levatating-tv-wardrobe-0_small.webp",
+          "large": "/furnitures/levatating-tv-wardrobe-0_large.webp",
+          "xlarge": "/furnitures/levatating-tv-wardrobe-0_xlarge.webp"
         }
       },
       {
@@ -1160,7 +1392,9 @@
         "paths": {
           "original": "/furnitures/levatating-tv-wardrobe-1.webp",
           "medium": "/furnitures/levatating-tv-wardrobe-1_medium.webp",
-          "small": "/furnitures/levatating-tv-wardrobe-1_small.webp"
+          "small": "/furnitures/levatating-tv-wardrobe-1_small.webp",
+          "large": "/furnitures/levatating-tv-wardrobe-1_large.webp",
+          "xlarge": "/furnitures/levatating-tv-wardrobe-1_xlarge.webp"
         }
       },
       {
@@ -1168,7 +1402,9 @@
         "paths": {
           "original": "/furnitures/levatating-tv-wardrobe-2.webp",
           "medium": "/furnitures/levatating-tv-wardrobe-2_medium.webp",
-          "small": "/furnitures/levatating-tv-wardrobe-2_small.webp"
+          "small": "/furnitures/levatating-tv-wardrobe-2_small.webp",
+          "large": "/furnitures/levatating-tv-wardrobe-2_large.webp",
+          "xlarge": "/furnitures/levatating-tv-wardrobe-2_xlarge.webp"
         }
       }
     ]
@@ -1186,7 +1422,9 @@
         "paths": {
           "original": "/furnitures/levetating-white-guestroom-furniture-0.webp",
           "medium": "/furnitures/levetating-white-guestroom-furniture-0_medium.webp",
-          "small": "/furnitures/levetating-white-guestroom-furniture-0_small.webp"
+          "small": "/furnitures/levetating-white-guestroom-furniture-0_small.webp",
+          "large": "/furnitures/levetating-white-guestroom-furniture-0_large.webp",
+          "xlarge": "/furnitures/levetating-white-guestroom-furniture-0_xlarge.webp"
         }
       },
       {
@@ -1194,7 +1432,9 @@
         "paths": {
           "original": "/furnitures/levetating-white-guestroom-furniture-1.webp",
           "medium": "/furnitures/levetating-white-guestroom-furniture-1_medium.webp",
-          "small": "/furnitures/levetating-white-guestroom-furniture-1_small.webp"
+          "small": "/furnitures/levetating-white-guestroom-furniture-1_small.webp",
+          "large": "/furnitures/levetating-white-guestroom-furniture-1_large.webp",
+          "xlarge": "/furnitures/levetating-white-guestroom-furniture-1_xlarge.webp"
         }
       },
       {
@@ -1202,7 +1442,9 @@
         "paths": {
           "original": "/furnitures/levetating-white-guestroom-furniture-2.webp",
           "medium": "/furnitures/levetating-white-guestroom-furniture-2_medium.webp",
-          "small": "/furnitures/levetating-white-guestroom-furniture-2_small.webp"
+          "small": "/furnitures/levetating-white-guestroom-furniture-2_small.webp",
+          "large": "/furnitures/levetating-white-guestroom-furniture-2_large.webp",
+          "xlarge": "/furnitures/levetating-white-guestroom-furniture-2_xlarge.webp"
         }
       }
     ]
@@ -1220,7 +1462,9 @@
         "paths": {
           "original": "/furnitures/light-angle-wardrobe-0.webp",
           "medium": "/furnitures/light-angle-wardrobe-0_medium.webp",
-          "small": "/furnitures/light-angle-wardrobe-0_small.webp"
+          "small": "/furnitures/light-angle-wardrobe-0_small.webp",
+          "large": "/furnitures/light-angle-wardrobe-0_large.webp",
+          "xlarge": "/furnitures/light-angle-wardrobe-0_xlarge.webp"
         }
       },
       {
@@ -1228,7 +1472,9 @@
         "paths": {
           "original": "/furnitures/light-angle-wardrobe-1.webp",
           "medium": "/furnitures/light-angle-wardrobe-1_medium.webp",
-          "small": "/furnitures/light-angle-wardrobe-1_small.webp"
+          "small": "/furnitures/light-angle-wardrobe-1_small.webp",
+          "large": "/furnitures/light-angle-wardrobe-1_large.webp",
+          "xlarge": "/furnitures/light-angle-wardrobe-1_xlarge.webp"
         }
       },
       {
@@ -1236,7 +1482,9 @@
         "paths": {
           "original": "/furnitures/light-angle-wardrobe-2.webp",
           "medium": "/furnitures/light-angle-wardrobe-2_medium.webp",
-          "small": "/furnitures/light-angle-wardrobe-2_small.webp"
+          "small": "/furnitures/light-angle-wardrobe-2_small.webp",
+          "large": "/furnitures/light-angle-wardrobe-2_large.webp",
+          "xlarge": "/furnitures/light-angle-wardrobe-2_xlarge.webp"
         }
       },
       {
@@ -1244,7 +1492,9 @@
         "paths": {
           "original": "/furnitures/light-angle-wardrobe-3.webp",
           "medium": "/furnitures/light-angle-wardrobe-3_medium.webp",
-          "small": "/furnitures/light-angle-wardrobe-3_small.webp"
+          "small": "/furnitures/light-angle-wardrobe-3_small.webp",
+          "large": "/furnitures/light-angle-wardrobe-3_large.webp",
+          "xlarge": "/furnitures/light-angle-wardrobe-3_xlarge.webp"
         }
       }
     ]
@@ -1262,7 +1512,9 @@
         "paths": {
           "original": "/furnitures/light-white-angle-bedroom-0.webp",
           "medium": "/furnitures/light-white-angle-bedroom-0_medium.webp",
-          "small": "/furnitures/light-white-angle-bedroom-0_small.webp"
+          "small": "/furnitures/light-white-angle-bedroom-0_small.webp",
+          "large": "/furnitures/light-white-angle-bedroom-0_large.webp",
+          "xlarge": "/furnitures/light-white-angle-bedroom-0_xlarge.webp"
         }
       },
       {
@@ -1270,7 +1522,9 @@
         "paths": {
           "original": "/furnitures/light-white-angle-bedroom-1.webp",
           "medium": "/furnitures/light-white-angle-bedroom-1_medium.webp",
-          "small": "/furnitures/light-white-angle-bedroom-1_small.webp"
+          "small": "/furnitures/light-white-angle-bedroom-1_small.webp",
+          "large": "/furnitures/light-white-angle-bedroom-1_large.webp",
+          "xlarge": "/furnitures/light-white-angle-bedroom-1_xlarge.webp"
         }
       },
       {
@@ -1278,7 +1532,9 @@
         "paths": {
           "original": "/furnitures/light-white-angle-bedroom-2.webp",
           "medium": "/furnitures/light-white-angle-bedroom-2_medium.webp",
-          "small": "/furnitures/light-white-angle-bedroom-2_small.webp"
+          "small": "/furnitures/light-white-angle-bedroom-2_small.webp",
+          "large": "/furnitures/light-white-angle-bedroom-2_large.webp",
+          "xlarge": "/furnitures/light-white-angle-bedroom-2_xlarge.webp"
         }
       },
       {
@@ -1286,7 +1542,9 @@
         "paths": {
           "original": "/furnitures/light-white-angle-bedroom-3.webp",
           "medium": "/furnitures/light-white-angle-bedroom-3_medium.webp",
-          "small": "/furnitures/light-white-angle-bedroom-3_small.webp"
+          "small": "/furnitures/light-white-angle-bedroom-3_small.webp",
+          "large": "/furnitures/light-white-angle-bedroom-3_large.webp",
+          "xlarge": "/furnitures/light-white-angle-bedroom-3_xlarge.webp"
         }
       }
     ]
@@ -1304,7 +1562,9 @@
         "paths": {
           "original": "/furnitures/light-white-bathroom-fitted-interior-0.webp",
           "medium": "/furnitures/light-white-bathroom-fitted-interior-0_medium.webp",
-          "small": "/furnitures/light-white-bathroom-fitted-interior-0_small.webp"
+          "small": "/furnitures/light-white-bathroom-fitted-interior-0_small.webp",
+          "large": "/furnitures/light-white-bathroom-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/light-white-bathroom-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -1312,7 +1572,9 @@
         "paths": {
           "original": "/furnitures/light-white-bathroom-fitted-interior-1.webp",
           "medium": "/furnitures/light-white-bathroom-fitted-interior-1_medium.webp",
-          "small": "/furnitures/light-white-bathroom-fitted-interior-1_small.webp"
+          "small": "/furnitures/light-white-bathroom-fitted-interior-1_small.webp",
+          "large": "/furnitures/light-white-bathroom-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/light-white-bathroom-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -1320,7 +1582,9 @@
         "paths": {
           "original": "/furnitures/light-white-bathroom-fitted-interior-2.webp",
           "medium": "/furnitures/light-white-bathroom-fitted-interior-2_medium.webp",
-          "small": "/furnitures/light-white-bathroom-fitted-interior-2_small.webp"
+          "small": "/furnitures/light-white-bathroom-fitted-interior-2_small.webp",
+          "large": "/furnitures/light-white-bathroom-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/light-white-bathroom-fitted-interior-2_xlarge.webp"
         }
       }
     ]
@@ -1338,7 +1602,9 @@
         "paths": {
           "original": "/furnitures/makeup-stance-wardrobe-0.webp",
           "medium": "/furnitures/makeup-stance-wardrobe-0_medium.webp",
-          "small": "/furnitures/makeup-stance-wardrobe-0_small.webp"
+          "small": "/furnitures/makeup-stance-wardrobe-0_small.webp",
+          "large": "/furnitures/makeup-stance-wardrobe-0_large.webp",
+          "xlarge": "/furnitures/makeup-stance-wardrobe-0_xlarge.webp"
         }
       }
     ]
@@ -1356,7 +1622,9 @@
         "paths": {
           "original": "/furnitures/minimalistic-kitchen-fitted-interior-0.webp",
           "medium": "/furnitures/minimalistic-kitchen-fitted-interior-0_medium.webp",
-          "small": "/furnitures/minimalistic-kitchen-fitted-interior-0_small.webp"
+          "small": "/furnitures/minimalistic-kitchen-fitted-interior-0_small.webp",
+          "large": "/furnitures/minimalistic-kitchen-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/minimalistic-kitchen-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -1364,7 +1632,9 @@
         "paths": {
           "original": "/furnitures/minimalistic-kitchen-fitted-interior-1.webp",
           "medium": "/furnitures/minimalistic-kitchen-fitted-interior-1_medium.webp",
-          "small": "/furnitures/minimalistic-kitchen-fitted-interior-1_small.webp"
+          "small": "/furnitures/minimalistic-kitchen-fitted-interior-1_small.webp",
+          "large": "/furnitures/minimalistic-kitchen-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/minimalistic-kitchen-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -1372,7 +1642,9 @@
         "paths": {
           "original": "/furnitures/minimalistic-kitchen-fitted-interior-2.webp",
           "medium": "/furnitures/minimalistic-kitchen-fitted-interior-2_medium.webp",
-          "small": "/furnitures/minimalistic-kitchen-fitted-interior-2_small.webp"
+          "small": "/furnitures/minimalistic-kitchen-fitted-interior-2_small.webp",
+          "large": "/furnitures/minimalistic-kitchen-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/minimalistic-kitchen-fitted-interior-2_xlarge.webp"
         }
       },
       {
@@ -1380,7 +1652,9 @@
         "paths": {
           "original": "/furnitures/minimalistic-kitchen-fitted-interior-3.webp",
           "medium": "/furnitures/minimalistic-kitchen-fitted-interior-3_medium.webp",
-          "small": "/furnitures/minimalistic-kitchen-fitted-interior-3_small.webp"
+          "small": "/furnitures/minimalistic-kitchen-fitted-interior-3_small.webp",
+          "large": "/furnitures/minimalistic-kitchen-fitted-interior-3_large.webp",
+          "xlarge": "/furnitures/minimalistic-kitchen-fitted-interior-3_xlarge.webp"
         }
       }
     ]
@@ -1398,7 +1672,9 @@
         "paths": {
           "original": "/furnitures/tech-business-fitted-interior-0.webp",
           "medium": "/furnitures/tech-business-fitted-interior-0_medium.webp",
-          "small": "/furnitures/tech-business-fitted-interior-0_small.webp"
+          "small": "/furnitures/tech-business-fitted-interior-0_small.webp",
+          "large": "/furnitures/tech-business-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/tech-business-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -1406,7 +1682,9 @@
         "paths": {
           "original": "/furnitures/tech-business-fitted-interior-1.webp",
           "medium": "/furnitures/tech-business-fitted-interior-1_medium.webp",
-          "small": "/furnitures/tech-business-fitted-interior-1_small.webp"
+          "small": "/furnitures/tech-business-fitted-interior-1_small.webp",
+          "large": "/furnitures/tech-business-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/tech-business-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -1414,7 +1692,9 @@
         "paths": {
           "original": "/furnitures/tech-business-fitted-interior-2.webp",
           "medium": "/furnitures/tech-business-fitted-interior-2_medium.webp",
-          "small": "/furnitures/tech-business-fitted-interior-2_small.webp"
+          "small": "/furnitures/tech-business-fitted-interior-2_small.webp",
+          "large": "/furnitures/tech-business-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/tech-business-fitted-interior-2_xlarge.webp"
         }
       },
       {
@@ -1422,7 +1702,9 @@
         "paths": {
           "original": "/furnitures/tech-business-fitted-interior-3.webp",
           "medium": "/furnitures/tech-business-fitted-interior-3_medium.webp",
-          "small": "/furnitures/tech-business-fitted-interior-3_small.webp"
+          "small": "/furnitures/tech-business-fitted-interior-3_small.webp",
+          "large": "/furnitures/tech-business-fitted-interior-3_large.webp",
+          "xlarge": "/furnitures/tech-business-fitted-interior-3_xlarge.webp"
         }
       },
       {
@@ -1430,7 +1712,9 @@
         "paths": {
           "original": "/furnitures/tech-business-fitted-interior-4.webp",
           "medium": "/furnitures/tech-business-fitted-interior-4_medium.webp",
-          "small": "/furnitures/tech-business-fitted-interior-4_small.webp"
+          "small": "/furnitures/tech-business-fitted-interior-4_small.webp",
+          "large": "/furnitures/tech-business-fitted-interior-4_large.webp",
+          "xlarge": "/furnitures/tech-business-fitted-interior-4_xlarge.webp"
         }
       },
       {
@@ -1438,7 +1722,9 @@
         "paths": {
           "original": "/furnitures/tech-business-fitted-interior-5.webp",
           "medium": "/furnitures/tech-business-fitted-interior-5_medium.webp",
-          "small": "/furnitures/tech-business-fitted-interior-5_small.webp"
+          "small": "/furnitures/tech-business-fitted-interior-5_small.webp",
+          "large": "/furnitures/tech-business-fitted-interior-5_large.webp",
+          "xlarge": "/furnitures/tech-business-fitted-interior-5_xlarge.webp"
         }
       }
     ]
@@ -1456,7 +1742,9 @@
         "paths": {
           "original": "/furnitures/white-black-kitchen-fitted-interior-0.webp",
           "medium": "/furnitures/white-black-kitchen-fitted-interior-0_medium.webp",
-          "small": "/furnitures/white-black-kitchen-fitted-interior-0_small.webp"
+          "small": "/furnitures/white-black-kitchen-fitted-interior-0_small.webp",
+          "large": "/furnitures/white-black-kitchen-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/white-black-kitchen-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -1464,7 +1752,9 @@
         "paths": {
           "original": "/furnitures/white-black-kitchen-fitted-interior-1.webp",
           "medium": "/furnitures/white-black-kitchen-fitted-interior-1_medium.webp",
-          "small": "/furnitures/white-black-kitchen-fitted-interior-1_small.webp"
+          "small": "/furnitures/white-black-kitchen-fitted-interior-1_small.webp",
+          "large": "/furnitures/white-black-kitchen-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/white-black-kitchen-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -1472,7 +1762,9 @@
         "paths": {
           "original": "/furnitures/white-black-kitchen-fitted-interior-2.webp",
           "medium": "/furnitures/white-black-kitchen-fitted-interior-2_medium.webp",
-          "small": "/furnitures/white-black-kitchen-fitted-interior-2_small.webp"
+          "small": "/furnitures/white-black-kitchen-fitted-interior-2_small.webp",
+          "large": "/furnitures/white-black-kitchen-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/white-black-kitchen-fitted-interior-2_xlarge.webp"
         }
       }
     ]
@@ -1490,7 +1782,9 @@
         "paths": {
           "original": "/furnitures/white-cooking-island-kitchen-fitted-interior-0.webp",
           "medium": "/furnitures/white-cooking-island-kitchen-fitted-interior-0_medium.webp",
-          "small": "/furnitures/white-cooking-island-kitchen-fitted-interior-0_small.webp"
+          "small": "/furnitures/white-cooking-island-kitchen-fitted-interior-0_small.webp",
+          "large": "/furnitures/white-cooking-island-kitchen-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/white-cooking-island-kitchen-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -1498,7 +1792,9 @@
         "paths": {
           "original": "/furnitures/white-cooking-island-kitchen-fitted-interior-1.webp",
           "medium": "/furnitures/white-cooking-island-kitchen-fitted-interior-1_medium.webp",
-          "small": "/furnitures/white-cooking-island-kitchen-fitted-interior-1_small.webp"
+          "small": "/furnitures/white-cooking-island-kitchen-fitted-interior-1_small.webp",
+          "large": "/furnitures/white-cooking-island-kitchen-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/white-cooking-island-kitchen-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -1506,7 +1802,9 @@
         "paths": {
           "original": "/furnitures/white-cooking-island-kitchen-fitted-interior-2.webp",
           "medium": "/furnitures/white-cooking-island-kitchen-fitted-interior-2_medium.webp",
-          "small": "/furnitures/white-cooking-island-kitchen-fitted-interior-2_small.webp"
+          "small": "/furnitures/white-cooking-island-kitchen-fitted-interior-2_small.webp",
+          "large": "/furnitures/white-cooking-island-kitchen-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/white-cooking-island-kitchen-fitted-interior-2_xlarge.webp"
         }
       }
     ]
@@ -1524,7 +1822,9 @@
         "paths": {
           "original": "/furnitures/white-double-tap-cabinet-0.webp",
           "medium": "/furnitures/white-double-tap-cabinet-0_medium.webp",
-          "small": "/furnitures/white-double-tap-cabinet-0_small.webp"
+          "small": "/furnitures/white-double-tap-cabinet-0_small.webp",
+          "large": "/furnitures/white-double-tap-cabinet-0_large.webp",
+          "xlarge": "/furnitures/white-double-tap-cabinet-0_xlarge.webp"
         }
       },
       {
@@ -1532,7 +1832,9 @@
         "paths": {
           "original": "/furnitures/white-double-tap-cabinet-1.webp",
           "medium": "/furnitures/white-double-tap-cabinet-1_medium.webp",
-          "small": "/furnitures/white-double-tap-cabinet-1_small.webp"
+          "small": "/furnitures/white-double-tap-cabinet-1_small.webp",
+          "large": "/furnitures/white-double-tap-cabinet-1_large.webp",
+          "xlarge": "/furnitures/white-double-tap-cabinet-1_xlarge.webp"
         }
       },
       {
@@ -1540,7 +1842,9 @@
         "paths": {
           "original": "/furnitures/white-double-tap-cabinet-2.webp",
           "medium": "/furnitures/white-double-tap-cabinet-2_medium.webp",
-          "small": "/furnitures/white-double-tap-cabinet-2_small.webp"
+          "small": "/furnitures/white-double-tap-cabinet-2_small.webp",
+          "large": "/furnitures/white-double-tap-cabinet-2_large.webp",
+          "xlarge": "/furnitures/white-double-tap-cabinet-2_xlarge.webp"
         }
       },
       {
@@ -1548,7 +1852,9 @@
         "paths": {
           "original": "/furnitures/white-double-tap-cabinet-3.webp",
           "medium": "/furnitures/white-double-tap-cabinet-3_medium.webp",
-          "small": "/furnitures/white-double-tap-cabinet-3_small.webp"
+          "small": "/furnitures/white-double-tap-cabinet-3_small.webp",
+          "large": "/furnitures/white-double-tap-cabinet-3_large.webp",
+          "xlarge": "/furnitures/white-double-tap-cabinet-3_xlarge.webp"
         }
       }
     ]
@@ -1566,7 +1872,9 @@
         "paths": {
           "original": "/furnitures/white-kitchen-fitted-interior-2.webp",
           "medium": "/furnitures/white-kitchen-fitted-interior-2_medium.webp",
-          "small": "/furnitures/white-kitchen-fitted-interior-2_small.webp"
+          "small": "/furnitures/white-kitchen-fitted-interior-2_small.webp",
+          "large": "/furnitures/white-kitchen-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/white-kitchen-fitted-interior-2_xlarge.webp"
         }
       },
       {
@@ -1574,7 +1882,9 @@
         "paths": {
           "original": "/furnitures/white-kitchen-fitted-interior-0.webp",
           "medium": "/furnitures/white-kitchen-fitted-interior-0_medium.webp",
-          "small": "/furnitures/white-kitchen-fitted-interior-0_small.webp"
+          "small": "/furnitures/white-kitchen-fitted-interior-0_small.webp",
+          "large": "/furnitures/white-kitchen-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/white-kitchen-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -1582,7 +1892,9 @@
         "paths": {
           "original": "/furnitures/white-kitchen-fitted-interior-1.webp",
           "medium": "/furnitures/white-kitchen-fitted-interior-1_medium.webp",
-          "small": "/furnitures/white-kitchen-fitted-interior-1_small.webp"
+          "small": "/furnitures/white-kitchen-fitted-interior-1_small.webp",
+          "large": "/furnitures/white-kitchen-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/white-kitchen-fitted-interior-1_xlarge.webp"
         }
       }
     ]
@@ -1600,7 +1912,9 @@
         "paths": {
           "original": "/furnitures/white-kitchen-window-fitted-interior-2.webp",
           "medium": "/furnitures/white-kitchen-window-fitted-interior-2_medium.webp",
-          "small": "/furnitures/white-kitchen-window-fitted-interior-2_small.webp"
+          "small": "/furnitures/white-kitchen-window-fitted-interior-2_small.webp",
+          "large": "/furnitures/white-kitchen-window-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/white-kitchen-window-fitted-interior-2_xlarge.webp"
         }
       },
       {
@@ -1608,7 +1922,9 @@
         "paths": {
           "original": "/furnitures/white-kitchen-window-fitted-interior-0.webp",
           "medium": "/furnitures/white-kitchen-window-fitted-interior-0_medium.webp",
-          "small": "/furnitures/white-kitchen-window-fitted-interior-0_small.webp"
+          "small": "/furnitures/white-kitchen-window-fitted-interior-0_small.webp",
+          "large": "/furnitures/white-kitchen-window-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/white-kitchen-window-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -1616,7 +1932,9 @@
         "paths": {
           "original": "/furnitures/white-kitchen-window-fitted-interior-1.webp",
           "medium": "/furnitures/white-kitchen-window-fitted-interior-1_medium.webp",
-          "small": "/furnitures/white-kitchen-window-fitted-interior-1_small.webp"
+          "small": "/furnitures/white-kitchen-window-fitted-interior-1_small.webp",
+          "large": "/furnitures/white-kitchen-window-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/white-kitchen-window-fitted-interior-1_xlarge.webp"
         }
       }
     ]
@@ -1634,7 +1952,9 @@
         "paths": {
           "original": "/furnitures/white-minimalistic-kitchen-fitted-interior-0.webp",
           "medium": "/furnitures/white-minimalistic-kitchen-fitted-interior-0_medium.webp",
-          "small": "/furnitures/white-minimalistic-kitchen-fitted-interior-0_small.webp"
+          "small": "/furnitures/white-minimalistic-kitchen-fitted-interior-0_small.webp",
+          "large": "/furnitures/white-minimalistic-kitchen-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/white-minimalistic-kitchen-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -1642,7 +1962,9 @@
         "paths": {
           "original": "/furnitures/white-minimalistic-kitchen-fitted-interior-1.webp",
           "medium": "/furnitures/white-minimalistic-kitchen-fitted-interior-1_medium.webp",
-          "small": "/furnitures/white-minimalistic-kitchen-fitted-interior-1_small.webp"
+          "small": "/furnitures/white-minimalistic-kitchen-fitted-interior-1_small.webp",
+          "large": "/furnitures/white-minimalistic-kitchen-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/white-minimalistic-kitchen-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -1650,7 +1972,9 @@
         "paths": {
           "original": "/furnitures/white-minimalistic-kitchen-fitted-interior-2.webp",
           "medium": "/furnitures/white-minimalistic-kitchen-fitted-interior-2_medium.webp",
-          "small": "/furnitures/white-minimalistic-kitchen-fitted-interior-2_small.webp"
+          "small": "/furnitures/white-minimalistic-kitchen-fitted-interior-2_small.webp",
+          "large": "/furnitures/white-minimalistic-kitchen-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/white-minimalistic-kitchen-fitted-interior-2_xlarge.webp"
         }
       },
       {
@@ -1658,7 +1982,9 @@
         "paths": {
           "original": "/furnitures/white-minimalistic-kitchen-fitted-interior-3.webp",
           "medium": "/furnitures/white-minimalistic-kitchen-fitted-interior-3_medium.webp",
-          "small": "/furnitures/white-minimalistic-kitchen-fitted-interior-3_small.webp"
+          "small": "/furnitures/white-minimalistic-kitchen-fitted-interior-3_small.webp",
+          "large": "/furnitures/white-minimalistic-kitchen-fitted-interior-3_large.webp",
+          "xlarge": "/furnitures/white-minimalistic-kitchen-fitted-interior-3_xlarge.webp"
         }
       }
     ]
@@ -1676,7 +2002,9 @@
         "paths": {
           "original": "/furnitures/wood-black-consulting-room-furniture-0.webp",
           "medium": "/furnitures/wood-black-consulting-room-furniture-0_medium.webp",
-          "small": "/furnitures/wood-black-consulting-room-furniture-0_small.webp"
+          "small": "/furnitures/wood-black-consulting-room-furniture-0_small.webp",
+          "large": "/furnitures/wood-black-consulting-room-furniture-0_large.webp",
+          "xlarge": "/furnitures/wood-black-consulting-room-furniture-0_xlarge.webp"
         }
       },
       {
@@ -1684,7 +2012,9 @@
         "paths": {
           "original": "/furnitures/wood-black-consulting-room-furniture-1.webp",
           "medium": "/furnitures/wood-black-consulting-room-furniture-1_medium.webp",
-          "small": "/furnitures/wood-black-consulting-room-furniture-1_small.webp"
+          "small": "/furnitures/wood-black-consulting-room-furniture-1_small.webp",
+          "large": "/furnitures/wood-black-consulting-room-furniture-1_large.webp",
+          "xlarge": "/furnitures/wood-black-consulting-room-furniture-1_xlarge.webp"
         }
       },
       {
@@ -1692,7 +2022,9 @@
         "paths": {
           "original": "/furnitures/wood-black-consulting-room-furniture-2.webp",
           "medium": "/furnitures/wood-black-consulting-room-furniture-2_medium.webp",
-          "small": "/furnitures/wood-black-consulting-room-furniture-2_small.webp"
+          "small": "/furnitures/wood-black-consulting-room-furniture-2_small.webp",
+          "large": "/furnitures/wood-black-consulting-room-furniture-2_large.webp",
+          "xlarge": "/furnitures/wood-black-consulting-room-furniture-2_xlarge.webp"
         }
       },
       {
@@ -1700,7 +2032,9 @@
         "paths": {
           "original": "/furnitures/wood-black-consulting-room-furniture-3.webp",
           "medium": "/furnitures/wood-black-consulting-room-furniture-3_medium.webp",
-          "small": "/furnitures/wood-black-consulting-room-furniture-3_small.webp"
+          "small": "/furnitures/wood-black-consulting-room-furniture-3_small.webp",
+          "large": "/furnitures/wood-black-consulting-room-furniture-3_large.webp",
+          "xlarge": "/furnitures/wood-black-consulting-room-furniture-3_xlarge.webp"
         }
       }
     ]
@@ -1718,7 +2052,9 @@
         "paths": {
           "original": "/furnitures/wood-black-glass-kitchen-fitted-interior-0.webp",
           "medium": "/furnitures/wood-black-glass-kitchen-fitted-interior-0_medium.webp",
-          "small": "/furnitures/wood-black-glass-kitchen-fitted-interior-0_small.webp"
+          "small": "/furnitures/wood-black-glass-kitchen-fitted-interior-0_small.webp",
+          "large": "/furnitures/wood-black-glass-kitchen-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/wood-black-glass-kitchen-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -1726,7 +2062,9 @@
         "paths": {
           "original": "/furnitures/wood-black-glass-kitchen-fitted-interior-1.webp",
           "medium": "/furnitures/wood-black-glass-kitchen-fitted-interior-1_medium.webp",
-          "small": "/furnitures/wood-black-glass-kitchen-fitted-interior-1_small.webp"
+          "small": "/furnitures/wood-black-glass-kitchen-fitted-interior-1_small.webp",
+          "large": "/furnitures/wood-black-glass-kitchen-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/wood-black-glass-kitchen-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -1734,7 +2072,9 @@
         "paths": {
           "original": "/furnitures/wood-black-glass-kitchen-fitted-interior-2.webp",
           "medium": "/furnitures/wood-black-glass-kitchen-fitted-interior-2_medium.webp",
-          "small": "/furnitures/wood-black-glass-kitchen-fitted-interior-2_small.webp"
+          "small": "/furnitures/wood-black-glass-kitchen-fitted-interior-2_small.webp",
+          "large": "/furnitures/wood-black-glass-kitchen-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/wood-black-glass-kitchen-fitted-interior-2_xlarge.webp"
         }
       },
       {
@@ -1742,7 +2082,9 @@
         "paths": {
           "original": "/furnitures/wood-black-glass-kitchen-fitted-interior-3.webp",
           "medium": "/furnitures/wood-black-glass-kitchen-fitted-interior-3_medium.webp",
-          "small": "/furnitures/wood-black-glass-kitchen-fitted-interior-3_small.webp"
+          "small": "/furnitures/wood-black-glass-kitchen-fitted-interior-3_small.webp",
+          "large": "/furnitures/wood-black-glass-kitchen-fitted-interior-3_large.webp",
+          "xlarge": "/furnitures/wood-black-glass-kitchen-fitted-interior-3_xlarge.webp"
         }
       },
       {
@@ -1750,7 +2092,9 @@
         "paths": {
           "original": "/furnitures/wood-black-glass-kitchen-fitted-interior-4.webp",
           "medium": "/furnitures/wood-black-glass-kitchen-fitted-interior-4_medium.webp",
-          "small": "/furnitures/wood-black-glass-kitchen-fitted-interior-4_small.webp"
+          "small": "/furnitures/wood-black-glass-kitchen-fitted-interior-4_small.webp",
+          "large": "/furnitures/wood-black-glass-kitchen-fitted-interior-4_large.webp",
+          "xlarge": "/furnitures/wood-black-glass-kitchen-fitted-interior-4_xlarge.webp"
         }
       },
       {
@@ -1758,7 +2102,9 @@
         "paths": {
           "original": "/furnitures/wood-black-glass-kitchen-fitted-interior-5.webp",
           "medium": "/furnitures/wood-black-glass-kitchen-fitted-interior-5_medium.webp",
-          "small": "/furnitures/wood-black-glass-kitchen-fitted-interior-5_small.webp"
+          "small": "/furnitures/wood-black-glass-kitchen-fitted-interior-5_small.webp",
+          "large": "/furnitures/wood-black-glass-kitchen-fitted-interior-5_large.webp",
+          "xlarge": "/furnitures/wood-black-glass-kitchen-fitted-interior-5_xlarge.webp"
         }
       },
       {
@@ -1766,7 +2112,9 @@
         "paths": {
           "original": "/furnitures/wood-black-glass-kitchen-fitted-interior-6.webp",
           "medium": "/furnitures/wood-black-glass-kitchen-fitted-interior-6_medium.webp",
-          "small": "/furnitures/wood-black-glass-kitchen-fitted-interior-6_small.webp"
+          "small": "/furnitures/wood-black-glass-kitchen-fitted-interior-6_small.webp",
+          "large": "/furnitures/wood-black-glass-kitchen-fitted-interior-6_large.webp",
+          "xlarge": "/furnitures/wood-black-glass-kitchen-fitted-interior-6_xlarge.webp"
         }
       }
     ]
@@ -1784,7 +2132,9 @@
         "paths": {
           "original": "/furnitures/wood-black-white-kitchen-window-fitted-interior-0.webp",
           "medium": "/furnitures/wood-black-white-kitchen-window-fitted-interior-0_medium.webp",
-          "small": "/furnitures/wood-black-white-kitchen-window-fitted-interior-0_small.webp"
+          "small": "/furnitures/wood-black-white-kitchen-window-fitted-interior-0_small.webp",
+          "large": "/furnitures/wood-black-white-kitchen-window-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/wood-black-white-kitchen-window-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -1792,7 +2142,9 @@
         "paths": {
           "original": "/furnitures/wood-black-white-kitchen-window-fitted-interior-1.webp",
           "medium": "/furnitures/wood-black-white-kitchen-window-fitted-interior-1_medium.webp",
-          "small": "/furnitures/wood-black-white-kitchen-window-fitted-interior-1_small.webp"
+          "small": "/furnitures/wood-black-white-kitchen-window-fitted-interior-1_small.webp",
+          "large": "/furnitures/wood-black-white-kitchen-window-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/wood-black-white-kitchen-window-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -1800,7 +2152,9 @@
         "paths": {
           "original": "/furnitures/wood-black-white-kitchen-window-fitted-interior-2.webp",
           "medium": "/furnitures/wood-black-white-kitchen-window-fitted-interior-2_medium.webp",
-          "small": "/furnitures/wood-black-white-kitchen-window-fitted-interior-2_small.webp"
+          "small": "/furnitures/wood-black-white-kitchen-window-fitted-interior-2_small.webp",
+          "large": "/furnitures/wood-black-white-kitchen-window-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/wood-black-white-kitchen-window-fitted-interior-2_xlarge.webp"
         }
       }
     ]
@@ -1818,7 +2172,9 @@
         "paths": {
           "original": "/furnitures/wood-dark-levatating-furniture-0.webp",
           "medium": "/furnitures/wood-dark-levatating-furniture-0_medium.webp",
-          "small": "/furnitures/wood-dark-levatating-furniture-0_small.webp"
+          "small": "/furnitures/wood-dark-levatating-furniture-0_small.webp",
+          "large": "/furnitures/wood-dark-levatating-furniture-0_large.webp",
+          "xlarge": "/furnitures/wood-dark-levatating-furniture-0_xlarge.webp"
         }
       },
       {
@@ -1826,7 +2182,9 @@
         "paths": {
           "original": "/furnitures/wood-dark-levatating-furniture-1.webp",
           "medium": "/furnitures/wood-dark-levatating-furniture-1_medium.webp",
-          "small": "/furnitures/wood-dark-levatating-furniture-1_small.webp"
+          "small": "/furnitures/wood-dark-levatating-furniture-1_small.webp",
+          "large": "/furnitures/wood-dark-levatating-furniture-1_large.webp",
+          "xlarge": "/furnitures/wood-dark-levatating-furniture-1_xlarge.webp"
         }
       },
       {
@@ -1834,7 +2192,9 @@
         "paths": {
           "original": "/furnitures/wood-dark-levatating-furniture-2.webp",
           "medium": "/furnitures/wood-dark-levatating-furniture-2_medium.webp",
-          "small": "/furnitures/wood-dark-levatating-furniture-2_small.webp"
+          "small": "/furnitures/wood-dark-levatating-furniture-2_small.webp",
+          "large": "/furnitures/wood-dark-levatating-furniture-2_large.webp",
+          "xlarge": "/furnitures/wood-dark-levatating-furniture-2_xlarge.webp"
         }
       },
       {
@@ -1842,7 +2202,9 @@
         "paths": {
           "original": "/furnitures/wood-dark-levatating-furniture-3.webp",
           "medium": "/furnitures/wood-dark-levatating-furniture-3_medium.webp",
-          "small": "/furnitures/wood-dark-levatating-furniture-3_small.webp"
+          "small": "/furnitures/wood-dark-levatating-furniture-3_small.webp",
+          "large": "/furnitures/wood-dark-levatating-furniture-3_large.webp",
+          "xlarge": "/furnitures/wood-dark-levatating-furniture-3_xlarge.webp"
         }
       }
     ]
@@ -1860,7 +2222,9 @@
         "paths": {
           "original": "/furnitures/wood-stairs-furniture-1.webp",
           "medium": "/furnitures/wood-stairs-furniture-1_medium.webp",
-          "small": "/furnitures/wood-stairs-furniture-1_small.webp"
+          "small": "/furnitures/wood-stairs-furniture-1_small.webp",
+          "large": "/furnitures/wood-stairs-furniture-1_large.webp",
+          "xlarge": "/furnitures/wood-stairs-furniture-1_xlarge.webp"
         }
       },
       {
@@ -1868,7 +2232,9 @@
         "paths": {
           "original": "/furnitures/wood-stairs-furniture-0.webp",
           "medium": "/furnitures/wood-stairs-furniture-0_medium.webp",
-          "small": "/furnitures/wood-stairs-furniture-0_small.webp"
+          "small": "/furnitures/wood-stairs-furniture-0_small.webp",
+          "large": "/furnitures/wood-stairs-furniture-0_large.webp",
+          "xlarge": "/furnitures/wood-stairs-furniture-0_xlarge.webp"
         }
       },
       {
@@ -1876,7 +2242,9 @@
         "paths": {
           "original": "/furnitures/wood-stairs-furniture-2.webp",
           "medium": "/furnitures/wood-stairs-furniture-2_medium.webp",
-          "small": "/furnitures/wood-stairs-furniture-2_small.webp"
+          "small": "/furnitures/wood-stairs-furniture-2_small.webp",
+          "large": "/furnitures/wood-stairs-furniture-2_large.webp",
+          "xlarge": "/furnitures/wood-stairs-furniture-2_xlarge.webp"
         }
       },
       {
@@ -1884,7 +2252,9 @@
         "paths": {
           "original": "/furnitures/wood-stairs-furniture-3.webp",
           "medium": "/furnitures/wood-stairs-furniture-3_medium.webp",
-          "small": "/furnitures/wood-stairs-furniture-3_small.webp"
+          "small": "/furnitures/wood-stairs-furniture-3_small.webp",
+          "large": "/furnitures/wood-stairs-furniture-3_large.webp",
+          "xlarge": "/furnitures/wood-stairs-furniture-3_xlarge.webp"
         }
       },
       {
@@ -1892,7 +2262,9 @@
         "paths": {
           "original": "/furnitures/wood-stairs-furniture-4.webp",
           "medium": "/furnitures/wood-stairs-furniture-4_medium.webp",
-          "small": "/furnitures/wood-stairs-furniture-4_small.webp"
+          "small": "/furnitures/wood-stairs-furniture-4_small.webp",
+          "large": "/furnitures/wood-stairs-furniture-4_large.webp",
+          "xlarge": "/furnitures/wood-stairs-furniture-4_xlarge.webp"
         }
       },
       {
@@ -1900,7 +2272,9 @@
         "paths": {
           "original": "/furnitures/wood-stairs-furniture-5.webp",
           "medium": "/furnitures/wood-stairs-furniture-5_medium.webp",
-          "small": "/furnitures/wood-stairs-furniture-5_small.webp"
+          "small": "/furnitures/wood-stairs-furniture-5_small.webp",
+          "large": "/furnitures/wood-stairs-furniture-5_large.webp",
+          "xlarge": "/furnitures/wood-stairs-furniture-5_xlarge.webp"
         }
       },
       {
@@ -1908,7 +2282,9 @@
         "paths": {
           "original": "/furnitures/wood-stairs-furniture-6.webp",
           "medium": "/furnitures/wood-stairs-furniture-6_medium.webp",
-          "small": "/furnitures/wood-stairs-furniture-6_small.webp"
+          "small": "/furnitures/wood-stairs-furniture-6_small.webp",
+          "large": "/furnitures/wood-stairs-furniture-6_large.webp",
+          "xlarge": "/furnitures/wood-stairs-furniture-6_xlarge.webp"
         }
       },
       {
@@ -1916,7 +2292,9 @@
         "paths": {
           "original": "/furnitures/wood-stairs-furniture-7.webp",
           "medium": "/furnitures/wood-stairs-furniture-7_medium.webp",
-          "small": "/furnitures/wood-stairs-furniture-7_small.webp"
+          "small": "/furnitures/wood-stairs-furniture-7_small.webp",
+          "large": "/furnitures/wood-stairs-furniture-7_large.webp",
+          "xlarge": "/furnitures/wood-stairs-furniture-7_xlarge.webp"
         }
       }
     ]
@@ -1934,7 +2312,9 @@
         "paths": {
           "original": "/furnitures/wood-white-corridor-fitted-interior-0.webp",
           "medium": "/furnitures/wood-white-corridor-fitted-interior-0_medium.webp",
-          "small": "/furnitures/wood-white-corridor-fitted-interior-0_small.webp"
+          "small": "/furnitures/wood-white-corridor-fitted-interior-0_small.webp",
+          "large": "/furnitures/wood-white-corridor-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/wood-white-corridor-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -1942,7 +2322,9 @@
         "paths": {
           "original": "/furnitures/wood-white-corridor-fitted-interior-2.webp",
           "medium": "/furnitures/wood-white-corridor-fitted-interior-2_medium.webp",
-          "small": "/furnitures/wood-white-corridor-fitted-interior-2_small.webp"
+          "small": "/furnitures/wood-white-corridor-fitted-interior-2_small.webp",
+          "large": "/furnitures/wood-white-corridor-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/wood-white-corridor-fitted-interior-2_xlarge.webp"
         }
       },
       {
@@ -1950,7 +2332,9 @@
         "paths": {
           "original": "/furnitures/wood-white-corridor-fitted-interior-1.webp",
           "medium": "/furnitures/wood-white-corridor-fitted-interior-1_medium.webp",
-          "small": "/furnitures/wood-white-corridor-fitted-interior-1_small.webp"
+          "small": "/furnitures/wood-white-corridor-fitted-interior-1_small.webp",
+          "large": "/furnitures/wood-white-corridor-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/wood-white-corridor-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -1958,7 +2342,9 @@
         "paths": {
           "original": "/furnitures/wood-white-corridor-fitted-interior-3.webp",
           "medium": "/furnitures/wood-white-corridor-fitted-interior-3_medium.webp",
-          "small": "/furnitures/wood-white-corridor-fitted-interior-3_small.webp"
+          "small": "/furnitures/wood-white-corridor-fitted-interior-3_small.webp",
+          "large": "/furnitures/wood-white-corridor-fitted-interior-3_large.webp",
+          "xlarge": "/furnitures/wood-white-corridor-fitted-interior-3_xlarge.webp"
         }
       },
       {
@@ -1966,7 +2352,9 @@
         "paths": {
           "original": "/furnitures/wood-white-corridor-fitted-interior-4.webp",
           "medium": "/furnitures/wood-white-corridor-fitted-interior-4_medium.webp",
-          "small": "/furnitures/wood-white-corridor-fitted-interior-4_small.webp"
+          "small": "/furnitures/wood-white-corridor-fitted-interior-4_small.webp",
+          "large": "/furnitures/wood-white-corridor-fitted-interior-4_large.webp",
+          "xlarge": "/furnitures/wood-white-corridor-fitted-interior-4_xlarge.webp"
         }
       },
       {
@@ -1974,7 +2362,9 @@
         "paths": {
           "original": "/furnitures/wood-white-corridor-fitted-interior-5.webp",
           "medium": "/furnitures/wood-white-corridor-fitted-interior-5_medium.webp",
-          "small": "/furnitures/wood-white-corridor-fitted-interior-5_small.webp"
+          "small": "/furnitures/wood-white-corridor-fitted-interior-5_small.webp",
+          "large": "/furnitures/wood-white-corridor-fitted-interior-5_large.webp",
+          "xlarge": "/furnitures/wood-white-corridor-fitted-interior-5_xlarge.webp"
         }
       }
     ]
@@ -1992,7 +2382,9 @@
         "paths": {
           "original": "/furnitures/wood-white-kitchen-fitted-interior-4.webp",
           "medium": "/furnitures/wood-white-kitchen-fitted-interior-4_medium.webp",
-          "small": "/furnitures/wood-white-kitchen-fitted-interior-4_small.webp"
+          "small": "/furnitures/wood-white-kitchen-fitted-interior-4_small.webp",
+          "large": "/furnitures/wood-white-kitchen-fitted-interior-4_large.webp",
+          "xlarge": "/furnitures/wood-white-kitchen-fitted-interior-4_xlarge.webp"
         }
       },
       {
@@ -2000,7 +2392,9 @@
         "paths": {
           "original": "/furnitures/wood-white-kitchen-fitted-interior-0.webp",
           "medium": "/furnitures/wood-white-kitchen-fitted-interior-0_medium.webp",
-          "small": "/furnitures/wood-white-kitchen-fitted-interior-0_small.webp"
+          "small": "/furnitures/wood-white-kitchen-fitted-interior-0_small.webp",
+          "large": "/furnitures/wood-white-kitchen-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/wood-white-kitchen-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -2008,7 +2402,9 @@
         "paths": {
           "original": "/furnitures/wood-white-kitchen-fitted-interior-1.webp",
           "medium": "/furnitures/wood-white-kitchen-fitted-interior-1_medium.webp",
-          "small": "/furnitures/wood-white-kitchen-fitted-interior-1_small.webp"
+          "small": "/furnitures/wood-white-kitchen-fitted-interior-1_small.webp",
+          "large": "/furnitures/wood-white-kitchen-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/wood-white-kitchen-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -2016,7 +2412,9 @@
         "paths": {
           "original": "/furnitures/wood-white-kitchen-fitted-interior-2.webp",
           "medium": "/furnitures/wood-white-kitchen-fitted-interior-2_medium.webp",
-          "small": "/furnitures/wood-white-kitchen-fitted-interior-2_small.webp"
+          "small": "/furnitures/wood-white-kitchen-fitted-interior-2_small.webp",
+          "large": "/furnitures/wood-white-kitchen-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/wood-white-kitchen-fitted-interior-2_xlarge.webp"
         }
       },
       {
@@ -2024,7 +2422,9 @@
         "paths": {
           "original": "/furnitures/wood-white-kitchen-fitted-interior-3.webp",
           "medium": "/furnitures/wood-white-kitchen-fitted-interior-3_medium.webp",
-          "small": "/furnitures/wood-white-kitchen-fitted-interior-3_small.webp"
+          "small": "/furnitures/wood-white-kitchen-fitted-interior-3_small.webp",
+          "large": "/furnitures/wood-white-kitchen-fitted-interior-3_large.webp",
+          "xlarge": "/furnitures/wood-white-kitchen-fitted-interior-3_xlarge.webp"
         }
       }
     ]
@@ -2042,7 +2442,9 @@
         "paths": {
           "original": "/furnitures/wood-white-kitchen-furniture-0.webp",
           "medium": "/furnitures/wood-white-kitchen-furniture-0_medium.webp",
-          "small": "/furnitures/wood-white-kitchen-furniture-0_small.webp"
+          "small": "/furnitures/wood-white-kitchen-furniture-0_small.webp",
+          "large": "/furnitures/wood-white-kitchen-furniture-0_large.webp",
+          "xlarge": "/furnitures/wood-white-kitchen-furniture-0_xlarge.webp"
         }
       },
       {
@@ -2050,7 +2452,9 @@
         "paths": {
           "original": "/furnitures/wood-white-kitchen-furniture-1.webp",
           "medium": "/furnitures/wood-white-kitchen-furniture-1_medium.webp",
-          "small": "/furnitures/wood-white-kitchen-furniture-1_small.webp"
+          "small": "/furnitures/wood-white-kitchen-furniture-1_small.webp",
+          "large": "/furnitures/wood-white-kitchen-furniture-1_large.webp",
+          "xlarge": "/furnitures/wood-white-kitchen-furniture-1_xlarge.webp"
         }
       },
       {
@@ -2058,7 +2462,9 @@
         "paths": {
           "original": "/furnitures/wood-white-kitchen-furniture-2.webp",
           "medium": "/furnitures/wood-white-kitchen-furniture-2_medium.webp",
-          "small": "/furnitures/wood-white-kitchen-furniture-2_small.webp"
+          "small": "/furnitures/wood-white-kitchen-furniture-2_small.webp",
+          "large": "/furnitures/wood-white-kitchen-furniture-2_large.webp",
+          "xlarge": "/furnitures/wood-white-kitchen-furniture-2_xlarge.webp"
         }
       },
       {
@@ -2066,7 +2472,9 @@
         "paths": {
           "original": "/furnitures/wood-white-kitchen-furniture-3.webp",
           "medium": "/furnitures/wood-white-kitchen-furniture-3_medium.webp",
-          "small": "/furnitures/wood-white-kitchen-furniture-3_small.webp"
+          "small": "/furnitures/wood-white-kitchen-furniture-3_small.webp",
+          "large": "/furnitures/wood-white-kitchen-furniture-3_large.webp",
+          "xlarge": "/furnitures/wood-white-kitchen-furniture-3_xlarge.webp"
         }
       },
       {
@@ -2074,7 +2482,9 @@
         "paths": {
           "original": "/furnitures/wood-white-kitchen-furniture-4.webp",
           "medium": "/furnitures/wood-white-kitchen-furniture-4_medium.webp",
-          "small": "/furnitures/wood-white-kitchen-furniture-4_small.webp"
+          "small": "/furnitures/wood-white-kitchen-furniture-4_small.webp",
+          "large": "/furnitures/wood-white-kitchen-furniture-4_large.webp",
+          "xlarge": "/furnitures/wood-white-kitchen-furniture-4_xlarge.webp"
         }
       }
     ]
@@ -2092,7 +2502,9 @@
         "paths": {
           "original": "/furnitures/wood-white-luxury-kitchen-fitted-interior-0.webp",
           "medium": "/furnitures/wood-white-luxury-kitchen-fitted-interior-0_medium.webp",
-          "small": "/furnitures/wood-white-luxury-kitchen-fitted-interior-0_small.webp"
+          "small": "/furnitures/wood-white-luxury-kitchen-fitted-interior-0_small.webp",
+          "large": "/furnitures/wood-white-luxury-kitchen-fitted-interior-0_large.webp",
+          "xlarge": "/furnitures/wood-white-luxury-kitchen-fitted-interior-0_xlarge.webp"
         }
       },
       {
@@ -2100,7 +2512,9 @@
         "paths": {
           "original": "/furnitures/wood-white-luxury-kitchen-fitted-interior-1.webp",
           "medium": "/furnitures/wood-white-luxury-kitchen-fitted-interior-1_medium.webp",
-          "small": "/furnitures/wood-white-luxury-kitchen-fitted-interior-1_small.webp"
+          "small": "/furnitures/wood-white-luxury-kitchen-fitted-interior-1_small.webp",
+          "large": "/furnitures/wood-white-luxury-kitchen-fitted-interior-1_large.webp",
+          "xlarge": "/furnitures/wood-white-luxury-kitchen-fitted-interior-1_xlarge.webp"
         }
       },
       {
@@ -2108,7 +2522,9 @@
         "paths": {
           "original": "/furnitures/wood-white-luxury-kitchen-fitted-interior-2.webp",
           "medium": "/furnitures/wood-white-luxury-kitchen-fitted-interior-2_medium.webp",
-          "small": "/furnitures/wood-white-luxury-kitchen-fitted-interior-2_small.webp"
+          "small": "/furnitures/wood-white-luxury-kitchen-fitted-interior-2_small.webp",
+          "large": "/furnitures/wood-white-luxury-kitchen-fitted-interior-2_large.webp",
+          "xlarge": "/furnitures/wood-white-luxury-kitchen-fitted-interior-2_xlarge.webp"
         }
       }
     ]
@@ -2126,7 +2542,9 @@
         "paths": {
           "original": "/furnitures/wood-white-wardrobe-0.webp",
           "medium": "/furnitures/wood-white-wardrobe-0_medium.webp",
-          "small": "/furnitures/wood-white-wardrobe-0_small.webp"
+          "small": "/furnitures/wood-white-wardrobe-0_small.webp",
+          "large": "/furnitures/wood-white-wardrobe-0_large.webp",
+          "xlarge": "/furnitures/wood-white-wardrobe-0_xlarge.webp"
         }
       },
       {
@@ -2134,7 +2552,9 @@
         "paths": {
           "original": "/furnitures/wood-white-wardrobe-1.webp",
           "medium": "/furnitures/wood-white-wardrobe-1_medium.webp",
-          "small": "/furnitures/wood-white-wardrobe-1_small.webp"
+          "small": "/furnitures/wood-white-wardrobe-1_small.webp",
+          "large": "/furnitures/wood-white-wardrobe-1_large.webp",
+          "xlarge": "/furnitures/wood-white-wardrobe-1_xlarge.webp"
         }
       },
       {
@@ -2142,7 +2562,9 @@
         "paths": {
           "original": "/furnitures/wood-white-wardrobe-2.webp",
           "medium": "/furnitures/wood-white-wardrobe-2_medium.webp",
-          "small": "/furnitures/wood-white-wardrobe-2_small.webp"
+          "small": "/furnitures/wood-white-wardrobe-2_small.webp",
+          "large": "/furnitures/wood-white-wardrobe-2_large.webp",
+          "xlarge": "/furnitures/wood-white-wardrobe-2_xlarge.webp"
         }
       },
       {
@@ -2150,7 +2572,9 @@
         "paths": {
           "original": "/furnitures/wood-white-wardrobe-4.webp",
           "medium": "/furnitures/wood-white-wardrobe-4_medium.webp",
-          "small": "/furnitures/wood-white-wardrobe-4_small.webp"
+          "small": "/furnitures/wood-white-wardrobe-4_small.webp",
+          "large": "/furnitures/wood-white-wardrobe-4_large.webp",
+          "xlarge": "/furnitures/wood-white-wardrobe-4_xlarge.webp"
         }
       }
     ]
