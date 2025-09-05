@@ -1,71 +1,78 @@
-<main class="h-available snap-y snap-mandatory overflow-y-scroll">
-  @for (row of projects(); track $index; let i = $index) {
-    <section
-      class="snap-start h-available w-full flex flex-col flex-row overflow-hidden"
-      [ngClass]="{ 'flex-row-reverse': $index % 2 === 1 }"
-    >
-      <div class="flex-1 flex flex-col justify-center px-6 py-8 bg-white z-10">
-        <h3 class="text-2xl font-bold mb-4">
-          {{ row | translated: "title" }}
-        </h3>
-        <p class="text-sm mb-4">
-          {{ row["description"] || "TBA" }}
-        </p>
-        <p class="text-xs mb-2">
-          <span class="font-semibold">Date:</span> {{ row["date"] || "TBA" }}
-        </p>
-        <p class="text-xs mb-2">
-          <span class="font-semibold">Price:</span> {{ row["price"] || "TBA" }}
-        </p>
-        <p class="text-xs">
-          <span class="font-semibold">Location:</span>
-          {{ row["location"] || "TBA" }}
-        </p>
-      </div>
+<div class="fixed inset-0 bg-zinc-50 -z-10 bg-center"></div>
 
-      <div class="flex-3 relative overflow-hidden group">
-        @for (img of row.images; track $index; let j = $index) {
-          <img
-            [src]="img.paths.large"
-            [alt]="row['title']"
-            class="absolute inset-0 w-full h-full object-cover transition-opacity duration-700"
-            [class.opacity-100]="currentIndexes[i] === j"
-            [class.opacity-0]="currentIndexes[i] !== j"
-          />
-        }
-
+<div
+  class="h-available snap-y snap-mandatory overflow-y-scroll flex justify-center"
+>
+  <div class="w-full max-w-7xl">
+    @for (row of projects(); track $index) {
+      <section
+        class="snap-start h-available w-full flex overflow-hidden shadow-xl shadow-zinc-950"
+        [ngClass]="{ 'flex-row-reverse': $index % 2 === 1 }"
+      >
         <div
-          class="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          class="flex-1 flex flex-col justify-center px-6 py-8 sm:px-6 sm:py-8 md:px-8 md:py-10 lg:px-10 lg:py-12 bg-white z-10"
         >
+          <h3
+            class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-2 sm:mb-3 md:mb-4 lg:mb-5"
+          >
+            {{ row | translated: "title" }}
+          </h3>
+          <p
+            class="text-xs sm:text-sm md:text-base lg:text-lg mb-2 sm:mb-3 md:mb-4"
+          >
+            {{ row["description"] || "TBA" }}
+          </p>
+          <p class="text-xs sm:text-sm md:text-base mb-1">
+            <span class="font-semibold">Date:</span> {{ row["date"] || "TBA" }}
+          </p>
+          <p class="text-xs sm:text-sm md:text-base mb-1">
+            <span class="font-semibold">Location:</span>
+            {{ row["location"] || "TBA" }}
+          </p>
+        </div>
+        <div class="flex relative overflow-hidden group">
+          <img
+            [src]="row.images[currentIndexes[$index]].paths.original"
+            [alt]="row | translated: 'title'"
+            class="w-full h-full object-cover"
+            loading="lazy"
+          />
           <div
-            class="absolute inset-0 flex flex-row justify-between pointer-events-none"
+            class="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
           >
             <div
-              class="h-full w-1/6 bg-gradient-to-r from-black/50 to-transparent"
-            ></div>
+              class="absolute inset-0 flex flex-row justify-between pointer-events-none"
+            >
+              <div
+                class="h-full w-1/6 bg-gradient-to-r from-black/50 to-transparent"
+              ></div>
+              <div
+                class="h-full w-1/6 bg-gradient-to-l from-black/50 to-transparent"
+              ></div>
+            </div>
+            @if (row.images.length > 1) {
+              <button
+                (click)="goToPrevious($index)"
+                class="absolute left-4 top-1/2 -translate-y-1/2 text-white cursor-pointer"
+              >
+                <app-arrow-icon class="w-6 h-auto rotate-90" />
+              </button>
+              <button
+                (click)="goToNext($index)"
+                class="absolute right-4 top-1/2 -translate-y-1/2 text-white cursor-pointer"
+              >
+                <app-arrow-icon class="w-6 h-auto -rotate-90" />
+              </button>
+            }
+
             <div
-              class="h-full w-1/6 bg-gradient-to-l from-black/50 to-transparent"
-            ></div>
-          </div>
-          <button
-            (click)="goToPrevious(i)"
-            class="absolute left-4 top-1/2 -translate-y-1/2 text-white"
-          >
-            <app-arrow-icon class="w-6 h-auto rotate-90" />
-          </button>
-
-          <button
-            (click)="goToNext(i)"
-            class="absolute right-4 top-1/2 -translate-y-1/2 text-white"
-          >
-            <app-arrow-icon class="w-6 h-auto -rotate-90" />
-          </button>
-
-          <div class="absolute right-4 top-4 text-white text-lg">
-            {{ currentIndexes[i] + 1 }}/{{ row.images.length }}
+              class="absolute right-4 top-4 text-white text-sm sm:text-base md:text-lg lg:text-xl"
+            >
+              {{ currentIndexes[$index] + 1 }}/{{ row.images.length }}
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  }
-</main>
+      </section>
+    }
+  </div>
+</div>
