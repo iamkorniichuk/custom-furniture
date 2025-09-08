@@ -1,5 +1,4 @@
 export interface ImagePaths {
-  original: string;
   xlarge: string;
   large: string;
   medium: string;

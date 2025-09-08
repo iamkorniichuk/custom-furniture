@@ -6,8 +6,8 @@
   <div class="w-full max-w-7xl">
     @for (row of projects(); track $index) {
       <section
-        class="snap-start h-available w-full flex overflow-hidden shadow-xl shadow-zinc-950"
-        [ngClass]="{ 'flex-row-reverse': $index % 2 === 1 }"
+        class="snap-start h-available w-full flex flex-col-reverse md:flex-row overflow-hidden shadow-xl shadow-zinc-950"
+        [ngClass]="{ 'md:flex-row-reverse': $index % 2 === 1 }"
       >
         <div
           class="flex-1 flex flex-col justify-center px-6 py-8 sm:px-6 sm:py-8 md:px-8 md:py-10 lg:px-10 lg:py-12 bg-white z-10"
@@ -30,29 +30,54 @@
             {{ row["location"] || "TBA" }}
           </p>
         </div>
-        <div class="flex relative overflow-hidden group">
-          <picture class="w-full h-full">
-            <source
-              [srcset]="row.images[currentIndexes[$index]].paths.original"
-              media="(min-width: 2561px)"
-            />
-            <source
-              [srcset]="row.images[currentIndexes[$index]].paths.xlarge"
-              media="(min-width: 1921px)"
-            />
-            <source
-              [srcset]="row.images[currentIndexes[$index]].paths.large"
-              media="(min-width: 1281px)"
-            />
-            <source
-              [srcset]="row.images[currentIndexes[$index]].paths.medium"
-              media="(min-width: 641px)"
-            />
+        <div class="flex-3 md:flex-auto relative overflow-hidden group">
+          <picture>
+            @if (
+              row.images[currentIndexes[$index]].orientation === "portrait"
+            ) {
+              <source
+                [srcset]="
+                  row.images[currentIndexes[$index]].paths.small +
+                  ' 360w, ' +
+                  row.images[currentIndexes[$index]].paths.medium +
+                  ' 640w, ' +
+                  row.images[currentIndexes[$index]].paths.large +
+                  ' 960w, ' +
+                  row.images[currentIndexes[$index]].paths.xlarge +
+                  ' 1080w'
+                "
+                sizes="
+              (min-width: 1536px) 800px,  
+              (min-width: 1280px) 700px,  
+              (min-width: 768px) 500px,   
+              100vw                       
+            "
+              />
+            } @else {
+              <source
+                [srcset]="
+                  row.images[currentIndexes[$index]].paths.small +
+                  ' 480w, ' +
+                  row.images[currentIndexes[$index]].paths.medium +
+                  ' 800w, ' +
+                  row.images[currentIndexes[$index]].paths.large +
+                  ' 1200w, ' +
+                  row.images[currentIndexes[$index]].paths.xlarge +
+                  ' 1600w'
+                "
+                sizes="
+              (min-width: 1536px) 1280px, 
+              (min-width: 1280px) 1024px, 
+              (min-width: 768px) 768px,   
+              100vw                       
+            "
+              />
+            }
             <img
-              [src]="row.images[currentIndexes[$index]].paths.small"
+              [src]="row.images[currentIndexes[$index]].paths.medium"
               [alt]="row | translated: 'title'"
               class="w-full h-full object-cover"
-              loading="lazy"
+              loading="eager"
               decoding="async"
             />
           </picture>
@@ -84,7 +109,6 @@
                 <app-arrow-icon class="w-6 h-auto -rotate-90" />
               </button>
             }
-
             <div
               class="absolute right-4 top-4 text-white text-sm sm:text-base md:text-lg lg:text-xl"
             >

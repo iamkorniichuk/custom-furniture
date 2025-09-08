@@ -1,111 +1,95 @@
 [
   {
-    "original": "/furnitures/black-white-kitchen-fitted-interior-0.webp",
     "small": "/furnitures/black-white-kitchen-fitted-interior-0_small.webp",
     "medium": "/furnitures/black-white-kitchen-fitted-interior-0_medium.webp",
     "large": "/furnitures/black-white-kitchen-fitted-interior-0_large.webp",
     "xlarge": "/furnitures/black-white-kitchen-fitted-interior-0_xlarge.webp"
   },
   {
-    "original": "/furnitures/brown-kitchen-furniture-1.webp",
     "small": "/furnitures/brown-kitchen-furniture-1_small.webp",
     "medium": "/furnitures/brown-kitchen-furniture-1_medium.webp",
     "large": "/furnitures/brown-kitchen-furniture-1_large.webp",
     "xlarge": "/furnitures/brown-kitchen-furniture-1_xlarge.webp"
   },
   {
-    "original": "/furnitures/business-fitted-interior-5.webp",
     "small": "/furnitures/business-fitted-interior-5_small.webp",
     "medium": "/furnitures/business-fitted-interior-5_medium.webp",
     "large": "/furnitures/business-fitted-interior-5_large.webp",
     "xlarge": "/furnitures/business-fitted-interior-5_xlarge.webp"
   },
   {
-    "original": "/furnitures/consulting-room-furniture-0.webp",
     "small": "/furnitures/consulting-room-furniture-0_small.webp",
     "medium": "/furnitures/consulting-room-furniture-0_medium.webp",
     "large": "/furnitures/consulting-room-furniture-0_large.webp",
     "xlarge": "/furnitures/consulting-room-furniture-0_xlarge.webp"
   },
   {
-    "original": "/furnitures/glass-luxury-white-wardrobe-1.webp",
     "small": "/furnitures/glass-luxury-white-wardrobe-1_small.webp",
     "medium": "/furnitures/glass-luxury-white-wardrobe-1_medium.webp",
     "large": "/furnitures/glass-luxury-white-wardrobe-1_large.webp",
     "xlarge": "/furnitures/glass-luxury-white-wardrobe-1_xlarge.webp"
   },
   {
-    "original": "/furnitures/guestroom-white-wood-tv-furniture-0.webp",
     "small": "/furnitures/guestroom-white-wood-tv-furniture-0_small.webp",
     "medium": "/furnitures/guestroom-white-wood-tv-furniture-0_medium.webp",
     "large": "/furnitures/guestroom-white-wood-tv-furniture-0_large.webp",
     "xlarge": "/furnitures/guestroom-white-wood-tv-furniture-0_xlarge.webp"
   },
   {
-    "original": "/furnitures/high-wood-white-kitchen-fitted-interior-1.webp",
     "small": "/furnitures/high-wood-white-kitchen-fitted-interior-1_small.webp",
     "medium": "/furnitures/high-wood-white-kitchen-fitted-interior-1_medium.webp",
     "large": "/furnitures/high-wood-white-kitchen-fitted-interior-1_large.webp",
     "xlarge": "/furnitures/high-wood-white-kitchen-fitted-interior-1_xlarge.webp"
   },
   {
-    "original": "/furnitures/kidroom-fitted-interior-4.webp",
     "small": "/furnitures/kidroom-fitted-interior-4_small.webp",
     "medium": "/furnitures/kidroom-fitted-interior-4_medium.webp",
     "large": "/furnitures/kidroom-fitted-interior-4_large.webp",
     "xlarge": "/furnitures/kidroom-fitted-interior-4_xlarge.webp"
   },
   {
-    "original": "/furnitures/levatating-tv-wardrobe-0.webp",
     "small": "/furnitures/levatating-tv-wardrobe-0_small.webp",
     "medium": "/furnitures/levatating-tv-wardrobe-0_medium.webp",
     "large": "/furnitures/levatating-tv-wardrobe-0_large.webp",
     "xlarge": "/furnitures/levatating-tv-wardrobe-0_xlarge.webp"
   },
   {
-    "original": "/furnitures/levetating-white-guestroom-furniture-1.webp",
     "small": "/furnitures/levetating-white-guestroom-furniture-1_small.webp",
     "medium": "/furnitures/levetating-white-guestroom-furniture-1_medium.webp",
     "large": "/furnitures/levetating-white-guestroom-furniture-1_large.webp",
     "xlarge": "/furnitures/levetating-white-guestroom-furniture-1_xlarge.webp"
   },
   {
-    "original": "/furnitures/light-angle-wardrobe-3.webp",
     "small": "/furnitures/light-angle-wardrobe-3_small.webp",
     "medium": "/furnitures/light-angle-wardrobe-3_medium.webp",
     "large": "/furnitures/light-angle-wardrobe-3_large.webp",
     "xlarge": "/furnitures/light-angle-wardrobe-3_xlarge.webp"
   },
   {
-    "original": "/furnitures/tech-business-fitted-interior-1.webp",
     "small": "/furnitures/tech-business-fitted-interior-1_small.webp",
     "medium": "/furnitures/tech-business-fitted-interior-1_medium.webp",
     "large": "/furnitures/tech-business-fitted-interior-1_large.webp",
     "xlarge": "/furnitures/tech-business-fitted-interior-1_xlarge.webp"
   },
   {
-    "original": "/furnitures/white-black-kitchen-fitted-interior-0.webp",
     "small": "/furnitures/white-black-kitchen-fitted-interior-0_small.webp",
     "medium": "/furnitures/white-black-kitchen-fitted-interior-0_medium.webp",
     "large": "/furnitures/white-black-kitchen-fitted-interior-0_large.webp",
     "xlarge": "/furnitures/white-black-kitchen-fitted-interior-0_xlarge.webp"
   },
   {
-    "original": "/furnitures/white-double-tap-cabinet-1.webp",
     "small": "/furnitures/white-double-tap-cabinet-1_small.webp",
     "medium": "/furnitures/white-double-tap-cabinet-1_medium.webp",
     "large": "/furnitures/white-double-tap-cabinet-1_large.webp",
     "xlarge": "/furnitures/white-double-tap-cabinet-1_xlarge.webp"
   },
   {
-    "original": "/furnitures/wood-black-glass-kitchen-fitted-interior-2.webp",
     "small": "/furnitures/wood-black-glass-kitchen-fitted-interior-2_small.webp",
     "medium": "/furnitures/wood-black-glass-kitchen-fitted-interior-2_medium.webp",
     "large": "/furnitures/wood-black-glass-kitchen-fitted-interior-2_large.webp",
     "xlarge": "/furnitures/wood-black-glass-kitchen-fitted-interior-2_xlarge.webp"
   },
   {
-    "original": "/furnitures/wood-dark-levatating-furniture-1.webp",
     "small": "/furnitures/wood-dark-levatating-furniture-1_small.webp",
     "medium": "/furnitures/wood-dark-levatating-furniture-1_medium.webp",
     "large": "/furnitures/wood-dark-levatating-furniture-1_large.webp",

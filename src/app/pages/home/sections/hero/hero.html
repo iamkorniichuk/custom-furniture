@@ -2,46 +2,58 @@
   id="hero"
   class="relative h-[100dvh] w-full overflow-hidden snap-start snap-always"
 >
-  <picture
-    class="z-0 absolute inset-0 transition-opacity duration-1000"
+  <img
+    [src]="backgroundImage1()?.small"
+    [srcset]="
+      backgroundImage1()?.small +
+      ' 480w, ' +
+      backgroundImage1()?.medium +
+      ' 800w, ' +
+      backgroundImage1()?.large +
+      ' 1200w, ' +
+      backgroundImage1()?.xlarge +
+      ' 1600w'
+    "
+    sizes="
+              (min-width: 1536px) 1280px, 
+              (min-width: 1280px) 1024px, 
+              (min-width: 768px) 768px,   
+              100vw                       
+            "
+    alt="Background image 1"
+    class="z-0 absolute inset-0 w-full h-full object-cover transition-opacity duration-1000"
     [class.opacity-0]="!showBackgroundImage1()"
     [class.opacity-100]="showBackgroundImage1()"
-  >
-    <source
-      [srcset]="backgroundImage1()?.original"
-      media="(min-width: 2561px)"
-    />
-    <source [srcset]="backgroundImage1()?.xlarge" media="(min-width: 1921px)" />
-    <source [srcset]="backgroundImage1()?.large" media="(min-width: 1601px)" />
-    <source [srcset]="backgroundImage1()?.medium" media="(min-width: 801px)" />
-    <img
-      [src]="backgroundImage1()?.small"
-      alt="Background image 1"
-      class="w-full h-full object-cover"
-      loading="eager"
-      decoding="async"
-    />
-  </picture>
-  <picture
-    class="z-0 absolute inset-0 transition-opacity duration-1000"
+    loading="eager"
+    decoding="async"
+  />
+
+  <img
+    [src]="backgroundImage2()?.small"
+    [srcset]="
+      backgroundImage2()?.small +
+      ' 480w, ' +
+      backgroundImage2()?.medium +
+      ' 800w, ' +
+      backgroundImage2()?.large +
+      ' 1200w, ' +
+      backgroundImage2()?.xlarge +
+      ' 1600w'
+    "
+    sizes="
+              (min-width: 1536px) 1280px, 
+              (min-width: 1280px) 1024px, 
+              (min-width: 768px) 768px,   
+              100vw                       
+            "
+    alt="Background image 2"
+    class="z-0 absolute inset-0 w-full h-full object-cover transition-opacity duration-1000"
     [class.opacity-0]="showBackgroundImage1()"
     [class.opacity-100]="!showBackgroundImage1()"
-  >
-    <source
-      [srcset]="backgroundImage2()?.original"
-      media="(min-width: 2561px)"
-    />
-    <source [srcset]="backgroundImage2()?.xlarge" media="(min-width: 1921px)" />
-    <source [srcset]="backgroundImage2()?.large" media="(min-width: 1601px)" />
-    <source [srcset]="backgroundImage2()?.medium" media="(min-width: 801px)" />
-    <img
-      [src]="backgroundImage2()?.small"
-      alt="Background image 2"
-      class="w-full h-full object-cover"
-      loading="lazy"
-      decoding="async"
-    />
-  </picture>
+    loading="lazy"
+    decoding="async"
+  />
+
   <div
     class="z-10 absolute inset-0 flex flex-col justify-between pointer-events-none"
   >
