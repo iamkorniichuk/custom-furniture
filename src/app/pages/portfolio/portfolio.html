@@ -83,7 +83,7 @@
           </picture>
 
           <div
-            class="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            class="md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300"
           >
             <div
               class="absolute inset-0 flex flex-row justify-between pointer-events-none"
@@ -100,13 +100,13 @@
                 (click)="goToPrevious($index)"
                 class="absolute left-4 top-1/2 -translate-y-1/2 text-white cursor-pointer"
               >
-                <app-arrow-icon class="w-6 h-auto rotate-90" />
+                <app-arrow-icon class="w-8 sm:w-6 h-auto rotate-90" />
               </button>
               <button
                 (click)="goToNext($index)"
                 class="absolute right-4 top-1/2 -translate-y-1/2 text-white cursor-pointer"
               >
-                <app-arrow-icon class="w-6 h-auto -rotate-90" />
+                <app-arrow-icon class="w-8 sm:w-6 h-auto -rotate-90" />
               </button>
             }
             <div
