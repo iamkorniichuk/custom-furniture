@@ -1,9 +1,9 @@
 import { Component, signal, computed, inject, OnInit } from '@angular/core';
+import { NgClass } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 
 import { TranslatedPipe } from '../../pipes/translated-pipe';
 import { portfolio, Room, RoomCode, roomOptions } from '../../shared/portfolio';
-import { NgClass } from '@angular/common';
 import { ArrowIconComponent } from '../../components/arrow-icon/arrow-icon';
 
 @Component({
@@ -17,6 +17,7 @@ export class PortfolioComponent implements OnInit {
 
   selectedRoom = signal<Room>(roomOptions[0]);
   currentIndexes: number[] = [];
+  imageLoaded: boolean[][] = [];
 
   projects = computed(() => {
     if (this.selectedRoom().code === null) return portfolio;
@@ -25,6 +26,13 @@ export class PortfolioComponent implements OnInit {
 
   constructor() {
     this.currentIndexes = this.projects().map(() => 0);
+    this.imageLoaded = this.projects().map((row) =>
+      row.images.map(() => false),
+    );
+  }
+
+  setImageLoad(rowIndex: number, imageIndex: number) {
+    this.imageLoaded[rowIndex][imageIndex] = true;
   }
 
   goToNext(projectIndex: number) {

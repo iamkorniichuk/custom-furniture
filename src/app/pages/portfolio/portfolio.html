@@ -31,6 +31,15 @@
           </p>
         </div>
         <div class="flex-3 md:flex-auto relative overflow-hidden group">
+          @if (!imageLoaded[$index][currentIndexes[$index]]) {
+            <div
+              class="absolute size-full flex items-center justify-center bg-zinc-100"
+            >
+              <div
+                class="w-12 h-12 border-4 border-t-zinc-600 border-b-zinc-400 border-l-zinc-400 border-r-zinc-400 rounded-full animate-spin"
+              ></div>
+            </div>
+          }
           <picture>
             @if (
               row.images[currentIndexes[$index]].orientation === "portrait"
@@ -77,8 +86,9 @@
               [src]="row.images[currentIndexes[$index]].paths.medium"
               [alt]="row | translated: 'title'"
               class="w-full h-full object-cover"
-              loading="eager"
+              loading="lazy"
               decoding="async"
+              (load)="setImageLoad($index, currentIndexes[$index])"
             />
           </picture>
 
