@@ -22,25 +22,22 @@ body {
 }
 
 :root {
-  --navbar-h: 2.54rem;
-}
-
-@media (min-width: 640px) {
-  :root {
-    --navbar-h: 3.22rem;
-  }
-}
-@media (min-width: 768px) {
-  :root {
-    --navbar-h: 3.47rem;
-  }
-}
-@media (min-width: 1024px) {
-  :root {
-    --navbar-h: 3.72rem;
-  }
+  --vh: 1vh;
+  --navbar-h: 0px;
 }
 
 .h-available {
-  height: calc(100dvh - var(--navbar-h));
+  height: max(0px, calc(var(--vh) * 100 - var(--navbar-h)));
+}
+
+html.nav-overlay .h-available {
+  height: max(0px, calc(var(--vh) * 100 - var(--navbar-h)));
+}
+
+html:not(.nav-overlay) .h-available {
+  height: max(0px, calc(var(--vh) * 100 - var(--navbar-h)));
+}
+
+html.nav-overlay main {
+  padding-top: var(--navbar-h);
 }
