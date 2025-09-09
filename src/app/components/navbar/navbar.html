@@ -18,14 +18,7 @@
     <app-portfolio-dropdown />
 
     <a
-      class="hover:underline"
-      routerLinkActive="font-bold"
-      [routerLinkActiveOptions]="{ exact: true }"
-      href="#"
-      >{{ "navbar.pricing" | translate }}</a
-    >
-    <a
-      class="hover:underline"
+      [routerLink]="['/', selectedLanguage().code, 'contacts']"
       routerLinkActive="font-bold"
       [routerLinkActiveOptions]="{ exact: true }"
       href="#"
