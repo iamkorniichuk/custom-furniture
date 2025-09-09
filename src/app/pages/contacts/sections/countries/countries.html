@@ -1,8 +1,8 @@
 <section
   id="countries"
-  class="snap-start h-available w-full flex overflow-hidden shadow-xl shadow-zinc-950"
+  class="relative snap-start snap-always h-available w-full flex overflow-hidden shadow-xl shadow-zinc-950"
 >
-  <app-countries-map class="flex-1 z-0 h-available w-full" />
+  <app-countries-map class="flex-1 h-available w-full z-10" />
   <div
     class="flex-1 h-available flex flex-col justify-center items-start p-8 space-y-6"
   >
@@ -15,10 +15,10 @@
     </p>
     <div class="bg-zinc-200 p-4 rounded-xl shadow-md">
       <h3 class="text-xl font-medium">
-        {{ "countries.note-title" | translate }}
+        {{ "countries.noteTitle" | translate }}
       </h3>
       <p class="mt-2 text-sm leading-relaxed">
-        {{ "countries.note-text" | translate }}
+        {{ "countries.noteText" | translate }}
       </p>
     </div>
     <p class="text-sm opacity-80">{{ "countries.contact" | translate }}</p>

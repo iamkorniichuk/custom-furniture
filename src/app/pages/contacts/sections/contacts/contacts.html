@@ -1,0 +1,115 @@
+<section
+  id="contacts"
+  class="relative snap-start snap-always h-available w-full flex overflow-hidden shadow-xl shadow-zinc-950"
+>
+  <div
+    class="flex-1 h-available flex flex-col justify-center items-start p-8 space-y-6"
+  >
+    <h2 class="text-3xl font-semibold flex items-center gap-2">
+      {{ "contacts.title" | translate }}
+    </h2>
+
+    <div class="space-y-3 text-sm sm:text-base">
+      <p class="flex items-center gap-2">
+        <img
+          class="size-4"
+          src="images/icons/person.png"
+          [alt]="'contacts.fullName' | translate"
+        />
+        <strong>{{ "contacts.fullName" | translate }}:</strong>
+        <span class="ml-1">{{ info | translated: "fullName" }}</span>
+      </p>
+
+      <p class="flex items-center gap-2">
+        <img
+          class="size-4"
+          src="images/icons/building.png"
+          [alt]="'contacts.businessName' | translate"
+        />
+        <strong>{{ "contacts.businessName" | translate }}:</strong>
+        <span class="ml-1"
+          >{{ info.businessName }}, {{ info.businessCode }}</span
+        >
+      </p>
+
+      <p class="flex items-center gap-2">
+        <img
+          class="size-4"
+          src="images/icons/mail.png"
+          [alt]="'contacts.email' | translate"
+        />
+        <strong>{{ "contacts.email" | translate }}:</strong>
+        <a
+          [href]="'mailto:' + info.email"
+          class="inline-flex items-center hover:underline ml-1"
+        >
+          <span>{{ info.email }}</span>
+        </a>
+      </p>
+
+      <p class="flex items-start gap-2">
+        <img
+          class="size-4 mt-1"
+          src="images/icons/phone.png"
+          [alt]="'contacts.phone' | translate"
+        />
+        <span>
+          <strong>{{ "contacts.phone" | translate }}:</strong>
+          <a
+            [href]="'tel:' + info.phone"
+            class="inline-flex items-center hover:underline ml-1"
+          >
+            <span>{{ info.phone }}</span>
+          </a>
+          <span class="text-sm text-zinc-600 block">
+            {{ "contacts.phoneNote" | translate }}
+          </span>
+        </span>
+      </p>
+
+      <p class="flex items-center gap-2">
+        <img
+          class="size-4"
+          src="images/icons/location.png"
+          [alt]="'contacts.address' | translate"
+        />
+        <strong>{{ "contacts.address" | translate }}:</strong>
+        <span class="ml-1">{{ info | translated: "address" }}</span>
+      </p>
+
+      <p class="flex items-center gap-2">
+        <img
+          class="size-4"
+          src="images/icons/clock.png"
+          [alt]="'contacts.hours' | translate"
+        />
+        <strong>{{ "contacts.hours" | translate }}:</strong>
+        <span class="ml-1">{{ info | translated: "workingHours" }}</span>
+      </p>
+    </div>
+
+    <div class="bg-zinc-200 p-4 rounded-xl shadow-md">
+      <h3 class="text-xl font-medium flex items-center gap-2">
+        {{ "contacts.noteTitle" | translate }}
+      </h3>
+      <p class="mt-2 text-sm leading-relaxed">
+        {{ "contacts.noteText" | translate }}
+      </p>
+    </div>
+  </div>
+
+  <app-place-map class="flex-1 h-available w-full z-10" />
+
+  <a
+    [routerLink]="[]"
+    fragment="countries"
+    class="z-50 absolute bottom-1/20 left-1/2 transform -translate-x-1/2 text-black"
+  >
+    <div class="hover:underline text-sm sm:text-base md:text-lg">
+      {{ "contacts.scroll" | translate }}
+    </div>
+    <div class="flex justify-center items-center">
+      <app-arrow-icon class="h-5" />
+    </div>
+  </a>
+</section>

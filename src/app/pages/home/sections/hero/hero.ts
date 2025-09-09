@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { ArrowIconComponent } from '../../../../components/arrow-icon/arrow-icon';
 import { ImagePaths } from '../../../../shared/images';
 import { backgrounds } from '../../../../shared/backgrounds';
+import { contacts } from '../../../../shared/contacts';
 
 @Component({
   selector: 'app-hero-section',
@@ -13,6 +14,7 @@ import { backgrounds } from '../../../../shared/backgrounds';
   styleUrl: './hero.css',
 })
 export class HeroSectionComponent implements OnInit, OnDestroy {
+  info = contacts;
   private intervalId?: number;
 
   backgroundImage1 = signal<ImagePaths | null>(null);

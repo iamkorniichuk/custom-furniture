@@ -83,29 +83,38 @@
       <div
         class="flex flex-wrap justify-between gap-3 text-sm sm:text-base mt-8"
       >
-        <a href="#" class="inline-flex items-center">
+        <a
+          [href]="'mailto:' + info.email"
+          class="inline-flex items-center hover:underline"
+        >
           <img
             class="size-4 sm:size-5 mr-2"
             src="/images/icons/mail.png"
             [alt]="'contacts.mail' | translate"
           />
-          <span>example&#64;mail.com</span>
+          <span>{{ info.email }}</span>
         </a>
-        <a href="#" class="inline-flex items-center">
+        <a
+          [href]="'tel:' + info.phone"
+          class="inline-flex items-center hover:underline"
+        >
           <img
             class="size-4 sm:size-5 mr-2"
             src="/images/icons/phone.png"
             [alt]="'contacts.phone' | translate"
           />
-          <span>+123 456 78 90</span>
+          <span>{{ info.phone }}</span>
         </a>
-        <a href="#" class="inline-flex items-center">
+        <a
+          [href]="info.facebook"
+          class="inline-flex items-center hover:underline"
+        >
           <img
             class="size-4 sm:size-5 mr-2"
             src="/images/icons/facebook.png"
             [alt]="'contacts.facebook' | translate"
           />
-          <span>/custom-furniture</span>
+          <span>{{ info.facebookHandle }}</span>
         </a>
       </div>
     </div>
