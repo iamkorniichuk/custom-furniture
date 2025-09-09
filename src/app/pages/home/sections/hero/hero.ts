@@ -7,12 +7,12 @@ import { ImagePaths } from '../../../../shared/images';
 import { backgrounds } from '../../../../shared/backgrounds';
 
 @Component({
-  selector: 'app-hero',
+  selector: 'app-hero-section',
   imports: [TranslatePipe, RouterModule, ArrowIconComponent],
   templateUrl: './hero.html',
   styleUrl: './hero.css',
 })
-export class HeroComponent implements OnInit, OnDestroy {
+export class HeroSectionComponent implements OnInit, OnDestroy {
   private intervalId?: number;
 
   backgroundImage1 = signal<ImagePaths | null>(null);

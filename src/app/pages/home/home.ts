@@ -1,11 +1,11 @@
 import { AfterViewInit, Component, inject } from '@angular/core';
 
-import { HeroComponent } from './sections/hero/hero';
+import { HeroSectionComponent } from './sections/hero/hero';
 import { SectionNavigationService } from '../../services/section-navigation';
 
 @Component({
   selector: 'app-home',
-  imports: [HeroComponent],
+  imports: [HeroSectionComponent],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
