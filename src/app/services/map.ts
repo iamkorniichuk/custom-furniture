@@ -23,10 +23,11 @@ export class MapService {
     const leafletMap = map(elementId, {
       center: center,
       zoom: initialZoom,
-      zoomControl: false,
+      attributionControl: false,
     });
 
     if (!isZoomEnabled) {
+      leafletMap.zoomControl.remove();
       leafletMap.touchZoom.disable();
       leafletMap.doubleClickZoom.disable();
       leafletMap.scrollWheelZoom.disable();
