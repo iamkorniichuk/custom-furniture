@@ -13,7 +13,6 @@ import { firstValueFrom } from 'rxjs';
 
 import { routes } from './app.routes';
 import { LanguageService } from './services/language';
-import { NavbarStateService } from './services/navbar-state';
 
 const languageInitializer = async () => {
   const languageService = inject(LanguageService);
@@ -22,14 +21,9 @@ const languageInitializer = async () => {
   await firstValueFrom(languageService.translate.use(languageCode));
 };
 
-const navbarStateInitializer = () => {
-  inject(NavbarStateService);
-};
-
 export const appConfig: ApplicationConfig = {
   providers: [
     provideAppInitializer(languageInitializer),
-    provideAppInitializer(navbarStateInitializer),
     provideBrowserGlobalErrorListeners(),
     provideZonelessChangeDetection(),
     provideRouter(routes),

@@ -29,15 +29,3 @@ body {
 .h-available {
   height: max(0px, calc(var(--vh) * 100 - var(--navbar-h)));
 }
-
-html.nav-overlay .h-available {
-  height: max(0px, calc(var(--vh) * 100 - var(--navbar-h)));
-}
-
-html:not(.nav-overlay) .h-available {
-  height: max(0px, calc(var(--vh) * 100 - var(--navbar-h)));
-}
-
-html.nav-overlay main {
-  padding-top: var(--navbar-h);
-}
