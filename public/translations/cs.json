@@ -10,7 +10,6 @@
   "contacts.noteTitle": "Důležité upozornění",
   "contacts.phone": "Telefonní číslo",
   "contacts.phoneNote": "Toto číslo je dostupné na WhatsApp a Telegram",
-  "contacts.scroll": "Posunout dál",
   "contacts.title": "Kontakty",
   "countries.contact": "Neváhejte nás kontaktovat pro více informací, dostupnost a individuální řešení podle vaší lokality.",
   "countries.description": "Naše dílna se nachází v Jelení Hoře v Polsku, ale s hrdostí poskytujeme služby v Německu, Polsku a České republice.",
@@ -19,12 +18,12 @@
   "countries.presence": "Ať už jste v Berlíně, Vratislavi nebo Praze, jsme připraveni s vámi spolupracovat. Naše přeshraniční působnost zaručuje konzistentní kvalitu, ať už jste kdekoli.",
   "countries.title": "Působíme mezinárodně",
   "hero.description": "Nábytek na klíč – to je kompletní proces tvorby interiéru bez zbytečných starostí. Od nápadu a projektu až po instalaci hotového nábytku ve vašem domě či kanceláři – my se postaráme o vše. Pomáháme vám ušetřit čas a nervy: vyvíjíme návrhy přizpůsobené vašim přáním; vybíráme materiály, které kombinují styl a odolnost; vyrábíme nábytek na míru s milimetrovou přesností; organizujeme dopravu a profesionální montáž. Získáte prostor, kde je vše promyšlené a funguje pro váš komfort. Naším cílem není jen vyrobit nábytek, ale vytvořit řešení, která vám budou sloužit roky a přinášet každodenní spokojenost.",
-  "hero.scroll": "Posunout dál",
   "hero.title": "Nábytek na klíč",
   "navbar.contacts": "Kontakty",
   "navbar.name": "Nábytek na klíč",
   "navbar.portfolio": "Portfolio",
   "not-found.description": "Stránka je nedostupná, smazaná nebo skrytá. Zkuste to později nebo kontaktujte vývojáře.",
   "not-found.home": "Zpět na hlavní stránku",
-  "not-found.title": "Stránka nebyla nalezena!"
+  "not-found.title": "Stránka nebyla nalezena!",
+  "scroll": "Posunout dál"
 }

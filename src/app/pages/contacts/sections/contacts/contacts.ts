@@ -4,8 +4,7 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { PlaceMapComponent } from '../../../../components/place-map/place-map';
 import { TranslatedPipe } from '../../../../pipes/translated-pipe';
 import { contacts } from '../../../../shared/contacts';
-import { RouterLink } from '@angular/router';
-import { ArrowIconComponent } from '../../../../components/arrow-icon/arrow-icon';
+import { ScrollSectionComponent } from '../../../../components/scroll-section/scroll-section';
 
 @Component({
   selector: 'app-contacts-section',
@@ -13,8 +12,7 @@ import { ArrowIconComponent } from '../../../../components/arrow-icon/arrow-icon
     TranslatePipe,
     TranslatedPipe,
     PlaceMapComponent,
-    RouterLink,
-    ArrowIconComponent,
+    ScrollSectionComponent,
   ],
   templateUrl: './contacts.html',
   styleUrl: './contacts.css',

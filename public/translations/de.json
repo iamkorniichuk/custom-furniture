@@ -10,7 +10,6 @@
   "contacts.noteTitle": "Wichtiger Hinweis",
   "contacts.phone": "Telefonnummer",
   "contacts.phoneNote": "Diese Nummer ist auf WhatsApp und Telegram verfügbar",
-  "contacts.scroll": "Weiter scrollen",
   "contacts.title": "Kontakte",
   "countries.contact": "Kontaktieren Sie uns gerne, um mehr über Details, Verfügbarkeit und individuelle Lösungen für Ihren Standort zu erfahren.",
   "countries.description": "Unsere Werkstatt befindet sich in Jelenia Góra, Polen, aber wir bieten stolz Dienstleistungen in Deutschland, Polen und Tschechien an.",
@@ -19,12 +18,12 @@
   "countries.presence": "Ob in Berlin, Breslau oder Prag – wir sind bereit, mit Ihnen zusammenzuarbeiten. Unsere grenzüberschreitende Präsenz garantiert gleichbleibende Qualität, egal wo Sie sich befinden.",
   "countries.title": "Wir arbeiten international",
   "hero.description": "Möbel nach Maß – das ist der komplette Prozess der Innenraumgestaltung ohne Stress. Von der Idee und dem Entwurf bis zur Installation fertiger Möbel in Ihrem Zuhause oder Büro – wir kümmern uns um alles. Wir helfen Ihnen, Zeit zu sparen und Nerven zu schonen: Wir entwickeln Designs nach Ihren Wünschen; wählen Materialien, die Stil und Haltbarkeit verbinden; fertigen maßgeschneiderte Möbel mit Millimeterpräzision; organisieren Lieferung und professionelle Montage. Sie erhalten einen Raum, in dem alles durchdacht ist und Ihrem Komfort dient. Unser Ziel ist es nicht nur, Möbel zu machen, sondern Lösungen zu schaffen, die jahrelang halten und tägliche Freude bereiten.",
-  "hero.scroll": "Weiter scrollen",
   "hero.title": "Möbel nach Maß",
   "navbar.contacts": "Kontakt",
   "navbar.name": "Möbel nach Maß",
   "navbar.portfolio": "Portfolio",
   "not-found.description": "Die Seite ist nicht verfügbar, gelöscht oder verborgen. Bitte versuchen Sie es später erneut oder wenden Sie sich an die Entwickler.",
   "not-found.home": "Zurück zur Startseite",
-  "not-found.title": "Seite nicht gefunden!"
+  "not-found.title": "Seite nicht gefunden!",
+  "scroll": "Weiter scrollen"
 }

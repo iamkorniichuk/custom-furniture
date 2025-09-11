@@ -2,14 +2,14 @@ import { Component, OnDestroy, OnInit, signal } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { RouterModule } from '@angular/router';
 
-import { ArrowIconComponent } from '../../../../components/arrow-icon/arrow-icon';
 import { ImagePaths } from '../../../../shared/images';
 import { backgrounds } from '../../../../shared/backgrounds';
 import { contacts } from '../../../../shared/contacts';
+import { ScrollSectionComponent } from '../../../../components/scroll-section/scroll-section';
 
 @Component({
   selector: 'app-hero-section',
-  imports: [TranslatePipe, RouterModule, ArrowIconComponent],
+  imports: [TranslatePipe, RouterModule, ScrollSectionComponent],
   templateUrl: './hero.html',
   styleUrl: './hero.css',
 })

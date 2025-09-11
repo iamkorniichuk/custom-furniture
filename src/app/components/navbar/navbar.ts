@@ -1,4 +1,10 @@
-import { Component, ElementRef, inject, AfterViewInit, OnDestroy } from '@angular/core';
+import {
+  Component,
+  ElementRef,
+  inject,
+  OnDestroy,
+  OnInit,
+} from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 
@@ -18,14 +24,14 @@ import { PortfolioDropdownComponent } from '../portfolio-dropdown/portfolio-drop
   templateUrl: './navbar.html',
   styleUrls: ['./navbar.css'],
 })
-export class NavbarComponent implements AfterViewInit, OnDestroy {
+export class NavbarComponent implements OnInit, OnDestroy {
   private language = inject(LanguageService);
   private element = inject(ElementRef<HTMLElement>);
 
   selectedLanguage = this.language.selectedLanguage;
   private onResizeBound = this.updateNavbarHeight.bind(this);
 
-  ngAfterViewInit() {
+  ngOnInit() {
     this.updateNavbarHeight();
     window.addEventListener('resize', this.onResizeBound);
   }
@@ -37,9 +43,6 @@ export class NavbarComponent implements AfterViewInit, OnDestroy {
   updateNavbarHeight() {
     const navElement = this.element.nativeElement;
     const height = navElement.getBoundingClientRect().height;
-    document.documentElement.style.setProperty(
-      '--navbar-h',
-      `${Math.round(height)}px`,
-    );
+    document.documentElement.style.setProperty('--navbar-h', `${height}px`);
   }
 }

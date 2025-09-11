@@ -1,6 +1,6 @@
 <section
   id="hero"
-  class="relative h-available w-full overflow-hidden snap-start snap-always"
+  class="relative h-full max-h-full w-full overflow-hidden snap-start snap-always"
 >
   <img
     [src]="backgroundImage1()?.small"
@@ -67,7 +67,7 @@
 
   <div class="z-20 absolute inset-0 flex justify-center items-center">
     <div
-      class="w-auto max-w-[90%] sm:max-w-lg md:max-w-2xl lg:max-w-3xl h-auto max-h-[90vh] bg-white p-4 sm:p-6 md:p-8 flex flex-col justify-between"
+      class="w-auto max-w-[90dvw] sm:max-w-lg md:max-w-2xl lg:max-w-3xl h-auto max-h-[90dvh] bg-white p-4 sm:p-6 md:p-8 flex flex-col justify-between"
     >
       <div>
         <h3
@@ -119,16 +119,6 @@
       </div>
     </div>
   </div>
-  <a
-    [routerLink]="[]"
-    fragment="sample"
-    class="z-20 absolute bottom-1/20 left-1/2 transform -translate-x-1/2 text-white"
-  >
-    <div class="hover:underline text-sm sm:text-base md:text-lg">
-      {{ "hero.scroll" | translate }}
-    </div>
-    <div class="flex justify-center items-center">
-      <app-arrow-icon class="h-5" />
-    </div>
-  </a>
+
+  <app-scroll-section fragment="sample" class="text-white" />
 </section>
