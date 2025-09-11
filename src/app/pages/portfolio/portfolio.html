@@ -3,14 +3,14 @@
 <div
   class="h-available snap-y snap-mandatory overflow-y-scroll flex justify-center"
 >
-  <div class="w-full max-w-7xl">
+  <div class="w-full max-w-7xl h-fit bg-white shadow-xl shadow-zinc-950">
     @for (row of projects(); track $index) {
       <section
-        class="snap-start h-available w-full flex flex-col-reverse md:flex-row overflow-hidden shadow-xl shadow-zinc-950"
+        class="snap-start h-available w-full flex flex-col-reverse md:flex-row overflow-hidden"
         [ngClass]="{ 'md:flex-row-reverse': $index % 2 === 1 }"
       >
         <div
-          class="flex-1 flex flex-col justify-center px-6 py-8 sm:px-6 sm:py-8 md:px-8 md:py-10 lg:px-10 lg:py-12 bg-white z-10"
+          class="flex-1 flex flex-col justify-center px-6 py-8 sm:px-6 sm:py-8 md:px-8 md:py-10 lg:px-10 lg:py-12 z-10"
         >
           <h3
             class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-2 sm:mb-3 md:mb-4 lg:mb-5"
