@@ -4,10 +4,14 @@
   class="h-available snap-y snap-mandatory overflow-y-scroll flex justify-center"
 >
   <div class="w-full max-w-7xl h-fit bg-white shadow-xl shadow-zinc-950">
-    @for (row of projects(); track $index) {
+    @for (obj of projects() | keyvalue; track obj.value.id) {
+      @let row = obj.value;
+      @let currentIndex = currentIndexes[row.id];
+      @let loaded = imageLoaded[row.id][currentIndex];
+
       <section
         class="snap-start h-available w-full flex flex-col-reverse md:flex-row overflow-hidden"
-        [ngClass]="{ 'md:flex-row-reverse': $index % 2 === 1 }"
+        [ngClass]="{ 'md:flex-row-reverse': $even }"
       >
         <div
           class="flex-1 flex flex-col justify-center px-6 py-8 sm:px-6 sm:py-8 md:px-8 md:py-10 lg:px-10 lg:py-12 z-10"
@@ -31,7 +35,7 @@
           </p>
         </div>
         <div class="flex-3 md:flex-auto relative overflow-hidden group">
-          @if (!imageLoaded[$index][currentIndexes[$index]]) {
+          @if (!loaded) {
             <div
               class="absolute size-full flex items-center justify-center bg-zinc-100"
             >
@@ -41,18 +45,16 @@
             </div>
           }
           <picture>
-            @if (
-              row.images[currentIndexes[$index]].orientation === "portrait"
-            ) {
+            @if (row.images[currentIndex].orientation === "portrait") {
               <source
                 [srcset]="
-                  row.images[currentIndexes[$index]].paths.small +
+                  row.images[currentIndex].paths.small +
                   ' 360w, ' +
-                  row.images[currentIndexes[$index]].paths.medium +
+                  row.images[currentIndex].paths.medium +
                   ' 640w, ' +
-                  row.images[currentIndexes[$index]].paths.large +
+                  row.images[currentIndex].paths.large +
                   ' 960w, ' +
-                  row.images[currentIndexes[$index]].paths.xlarge +
+                  row.images[currentIndex].paths.xlarge +
                   ' 1080w'
                 "
                 sizes="
@@ -65,13 +67,13 @@
             } @else {
               <source
                 [srcset]="
-                  row.images[currentIndexes[$index]].paths.small +
+                  row.images[currentIndex].paths.small +
                   ' 480w, ' +
-                  row.images[currentIndexes[$index]].paths.medium +
+                  row.images[currentIndex].paths.medium +
                   ' 800w, ' +
-                  row.images[currentIndexes[$index]].paths.large +
+                  row.images[currentIndex].paths.large +
                   ' 1200w, ' +
-                  row.images[currentIndexes[$index]].paths.xlarge +
+                  row.images[currentIndex].paths.xlarge +
                   ' 1600w'
                 "
                 sizes="
@@ -83,12 +85,12 @@
               />
             }
             <img
-              [src]="row.images[currentIndexes[$index]].paths.medium"
+              [src]="row.images[currentIndex].paths.medium"
               [alt]="row | translated: 'title'"
               class="w-full h-full object-cover"
               loading="lazy"
               decoding="async"
-              (load)="setImageLoad($index, currentIndexes[$index])"
+              (load)="setImageLoad(row.id, currentIndex)"
             />
           </picture>
 
@@ -107,13 +109,13 @@
             </div>
             @if (row.images.length > 1) {
               <button
-                (click)="goToPrevious($index)"
+                (click)="goToPrevious(row.id)"
                 class="absolute left-4 top-1/2 -translate-y-1/2 text-white cursor-pointer"
               >
                 <app-arrow-icon class="w-8 sm:w-6 h-auto rotate-90" />
               </button>
               <button
-                (click)="goToNext($index)"
+                (click)="goToNext(row.id)"
                 class="absolute right-4 top-1/2 -translate-y-1/2 text-white cursor-pointer"
               >
                 <app-arrow-icon class="w-8 sm:w-6 h-auto -rotate-90" />
@@ -122,7 +124,7 @@
             <div
               class="absolute right-4 top-4 text-white text-sm sm:text-base md:text-lg lg:text-xl"
             >
-              {{ currentIndexes[$index] + 1 }}/{{ row.images.length }}
+              {{ currentIndex + 1 }}/{{ row.images.length }}
             </div>
           </div>
         </div>

@@ -27,6 +27,7 @@ export interface Project extends Record<string, unknown> {
   title_ua: string;
   room: RoomCode;
   images: Image[];
+  id: number;
 }
 
 export const roomOptions: Room[] = [
@@ -96,4 +97,7 @@ export const roomOptions: Room[] = [
   },
 ];
 
-export const portfolio: Project[] = portfolioData as Project[];
+export const portfolio: Record<number, Project> = portfolioData as Record<
+  number,
+  Project
+>;
