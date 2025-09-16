@@ -5,11 +5,10 @@ import { RouterModule } from '@angular/router';
 import { ImagePaths } from '../../../../shared/images';
 import { backgrounds } from '../../../../shared/backgrounds';
 import { contacts } from '../../../../shared/contacts';
-import { ScrollSectionComponent } from '../../../../components/scroll-section/scroll-section';
 
 @Component({
   selector: 'app-hero-section',
-  imports: [TranslatePipe, RouterModule, ScrollSectionComponent],
+  imports: [TranslatePipe, RouterModule],
   templateUrl: './hero.html',
   styleUrl: './hero.css',
 })
