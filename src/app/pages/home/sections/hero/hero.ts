@@ -1,10 +1,18 @@
-import { Component, OnDestroy, OnInit, signal } from '@angular/core';
+import {
+  Component,
+  inject,
+  OnDestroy,
+  OnInit,
+  PLATFORM_ID,
+  signal,
+} from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { RouterModule } from '@angular/router';
 
 import { ImagePaths } from '../../../../shared/images';
 import { backgrounds } from '../../../../shared/backgrounds';
 import { contacts } from '../../../../shared/contacts';
+import { isPlatformBrowser } from '@angular/common';
 
 @Component({
   selector: 'app-hero-section',
@@ -13,6 +21,8 @@ import { contacts } from '../../../../shared/contacts';
   styleUrl: './hero.css',
 })
 export class HeroSectionComponent implements OnInit, OnDestroy {
+  private platformId = inject(PLATFORM_ID);
+
   info = contacts;
   private intervalId?: number;
 
@@ -24,9 +34,11 @@ export class HeroSectionComponent implements OnInit, OnDestroy {
     this.backgroundImage1.set(this.randomBackgroundImage());
     this.backgroundImage2.set(this.randomBackgroundImage());
 
-    this.intervalId = window.setInterval(() => {
-      this.swapBackgroundImages();
-    }, 8_000);
+    if (isPlatformBrowser(this.platformId)) {
+      this.intervalId = window.setInterval(() => {
+        this.swapBackgroundImages();
+      }, 8_000);
+    }
   }
 
   private swapBackgroundImages() {
@@ -47,6 +59,8 @@ export class HeroSectionComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    if (this.intervalId) clearInterval(this.intervalId);
+    if (isPlatformBrowser(this.platformId)) {
+      if (this.intervalId) clearInterval(this.intervalId);
+    }
   }
 }

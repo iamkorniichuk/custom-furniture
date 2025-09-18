@@ -1,7 +1,8 @@
-import { inject, Injectable, signal } from '@angular/core';
+import { inject, Injectable, PLATFORM_ID, signal } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { NavigationEnd, Router } from '@angular/router';
 import { filter, first } from 'rxjs';
+import { isPlatformBrowser } from '@angular/common';
 
 export interface Language {
   code: string;
@@ -9,26 +10,30 @@ export interface Language {
   label: string;
 }
 
+export const AVAILABLE_LANGUAGES: Record<string, Language> = {
+  en: {
+    code: 'en',
+    src: '/images/flags/united-kingdom.png',
+    label: 'English',
+  },
+  pl: { code: 'pl', src: '/images/flags/poland.png', label: 'Polski' },
+  de: { code: 'de', src: '/images/flags/germany.png', label: 'Deutsch' },
+  cs: {
+    code: 'cs',
+    src: '/images/flags/czech-republic.png',
+    label: 'Čeština',
+  },
+  ua: { code: 'ua', src: '/images/flags/ukraine.png', label: 'Українська' },
+};
+
 @Injectable({
   providedIn: 'root',
 })
 export class LanguageService {
+  private platformId = inject(PLATFORM_ID);
+
   private LANGUAGE_KEY = 'language';
-  readonly availableLanguages: Record<string, Language> = {
-    en: {
-      code: 'en',
-      src: '/images/flags/united-kingdom.png',
-      label: 'English',
-    },
-    pl: { code: 'pl', src: '/images/flags/poland.png', label: 'Polski' },
-    de: { code: 'de', src: '/images/flags/germany.png', label: 'Deutsch' },
-    cs: {
-      code: 'cs',
-      src: '/images/flags/czech-republic.png',
-      label: 'Čeština',
-    },
-    ua: { code: 'ua', src: '/images/flags/ukraine.png', label: 'Українська' },
-  };
+  readonly availableLanguages = AVAILABLE_LANGUAGES;
   readonly fallbackLanguageCode = 'en';
   readonly selectedLanguage = signal(
     this.availableLanguages[this.fallbackLanguageCode],
@@ -86,8 +91,12 @@ export class LanguageService {
 
   private extractCurrentLanguageCode(): string {
     const routeLanguageCode = this.getRouteLanguageCode();
-    const storedLanguageCode = localStorage.getItem(this.LANGUAGE_KEY);
-    const browserLanguageCode = navigator.language.split('-')[0].toLowerCase();
+    let storedLanguageCode: string | null = null;
+    let browserLanguageCode: string | null = null;
+    if (isPlatformBrowser(this.platformId)) {
+      storedLanguageCode = localStorage.getItem(this.LANGUAGE_KEY);
+      browserLanguageCode = navigator.language.split('-')[0].toLowerCase();
+    }
 
     if (this.isSuitableLanguageCode(routeLanguageCode))
       return routeLanguageCode;
@@ -104,7 +113,8 @@ export class LanguageService {
 
     this.selectedLanguage.set(language);
     this.translate.use(languageCode);
-    localStorage.setItem(this.LANGUAGE_KEY, languageCode);
+    if (isPlatformBrowser(this.platformId))
+      localStorage.setItem(this.LANGUAGE_KEY, languageCode);
   }
 
   navigateToCurrentLanguage() {

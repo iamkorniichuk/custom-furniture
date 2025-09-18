@@ -1,26 +1,22 @@
-import { Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import { GeoJsonObject } from 'geojson';
-import {
-  Map,
-  map,
-  tileLayer,
-  geoJSON,
-  LatLngExpression,
-  marker,
-  Icon,
-} from 'leaflet';
+import { Map, LatLngExpression } from 'leaflet';
+
+import { LeafletService } from './leaflet';
 
 @Injectable({
   providedIn: 'root',
 })
 export class MapService {
+  private leafletService = inject(LeafletService);
+
   createBaseMap(
     elementId: string,
     center: LatLngExpression,
     initialZoom = 5,
     isZoomEnabled = true,
   ): Map {
-    const leafletMap = map(elementId, {
+    const leafletMap = this.leafletService.L.map(elementId, {
       center: center,
       zoom: initialZoom,
       attributionControl: false,
@@ -34,12 +30,12 @@ export class MapService {
       leafletMap.boxZoom.disable();
       leafletMap.keyboard.disable();
     }
-    tileLayer(
+    this.leafletService.L.tileLayer(
       'https://cartodb-basemaps-a.global.ssl.fastly.net/light_nolabels/{z}/{x}/{y}{r}.png',
       { subdomains: 'abcd' },
     ).addTo(leafletMap);
 
-    tileLayer(
+    this.leafletService.L.tileLayer(
       'https://cartodb-basemaps-a.global.ssl.fastly.net/light_only_labels/{z}/{x}/{y}{r}.png',
       { subdomains: 'abcd' },
     ).addTo(leafletMap);
@@ -48,7 +44,7 @@ export class MapService {
   }
 
   addPolygons(map: Map, data: GeoJsonObject): Map {
-    geoJSON(data, {
+    this.leafletService.L.geoJSON(data, {
       style: {
         color: 'black',
         weight: 2,
@@ -61,14 +57,14 @@ export class MapService {
   }
 
   addMarker(map: Map, position: LatLngExpression): Map {
-    const icon = new Icon({
+    const icon = new this.leafletService.L.Icon({
       iconUrl: 'images/icons/pin.png',
       iconSize: [50, 50],
       iconAnchor: [25, 50],
       popupAnchor: [0, -51],
       shadowUrl: '',
     });
-    marker(position, { icon: icon }).addTo(map);
+    this.leafletService.L.marker(position, { icon: icon }).addTo(map);
     return map;
   }
 }

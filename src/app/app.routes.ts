@@ -6,12 +6,17 @@ import { ContactsComponent } from './pages/contacts/contacts';
 
 export const routes: Routes = [
   {
-    path: ':language',
+    path: '',
     children: [
-      { path: '', component: HomeComponent },
-      { path: 'portfolio', component: PortfolioComponent },
-      { path: 'contacts', component: ContactsComponent },
-      { path: '**', component: NotFoundComponent },
+      {
+        path: ':language',
+        children: [
+          { path: '', component: HomeComponent },
+          { path: 'portfolio', component: PortfolioComponent },
+          { path: 'contacts', component: ContactsComponent },
+          { path: '**', component: NotFoundComponent },
+        ],
+      },
     ],
   },
 ];

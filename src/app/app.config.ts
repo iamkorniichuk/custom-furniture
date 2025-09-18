@@ -7,12 +7,16 @@ import {
 } from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { provideTranslateService } from '@ngx-translate/core';
-import { provideHttpClient } from '@angular/common/http';
+import { provideHttpClient, withFetch } from '@angular/common/http';
 import { provideTranslateHttpLoader } from '@ngx-translate/http-loader';
 import { firstValueFrom } from 'rxjs';
 
 import { routes } from './app.routes';
 import { LanguageService } from './services/language';
+import {
+  provideClientHydration,
+  withEventReplay,
+} from '@angular/platform-browser';
 
 const languageInitializer = async () => {
   const languageService = inject(LanguageService);
@@ -27,7 +31,7 @@ export const appConfig: ApplicationConfig = {
     provideBrowserGlobalErrorListeners(),
     provideZonelessChangeDetection(),
     provideRouter(routes),
-    provideHttpClient(),
+    provideHttpClient(withFetch()),
     provideTranslateService({
       loader: provideTranslateHttpLoader({
         prefix: '/translations/',
@@ -35,5 +39,6 @@ export const appConfig: ApplicationConfig = {
       }),
       fallbackLang: 'en',
     }),
+    provideClientHydration(withEventReplay()),
   ],
 };

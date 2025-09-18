@@ -4,6 +4,7 @@ import {
   inject,
   OnDestroy,
   OnInit,
+  PLATFORM_ID,
 } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
@@ -11,6 +12,7 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 import { LanguageDropdownComponent } from '../language-dropdown/language-dropdown';
 import { LanguageService } from '../../services/language';
 import { PortfolioDropdownComponent } from '../portfolio-dropdown/portfolio-dropdown';
+import { isPlatformBrowser } from '@angular/common';
 
 @Component({
   selector: 'app-navbar',
@@ -25,6 +27,8 @@ import { PortfolioDropdownComponent } from '../portfolio-dropdown/portfolio-drop
   styleUrls: ['./navbar.css'],
 })
 export class NavbarComponent implements OnInit, OnDestroy {
+  private platformId = inject(PLATFORM_ID);
+
   private language = inject(LanguageService);
   private element = inject(ElementRef<HTMLElement>);
 
@@ -32,17 +36,22 @@ export class NavbarComponent implements OnInit, OnDestroy {
   private onResizeBound = this.updateNavbarHeight.bind(this);
 
   ngOnInit() {
-    this.updateNavbarHeight();
-    window.addEventListener('resize', this.onResizeBound);
+    if (isPlatformBrowser(this.platformId)) {
+      this.updateNavbarHeight();
+      window.addEventListener('resize', this.onResizeBound);
+    }
   }
 
   ngOnDestroy() {
-    window.removeEventListener('resize', this.onResizeBound);
+    if (isPlatformBrowser(this.platformId))
+      window.removeEventListener('resize', this.onResizeBound);
   }
 
   updateNavbarHeight() {
-    const navElement = this.element.nativeElement;
-    const height = navElement.getBoundingClientRect().height;
-    document.documentElement.style.setProperty('--navbar-h', `${height}px`);
+    if (isPlatformBrowser(this.platformId)) {
+      const navElement = this.element.nativeElement;
+      const height = navElement.getBoundingClientRect().height;
+      document.documentElement.style.setProperty('--navbar-h', `${height}px`);
+    }
   }
 }

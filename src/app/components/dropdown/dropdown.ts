@@ -2,12 +2,14 @@ import {
   Component,
   ElementRef,
   HostListener,
+  inject,
   Input,
+  PLATFORM_ID,
   signal,
   TemplateRef,
   ViewChild,
 } from '@angular/core';
-import { NgTemplateOutlet } from '@angular/common';
+import { isPlatformBrowser, NgTemplateOutlet } from '@angular/common';
 
 import { ArrowIconComponent } from '../arrow-icon/arrow-icon';
 
@@ -18,6 +20,8 @@ import { ArrowIconComponent } from '../arrow-icon/arrow-icon';
   styleUrl: './dropdown.css',
 })
 export class DropdownComponent {
+  private platformId = inject(PLATFORM_ID);
+
   @Input() trigger!: TemplateRef<unknown>;
   @Input() menu!: TemplateRef<unknown>;
   @ViewChild('mobileTrigger') mobileTrigger!: ElementRef;
@@ -30,6 +34,8 @@ export class DropdownComponent {
 
   @HostListener('document:click', ['$event.target'])
   close(target: EventTarget | null) {
+    if (!isPlatformBrowser(this.platformId)) return;
+
     if (this.mobileTrigger.nativeElement.contains(target)) return;
     this.isOpen.set(false);
   }

@@ -14,6 +14,7 @@ module.exports = tseslint.config(
     ],
     processor: angular.processInlineTemplates,
     rules: {
+      "@typescript-eslint/no-require-imports": ["error", {allow: ['leaflet']}],
       "@angular-eslint/directive-selector": [
         "error",
         {

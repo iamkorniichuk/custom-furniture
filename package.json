@@ -1,6 +1,6 @@
 {
   "name": "custom-furniture",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -10,7 +10,8 @@
     "translate": "ngx-translate-extract --input ./src --output ./public/translations/{en,pl,de,cs,ua}.json --clean --sort --format json",
     "lint": "ng lint --fix",
     "format": "prettier --write \"src/**/*.{ts,html,css,json,scss,md}\"",
-    "prepare": "husky"
+    "prepare": "husky",
+    "serve:ssr": "node dist/custom-furniture/server/server.mjs"
   },
   "prettier": {
     "overrides": [
@@ -30,15 +31,18 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/common": "^20.2.1",
-    "@angular/compiler": "^20.2.1",
-    "@angular/core": "^20.2.1",
-    "@angular/forms": "^20.2.1",
-    "@angular/platform-browser": "^20.2.1",
-    "@angular/router": "^20.2.1",
+    "@angular/common": "^20.3.0",
+    "@angular/compiler": "^20.3.0",
+    "@angular/core": "^20.3.0",
+    "@angular/forms": "^20.3.0",
+    "@angular/platform-browser": "^20.3.0",
+    "@angular/platform-server": "^20.3.0",
+    "@angular/router": "^20.3.0",
+    "@angular/ssr": "^20.3.2",
     "@ngx-translate/core": "^17.0.0",
     "@ngx-translate/http-loader": "^17.0.0",
     "@tailwindcss/postcss": "^4.1.11",
+    "express": "^5.1.0",
     "leaflet": "^1.9.4",
     "postcss": "^8.5.6",
     "rxjs": "~7.8.0",
@@ -46,11 +50,13 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
-    "@angular/build": "^20.2.0",
-    "@angular/cli": "^20.2.0",
-    "@angular/compiler-cli": "^20.2.1",
+    "@angular/build": "^20.3.2",
+    "@angular/cli": "^20.3.2",
+    "@angular/compiler-cli": "^20.3.0",
+    "@types/express": "^5.0.1",
     "@types/jasmine": "~5.1.0",
     "@types/leaflet": "^1.9.20",
+    "@types/node": "^20.17.19",
     "@vendure/ngx-translate-extract": "^10.0.1",
     "angular-eslint": "20.2.0",
     "eslint": "^9.33.0",
