@@ -8,15 +8,20 @@ import {
 import { provideRouter } from '@angular/router';
 import { provideTranslateService } from '@ngx-translate/core';
 import { provideHttpClient, withFetch } from '@angular/common/http';
+import {
+  provideClientHydration,
+  withEventReplay,
+} from '@angular/platform-browser';
+import { provideFirebaseApp, initializeApp } from '@angular/fire/app';
+import { getAuth, provideAuth } from '@angular/fire/auth';
+import { getFirestore, provideFirestore } from '@angular/fire/firestore';
+import { getStorage, provideStorage } from '@angular/fire/storage';
 import { provideTranslateHttpLoader } from '@ngx-translate/http-loader';
 import { firstValueFrom } from 'rxjs';
 
 import { routes } from './app.routes';
 import { LanguageService } from './services/language';
-import {
-  provideClientHydration,
-  withEventReplay,
-} from '@angular/platform-browser';
+import { firebaseConfig } from './shared/firebase';
 
 const languageInitializer = async () => {
   const languageService = inject(LanguageService);
@@ -40,5 +45,9 @@ export const appConfig: ApplicationConfig = {
       fallbackLang: 'en',
     }),
     provideClientHydration(withEventReplay()),
+    provideFirebaseApp(() => initializeApp(firebaseConfig)),
+    provideAuth(() => getAuth()),
+    provideStorage(() => getStorage()),
+    provideFirestore(() => getFirestore()),
   ],
 };
