@@ -1,7 +1,7 @@
 <div class="fixed inset-0 bg-zinc-50 -z-10 bg-center"></div>
 
 <div
-  #scroll
+  #scrollElement
   infiniteScroll
   [infiniteScrollDistance]="1"
   [infiniteScrollThrottle]="200"
@@ -10,9 +10,10 @@
   class="h-available snap-y snap-mandatory overflow-y-scroll flex justify-center"
 >
   <div class="w-full max-w-7xl h-fit bg-white shadow-xl shadow-zinc-950">
-    @for (row of projects(); track row.id) {
-      @let currentIndex = currentIndexes[row.id];
-      @let loaded = imageLoaded[row.id][currentIndex];
+    @for (obj of projects() | keyvalue; track obj.key) {
+      @let row = obj.value;
+      @let currentIndex = currentIndexes()[row.id];
+      @let loaded = imageLoaded()[row.id][currentIndex];
 
       <section
         class="snap-start h-available w-full flex flex-col-reverse md:flex-row overflow-hidden"
@@ -29,10 +30,11 @@
           <p
             class="text-xs sm:text-sm md:text-base lg:text-lg mb-2 sm:mb-3 md:mb-4"
           >
-            {{ row["description"] || "TBA" }}
+            {{ row | translated: "description" }}
           </p>
           <p class="text-xs sm:text-sm md:text-base mb-1">
-            <span class="font-semibold">Date:</span> {{ row["date"] || "TBA" }}
+            <span class="font-semibold">Date:</span>
+            {{ row["datetime"].toDate() | date: "dd/MM/yyyy" }}
           </p>
           <p class="text-xs sm:text-sm md:text-base mb-1">
             <span class="font-semibold">Location:</span>

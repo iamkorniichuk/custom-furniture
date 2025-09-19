@@ -1,4 +1,4 @@
-import portfolioData from '../../assets/furnitures.json';
+import { Timestamp } from '@angular/fire/firestore';
 import { Image } from './images';
 
 export type RoomCode =
@@ -25,9 +25,15 @@ export interface Project extends Record<string, unknown> {
   title_en: string;
   title_pl: string;
   title_ua: string;
+  description_cs: string;
+  description_de: string;
+  description_en: string;
+  description_pl: string;
+  description_ua: string;
+  datetime: Timestamp;
   room: RoomCode;
   images: Image[];
-  id: number;
+  id: string;
 }
 
 export const roomOptions: Room[] = [
@@ -96,5 +102,3 @@ export const roomOptions: Room[] = [
     title_ua: 'Коридор',
   },
 ];
-
-export const portfolio: Project[] = portfolioData as Project[];
