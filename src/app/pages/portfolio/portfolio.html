@@ -1,11 +1,16 @@
 <div class="fixed inset-0 bg-zinc-50 -z-10 bg-center"></div>
 
 <div
+  #scroll
+  infiniteScroll
+  [infiniteScrollDistance]="1"
+  [infiniteScrollThrottle]="200"
+  (scrolled)="loadNextProjects()"
+  [scrollWindow]="false"
   class="h-available snap-y snap-mandatory overflow-y-scroll flex justify-center"
 >
   <div class="w-full max-w-7xl h-fit bg-white shadow-xl shadow-zinc-950">
-    @for (obj of projects() | keyvalue; track obj.value.id) {
-      @let row = obj.value;
+    @for (row of projects(); track row.id) {
       @let currentIndex = currentIndexes[row.id];
       @let loaded = imageLoaded[row.id][currentIndex];
 
@@ -88,7 +93,7 @@
               [src]="row.images[currentIndex].paths.medium"
               [alt]="row | translated: 'title'"
               class="w-full h-full object-cover"
-              loading="lazy"
+              loading="eager"
               decoding="async"
               (load)="setImageLoad(row.id, currentIndex)"
             />

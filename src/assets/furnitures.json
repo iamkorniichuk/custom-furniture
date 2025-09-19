@@ -1,5 +1,5 @@
-{
-  "0": {
+[
+  {
     "title_cs": "Barový postoj dřevěný kuchyň namontovaný interiér",
     "title_de": "Bar Haltung Holzküche ausgestattet Innenraum",
     "title_en": "Bar Stance Wood Kitchen Fitted Interior",
@@ -64,7 +64,7 @@
     ],
     "id": 0
   },
-  "1": {
+  {
     "title_cs": "Černý úhel skříně",
     "title_de": "Schwarzwinkelgarderobe",
     "title_en": "Black Angle Wardrobe",
@@ -102,7 +102,7 @@
     ],
     "id": 1
   },
-  "2": {
+  {
     "title_cs": "Černá bílá kuchyně namontovaná interiér",
     "title_de": "Schwarz weiße Kücheninterieur",
     "title_en": "Black White Kitchen Fitted Interior",
@@ -257,7 +257,7 @@
     ],
     "id": 2
   },
-  "3": {
+  {
     "title_cs": "Blue Laundry Basket Koupelnový nábytek",
     "title_de": "Blau Wäschekorb Badezimmermöbel",
     "title_en": "Blue Laundry Basket Bathroom Furniture",
@@ -331,7 +331,7 @@
     ],
     "id": 3
   },
-  "4": {
+  {
     "title_cs": "Hnědý kuchyňský nábytek",
     "title_de": "Braune Küchenmöbel",
     "title_en": "Brown Kitchen Furniture",
@@ -360,7 +360,7 @@
     ],
     "id": 4
   },
-  "5": {
+  {
     "title_cs": "Interiér namontovaný obchod",
     "title_de": "Geschäftstätig",
     "title_en": "Business Fitted Interior",
@@ -488,7 +488,7 @@
     ],
     "id": 5
   },
-  "6": {
+  {
     "title_cs": "Business Glass Island",
     "title_de": "Business Glass Island",
     "title_en": "Business Glass Island",
@@ -508,7 +508,7 @@
     ],
     "id": 6
   },
-  "7": {
+  {
     "title_cs": "Konzultační nábytek",
     "title_de": "Beratungsraummöbel",
     "title_en": "Consulting Room Furniture",
@@ -564,7 +564,7 @@
     ],
     "id": 7
   },
-  "8": {
+  {
     "title_cs": "Koridorová dřevěná pohovka",
     "title_de": "Korridorholzsofa",
     "title_en": "Corridor Wood Sofa",
@@ -593,7 +593,7 @@
     ],
     "id": 8
   },
-  "9": {
+  {
     "title_cs": "Křivka Shelve Wardrobe",
     "title_de": "Kurvenregale Kleiderschrank",
     "title_en": "Curve Shelve Wardrobe",
@@ -631,7 +631,7 @@
     ],
     "id": 9
   },
-  "10": {
+  {
     "title_cs": "Skleněný luxusní bílý šatník",
     "title_de": "Glas Luxus weiße Garderobe",
     "title_en": "Glass Luxury White Wardrobe",
@@ -660,7 +660,7 @@
     ],
     "id": 10
   },
-  "11": {
+  {
     "title_cs": "Interiér zelené koupelny",
     "title_de": "Grüne Badezimmer -Innenraum",
     "title_en": "Green Bathroom Fitted Interior",
@@ -707,7 +707,7 @@
     ],
     "id": 11
   },
-  "12": {
+  {
     "title_cs": "Zelené sklo velká kuchyň namontovaná interiér",
     "title_de": "Grüne Glas Big Küche ausgestattet Innenraum",
     "title_en": "Green Glass Big Kitchen Fitted Interior",
@@ -772,7 +772,7 @@
     ],
     "id": 12
   },
-  "13": {
+  {
     "title_cs": "Interiér zelené kuchyně",
     "title_de": "Grüne Küche ausgestattet Innenraum",
     "title_en": "Green Kitchen Fitted Interior",
@@ -828,7 +828,7 @@
     ],
     "id": 13
   },
-  "14": {
+  {
     "title_cs": "Zelený světl koupelnový nábytek",
     "title_de": "Grüne Lichtmöbel",
     "title_en": "Green Light Bathroom Furniture",
@@ -884,7 +884,7 @@
     ],
     "id": 14
   },
-  "15": {
+  {
     "title_cs": "Zelená bílá kuchyně namontovaná interiér",
     "title_de": "Grüne weiße Küche ausgestattet Innenraum",
     "title_en": "Green White Kitchen Fitted Interior",
@@ -958,7 +958,7 @@
     ],
     "id": 15
   },
-  "16": {
+  {
     "title_cs": "Skříň namontovaného pokoje",
     "title_de": "Gästezimmer angepasst",
     "title_en": "Guestroom Fitted Wardrobe",
@@ -996,7 +996,7 @@
     ],
     "id": 16
   },
-  "17": {
+  {
     "title_cs": "Kolov s bílým dřevěným televizním nábytkem",
     "title_de": "Gästezimmer weiße Holzfernsehermöbel",
     "title_en": "Guestroom White Wood Tv Furniture",
@@ -1052,7 +1052,7 @@
     ],
     "id": 17
   },
-  "18": {
+  {
     "title_cs": "Vysoká dřevěná bílá kuchyně namontovaná interiér",
     "title_de": "Hochholz weiße Küche ausgestattet Innenraum",
     "title_en": "High Wood White Kitchen Fitted Interior",
@@ -1099,7 +1099,7 @@
     ],
     "id": 18
   },
-  "19": {
+  {
     "title_cs": "Kidroom namontovaný interiér",
     "title_de": "Kidroom -Innenraum",
     "title_en": "Kidroom Fitted Interior",
@@ -1155,7 +1155,7 @@
     ],
     "id": 19
   },
-  "20": {
+  {
     "title_cs": "Interiér namontovaný kuchyňský okno",
     "title_de": "Küchenfenster ausgestattet Innenraum",
     "title_en": "Kitchen Window Fitted Interior",
@@ -1220,7 +1220,7 @@
     ],
     "id": 20
   },
-  "21": {
+  {
     "title_cs": "Kuchyňský dřevo šedý nábytek",
     "title_de": "Küche Holzgrau Möbel",
     "title_en": "Kitchen Wood Gray Furniture",
@@ -1276,7 +1276,7 @@
     ],
     "id": 21
   },
-  "22": {
+  {
     "title_cs": "Levitace televizního šatníku",
     "title_de": "Fernsehgarderobe",
     "title_en": "Levatating Tv Wardrobe",
@@ -1314,7 +1314,7 @@
     ],
     "id": 22
   },
-  "23": {
+  {
     "title_cs": "Levitace nábytku s bílým pokojem",
     "title_de": "Levitation White Gästezimmermöbel",
     "title_en": "Levetating White Guestroom Furniture",
@@ -1352,7 +1352,7 @@
     ],
     "id": 23
   },
-  "24": {
+  {
     "title_cs": "Světelný úhel skříně",
     "title_de": "Lichtwinkelgarderobe",
     "title_en": "Light Angle Wardrobe",
@@ -1399,7 +1399,7 @@
     ],
     "id": 24
   },
-  "25": {
+  {
     "title_cs": "Světle bílý úhel ložnice",
     "title_de": "Hellweißes Winkel Schlafzimmer",
     "title_en": "Light White Angle Bedroom",
@@ -1446,7 +1446,7 @@
     ],
     "id": 25
   },
-  "26": {
+  {
     "title_cs": "Světle bílá koupelna namontovaná interiér",
     "title_de": "Hellweißes Badezimmer -Innenraum",
     "title_en": "Light White Bathroom Fitted Interior",
@@ -1484,7 +1484,7 @@
     ],
     "id": 26
   },
-  "27": {
+  {
     "title_cs": "Makeup Stance Wardrobe",
     "title_de": "Make -up -Stanzgarderobe",
     "title_en": "Makeup Stance Wardrobe",
@@ -1504,7 +1504,7 @@
     ],
     "id": 27
   },
-  "28": {
+  {
     "title_cs": "Interiér minimalistické kuchyně",
     "title_de": "Minimalistische Kücheninterieur",
     "title_en": "Minimalistic Kitchen Fitted Interior",
@@ -1551,7 +1551,7 @@
     ],
     "id": 28
   },
-  "29": {
+  {
     "title_cs": "Techní obchod namontovaný interiér",
     "title_de": "Technikgeschäft eingebautes Interieur",
     "title_en": "Tech Business Fitted Interior",
@@ -1616,7 +1616,7 @@
     ],
     "id": 29
   },
-  "30": {
+  {
     "title_cs": "Bílá černá kuchyně namontovaná interiér",
     "title_de": "Weiße schwarze Küche ausgestattet Innenraum",
     "title_en": "White Black Kitchen Fitted Interior",
@@ -1654,7 +1654,7 @@
     ],
     "id": 30
   },
-  "31": {
+  {
     "title_cs": "Bílá kuchyňská kuchyně namontovaná interiér",
     "title_de": "Weiße Kochinsel Küche ausgestattet Innenraum",
     "title_en": "White Cooking Island Kitchen Fitted Interior",
@@ -1692,7 +1692,7 @@
     ],
     "id": 31
   },
-  "32": {
+  {
     "title_cs": "Bílá skříň s dvojitým klepnutím",
     "title_de": "Weißer Doppelhahnschrank",
     "title_en": "White Double Tap Cabinet",
@@ -1739,7 +1739,7 @@
     ],
     "id": 32
   },
-  "33": {
+  {
     "title_cs": "Interiér bílé kuchyně",
     "title_de": "Weiße Küche ausgestattet Innenraum",
     "title_en": "White Kitchen Fitted Interior",
@@ -1777,7 +1777,7 @@
     ],
     "id": 33
   },
-  "34": {
+  {
     "title_cs": "Interiér namontované bílé kuchyně",
     "title_de": "Weißes Küchenfenster ausgestattet Innenraum",
     "title_en": "White Kitchen Window Fitted Interior",
@@ -1815,7 +1815,7 @@
     ],
     "id": 34
   },
-  "35": {
+  {
     "title_cs": "Bílá minimalistický interiér kuchyně",
     "title_de": "Weiße minimalistische Küche ausgestattet Innenraum",
     "title_en": "White Minimalistic Kitchen Fitted Interior",
@@ -1862,7 +1862,7 @@
     ],
     "id": 35
   },
-  "36": {
+  {
     "title_cs": "Nábytek",
     "title_de": "Holz schwarzer Beratungsraum Möbel",
     "title_en": "Wood Black Consulting Room Furniture",
@@ -1909,7 +1909,7 @@
     ],
     "id": 36
   },
-  "37": {
+  {
     "title_cs": "Dřevěné černé skleněné kuchyně namontované interiér",
     "title_de": "Holzschwarzglas Küche ausgestattet Innenraum",
     "title_en": "Wood Black Glass Kitchen Fitted Interior",
@@ -1983,7 +1983,7 @@
     ],
     "id": 37
   },
-  "38": {
+  {
     "title_cs": "Dřevěné černé bílé kuchyňské okno namontované interiér",
     "title_de": "Holz schwarz weißes Küchenfenster ausgestattet Innenraum",
     "title_en": "Wood Black White Kitchen Window Fitted Interior",
@@ -2021,7 +2021,7 @@
     ],
     "id": 38
   },
-  "39": {
+  {
     "title_cs": "Dřevěný tmavý levatační nábytek",
     "title_de": "Holz dunkle schwebende Möbel",
     "title_en": "Wood Dark Levatating Furniture",
@@ -2068,7 +2068,7 @@
     ],
     "id": 39
   },
-  "40": {
+  {
     "title_cs": "Nábytek na dřevo schody",
     "title_de": "Holzstufenmöbel",
     "title_en": "Wood Stairs Furniture",
@@ -2151,7 +2151,7 @@
     ],
     "id": 40
   },
-  "41": {
+  {
     "title_cs": "Interiér na dřevo bílé koridor",
     "title_de": "Holzkorridor ausgestattet Innenraum",
     "title_en": "Wood White Corridor Fitted Interior",
@@ -2216,7 +2216,7 @@
     ],
     "id": 41
   },
-  "42": {
+  {
     "title_cs": "Dřevěná bílá kuchyně namontovaná interiér",
     "title_de": "Holz weiße Küche ausgestattet Innenraum",
     "title_en": "Wood White Kitchen Fitted Interior",
@@ -2272,7 +2272,7 @@
     ],
     "id": 42
   },
-  "43": {
+  {
     "title_cs": "Dřevěný bílý kuchyňský nábytek",
     "title_de": "Holz weiße Küchenmöbel",
     "title_en": "Wood White Kitchen Furniture",
@@ -2328,7 +2328,7 @@
     ],
     "id": 43
   },
-  "44": {
+  {
     "title_cs": "Dřevěná bílá luxusní kuchyně namontovaná interiér",
     "title_de": "Holz weiße Luxusküche ausgestattet Innenraum",
     "title_en": "Wood White Luxury Kitchen Fitted Interior",
@@ -2366,7 +2366,7 @@
     ],
     "id": 44
   },
-  "45": {
+  {
     "title_cs": "Dřevěný bílý šatník",
     "title_de": "Holzkleiderschrank",
     "title_en": "Wood White Wardrobe",
@@ -2413,4 +2413,4 @@
     ],
     "id": 45
   }
-}
+]

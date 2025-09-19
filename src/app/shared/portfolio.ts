@@ -97,7 +97,4 @@ export const roomOptions: Room[] = [
   },
 ];
 
-export const portfolio: Record<number, Project> = portfolioData as Record<
-  number,
-  Project
->;
+export const portfolio: Project[] = portfolioData as Project[];
