@@ -1,0 +1,78 @@
+<div
+  class="h-available w-full flex items-center justify-center overflow-hidden bg-zinc-50 -z-10"
+>
+  <div
+    class="w-full max-w-md h-fit bg-white shadow-xl shadow-zinc-950 px-16 py-10"
+  >
+    <h3 class="font-medium text-xl">{{ "login.title" | translate }}</h3>
+    <form [formGroup]="form" (ngSubmit)="login()" class="mt-6 space-y-4">
+      <div>
+        <label
+          for="email"
+          class="block text-sm font-medium text-gray-700 text-left"
+        >
+          {{ "login.email" | translate }}
+        </label>
+        <input
+          id="email"
+          type="email"
+          required
+          class="mt-1 w-full input"
+          placeholder="you@example.com"
+          formControlName="email"
+        />
+        @if (email?.invalid && (email?.dirty || email?.touched)) {
+          <div class="text-sm text-red-600 mt-1">
+            @if (email?.errors?.["required"]) {
+              {{ "login.emailRequired" | translate }}
+            }
+            @if (email?.errors?.["email"]) {
+              {{ "login.emailInvalid" | translate }}
+            }
+          </div>
+        }
+      </div>
+
+      <div>
+        <label
+          for="password"
+          class="block text-sm font-medium text-gray-700 text-left"
+        >
+          {{ "login.password" | translate }}
+        </label>
+        <input
+          id="password"
+          type="password"
+          required
+          class="mt-1 w-full input"
+          placeholder="••••••••"
+          formControlName="password"
+        />
+        @if (password?.invalid && (password?.dirty || password?.touched)) {
+          <div class="text-sm text-red-600 mt-1">
+            @if (password?.errors?.["required"]) {
+              {{ "login.passwordRequired" | translate }}
+            }
+          </div>
+        }
+      </div>
+
+      <button
+        type="submit"
+        class="btn btn-primary justify-center w-full"
+        [disabled]="form.invalid"
+      >
+        {{ "login.login" | translate }}
+      </button>
+      @if (authError) {
+        <div class="text-sm text-red-600 mt-1">
+          @if (authError === "auth/invalid-credential") {
+            {{ "login.authInvalid" | translate }}
+          } @else {
+            {{ "login.authTryAgainLater" | translate }}
+          }
+        </div>
+      }
+    </form>
+  </div>
+</div>

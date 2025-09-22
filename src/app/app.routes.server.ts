@@ -1,4 +1,4 @@
-import { PrerenderFallback, RenderMode, ServerRoute } from '@angular/ssr';
+import { RenderMode, ServerRoute } from '@angular/ssr';
 import { AVAILABLE_LANGUAGES } from './services/language';
 
 const languageParams = Object.keys(AVAILABLE_LANGUAGES).map((language) => ({
@@ -13,7 +13,6 @@ export const serverRoutes: ServerRoute[] = [
   {
     path: ':language',
     renderMode: RenderMode.Prerender,
-    fallback: PrerenderFallback.Server,
     async getPrerenderParams() {
       return languageParams;
     },
@@ -21,7 +20,6 @@ export const serverRoutes: ServerRoute[] = [
   {
     path: ':language/contacts',
     renderMode: RenderMode.Prerender,
-    fallback: PrerenderFallback.Server,
     async getPrerenderParams() {
       return languageParams;
     },
@@ -31,9 +29,15 @@ export const serverRoutes: ServerRoute[] = [
     renderMode: RenderMode.Server,
   },
   {
+    path: ':language/login',
+    renderMode: RenderMode.Prerender,
+    async getPrerenderParams() {
+      return languageParams;
+    },
+  },
+  {
     path: ':language/**',
     renderMode: RenderMode.Prerender,
-    fallback: PrerenderFallback.Server,
     async getPrerenderParams() {
       return languageParams.map((p) => ({
         language: p.language,
