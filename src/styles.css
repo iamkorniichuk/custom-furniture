@@ -33,3 +33,35 @@ body {
 .max-h-available {
   max-height: var(--h-available);
 }
+
+.btn {
+  @apply flex items-center leading-none gap-1 px-5 py-3 md:px-4 md:py-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-black;
+}
+
+.btn-primary {
+  @apply text-lg font-medium text-white bg-black hover:bg-stone-900;
+}
+
+.btn-secondary {
+  @apply text-lg font-medium text-black bg-white hover:bg-stone-200;
+}
+
+.link {
+  @apply flex items-center leading-none gap-1 hover:underline text-black cursor-pointer;
+}
+
+.link-active {
+  @apply font-bold;
+}
+
+.input {
+  @apply text-black placeholder:text-stone-400 p-2 border-2 border-stone-600 outline-none focus-visible:border-black;
+}
+
+.card {
+  @apply bg-zinc-200 p-3 md:p-4 rounded-xl shadow-md;
+}
+
+.note {
+  @apply text-xs md:text-sm text-zinc-600;
+}

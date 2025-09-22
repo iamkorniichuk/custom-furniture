@@ -83,10 +83,7 @@
       <div
         class="flex flex-wrap justify-between gap-3 text-sm sm:text-base mt-8"
       >
-        <a
-          [href]="'mailto:' + info.email"
-          class="inline-flex items-center hover:underline"
-        >
+        <a [href]="'mailto:' + info.email" class="link">
           <img
             class="size-4 sm:size-5 mr-2"
             src="/images/icons/mail.png"
@@ -94,10 +91,7 @@
           />
           <span>{{ info.email }}</span>
         </a>
-        <a
-          [href]="'tel:' + info.phone"
-          class="inline-flex items-center hover:underline"
-        >
+        <a [href]="'tel:' + info.phone" class="link">
           <img
             class="size-4 sm:size-5 mr-2"
             src="/images/icons/phone.png"
@@ -105,10 +99,7 @@
           />
           <span>{{ info.phone }}</span>
         </a>
-        <a
-          [href]="info.facebook"
-          class="inline-flex items-center hover:underline"
-        >
+        <a [href]="info.facebook" class="link">
           <img
             class="size-4 sm:size-5 mr-2"
             src="/images/icons/facebook.png"

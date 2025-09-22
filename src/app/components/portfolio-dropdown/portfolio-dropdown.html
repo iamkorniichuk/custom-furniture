@@ -5,7 +5,7 @@
       [queryParams]="{ room: room.code }"
       routerLinkActive="font-bold"
       [routerLinkActiveOptions]="{ exact: true }"
-      class="whitespace-nowrap block px-4 py-2 hover:bg-black hover:text-white"
+      class="whitespace-nowrap block btn btn-secondary"
     >
       {{ room | translated: "title" }}
     </a>
@@ -15,7 +15,7 @@
 <ng-template #trigger>
   <a
     [routerLink]="['/', selectedLanguage().code, 'portfolio']"
-    routerLinkActive="font-bold"
+    routerLinkActive="link-active"
     class="flex items-center gap-1"
   >
     {{ "navbar.portfolio" | translate }}

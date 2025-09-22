@@ -39,32 +39,24 @@
           [alt]="'contacts.email' | translate"
         />
         <strong>{{ "contacts.email" | translate }}:</strong>
-        <a
-          [href]="'mailto:' + info.email"
-          class="inline-flex items-center hover:underline ml-1"
-        >
+        <a [href]="'mailto:' + info.email" class="link">
           <span>{{ info.email }}</span>
         </a>
       </p>
 
-      <p class="flex items-start gap-2">
+      <p class="flex items-center gap-2">
         <img
-          class="size-4 mt-1"
+          class="size-4"
           src="images/icons/phone.png"
           [alt]="'contacts.phone' | translate"
         />
-        <span>
-          <strong>{{ "contacts.phone" | translate }}:</strong>
-          <a
-            [href]="'tel:' + info.phone"
-            class="inline-flex items-center hover:underline ml-1"
-          >
-            <span>{{ info.phone }}</span>
-          </a>
-          <span class="text-sm text-zinc-600 block">
-            {{ "contacts.phoneNote" | translate }}
-          </span>
-        </span>
+        <strong>{{ "contacts.phone" | translate }}:</strong>
+        <a [href]="'tel:' + info.phone" class="link">
+          <span>{{ info.phone }}</span>
+        </a>
+      </p>
+      <p class="note">
+        {{ "contacts.phoneNote" | translate }}
       </p>
 
       <p class="flex items-center gap-2">
@@ -88,7 +80,7 @@
       </p>
     </div>
 
-    <div class="bg-zinc-200 p-4 rounded-xl shadow-md">
+    <div class="card">
       <h3 class="text-lg sm:text-xl font-medium">
         {{ "contacts.noteTitle" | translate }}
       </h3>

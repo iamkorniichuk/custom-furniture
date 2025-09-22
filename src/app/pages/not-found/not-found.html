@@ -8,10 +8,7 @@
     {{ "not-found.description" | translate }}
   </p>
 
-  <a
-    [routerLink]="['/', selectedLanguage().code]"
-    class="mt-8 inline-block px-6 py-3 text-lg font-medium text-white bg-black"
-  >
+  <a [routerLink]="['/', selectedLanguage().code]" class="mt-8 btn btn-primary">
     {{ "not-found.home" | translate }}
   </a>
 </div>

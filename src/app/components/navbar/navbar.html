@@ -14,9 +14,8 @@
 
     <a
       [routerLink]="['/', selectedLanguage().code, 'contacts']"
-      routerLinkActive="font-bold"
-      [routerLinkActiveOptions]="{ exact: true }"
-      href="#"
+      routerLinkActive="link-active"
+      class="link"
       >{{ "navbar.contacts" | translate }}</a
     >
   </div>
