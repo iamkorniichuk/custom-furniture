@@ -7,18 +7,24 @@ import {
   signal,
 } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
+import { isPlatformBrowser } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 import { ImagePaths } from '../../../../shared/images';
 import { backgrounds } from '../../../../shared/backgrounds';
 import { contacts } from '../../../../shared/contacts';
-import { isPlatformBrowser } from '@angular/common';
+import { BackgroundImageComponent } from '../../../../components/background-image/background-image';
+import { ContrastGradientComponent } from '../../../../components/contrast-gradient/contrast-gradient';
 
 @Component({
   selector: 'app-hero-section',
-  imports: [TranslatePipe, RouterModule],
+  imports: [
+    TranslatePipe,
+    RouterModule,
+    BackgroundImageComponent,
+    ContrastGradientComponent,
+  ],
   templateUrl: './hero.html',
-  styleUrl: './hero.css',
 })
 export class HeroSectionComponent implements OnInit, OnDestroy {
   private platformId = inject(PLATFORM_ID);

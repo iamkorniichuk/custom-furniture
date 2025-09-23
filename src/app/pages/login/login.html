@@ -1,15 +1,13 @@
 <div
-  class="h-available w-full flex items-center justify-center overflow-hidden bg-zinc-50 -z-10"
+  class="h-available w-full flex items-center justify-center overflow-hidden bg-bg-muted -z-10"
 >
-  <div
-    class="w-full max-w-md h-fit bg-white shadow-xl shadow-zinc-950 px-16 py-10"
-  >
-    <h3 class="font-medium text-xl">{{ "login.title" | translate }}</h3>
+  <div class="popup">
+    <h3 class="mb-2">{{ "login.title" | translate }}</h3>
     <form [formGroup]="form" (ngSubmit)="login()" class="mt-6 space-y-4">
       <div>
         <label
           for="email"
-          class="block text-sm font-medium text-gray-700 text-left"
+          class="block text-sm font-medium text-text-muted text-left"
         >
           {{ "login.email" | translate }}
         </label>
@@ -22,7 +20,7 @@
           formControlName="email"
         />
         @if (email?.invalid && (email?.dirty || email?.touched)) {
-          <div class="text-sm text-red-600 mt-1">
+          <div class="text-sm text-danger mt-1">
             @if (email?.errors?.["required"]) {
               {{ "login.emailRequired" | translate }}
             }
@@ -36,7 +34,7 @@
       <div>
         <label
           for="password"
-          class="block text-sm font-medium text-gray-700 text-left"
+          class="block text-sm font-medium text-text-muted text-left"
         >
           {{ "login.password" | translate }}
         </label>
@@ -49,7 +47,7 @@
           formControlName="password"
         />
         @if (password?.invalid && (password?.dirty || password?.touched)) {
-          <div class="text-sm text-red-600 mt-1">
+          <div class="text-sm text-danger mt-1">
             @if (password?.errors?.["required"]) {
               {{ "login.passwordRequired" | translate }}
             }

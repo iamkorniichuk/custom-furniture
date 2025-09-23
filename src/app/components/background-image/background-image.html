@@ -1,0 +1,23 @@
+<img
+  [src]="sourcePaths()?.small"
+  [srcset]="
+    sourcePaths()?.small +
+    ' 480w, ' +
+    sourcePaths()?.medium +
+    ' 800w, ' +
+    sourcePaths()?.large +
+    ' 1200w, ' +
+    sourcePaths()?.xlarge +
+    ' 1600w'
+  "
+  sizes="
+        (min-width: 1536px) 1280px, 
+        (min-width: 1280px) 1024px, 
+        (min-width: 768px) 768px,   
+        100vw
+    "
+  [alt]="alt()"
+  class="z-0 absolute inset-0 w-full h-full object-cover"
+  loading="eager"
+  decoding="async"
+/>

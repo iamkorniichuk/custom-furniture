@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { TranslatePipe } from '@ngx-translate/core';
 
@@ -10,6 +10,5 @@ import { ArrowIconComponent } from '../arrow-icon/arrow-icon';
   templateUrl: './scroll-section.html',
 })
 export class ScrollSectionComponent {
-  @Input() class = '';
-  @Input() fragment = '';
+  fragment = input.required<string>();
 }

@@ -1,4 +1,4 @@
-<div class="fixed inset-0 bg-zinc-50 -z-10 bg-center"></div>
+<div class="fixed inset-0 bg-bg-muted -z-10 bg-center"></div>
 
 <div
   #scrollElement
@@ -9,12 +9,8 @@
   [scrollWindow]="false"
   class="h-available snap-y snap-mandatory overflow-y-scroll flex justify-center"
 >
-  <div class="w-full max-w-7xl h-fit bg-white shadow-xl shadow-zinc-950">
-    @for (obj of projects() | keyvalue; track obj.key) {
-      @let row = obj.value;
-      @let currentIndex = currentIndexes()[row.id];
-      @let loaded = imageLoaded()[row.id][currentIndex];
-
+  <div class="w-full max-w-7xl h-fit bg-bg shadow-xl shadow-primary">
+    @for (row of projects(); track row.id) {
       <section
         class="snap-start h-available w-full flex flex-col-reverse md:flex-row overflow-hidden"
         [ngClass]="{ 'md:flex-row-reverse': $even }"
@@ -32,113 +28,12 @@
           >
             {{ row | translated: "description" }}
           </p>
-          <p class="text-xs sm:text-sm md:text-base mb-1">
-            <span class="font-semibold">Date:</span>
-            {{ row["datetime"].toDate() | date: "dd/MM/yyyy" }}
-          </p>
-          <p class="text-xs sm:text-sm md:text-base mb-1">
-            <span class="font-semibold">Location:</span>
-            {{ row["location"] || "TBA" }}
-          </p>
         </div>
-        <div class="flex-3 md:flex-auto relative overflow-hidden group">
-          @if (!loaded) {
-            <div
-              class="absolute size-full flex items-center justify-center bg-zinc-100"
-            >
-              <div
-                class="w-12 h-12 border-4 border-t-zinc-600 border-b-zinc-400 border-l-zinc-400 border-r-zinc-400 rounded-full animate-spin"
-              ></div>
-            </div>
-          }
-          <picture>
-            @if (row.images[currentIndex].orientation === "portrait") {
-              <source
-                [srcset]="
-                  row.images[currentIndex].paths.small +
-                  ' 360w, ' +
-                  row.images[currentIndex].paths.medium +
-                  ' 640w, ' +
-                  row.images[currentIndex].paths.large +
-                  ' 960w, ' +
-                  row.images[currentIndex].paths.xlarge +
-                  ' 1080w'
-                "
-                sizes="
-              (min-width: 1536px) 800px,  
-              (min-width: 1280px) 700px,  
-              (min-width: 768px) 500px,   
-              100vw                       
-            "
-              />
-            } @else {
-              <source
-                [srcset]="
-                  row.images[currentIndex].paths.small +
-                  ' 480w, ' +
-                  row.images[currentIndex].paths.medium +
-                  ' 800w, ' +
-                  row.images[currentIndex].paths.large +
-                  ' 1200w, ' +
-                  row.images[currentIndex].paths.xlarge +
-                  ' 1600w'
-                "
-                sizes="
-              (min-width: 1536px) 1280px, 
-              (min-width: 1280px) 1024px, 
-              (min-width: 768px) 768px,   
-              100vw                       
-            "
-              />
-            }
-            <img
-              [src]="row.images[currentIndex].paths.medium"
-              [alt]="row | translated: 'title'"
-              class="w-full h-full object-cover"
-              loading="eager"
-              decoding="async"
-              (load)="setImageLoad(row.id, currentIndex)"
-            />
-          </picture>
-
-          <div
-            class="md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300"
-          >
-            <div
-              class="absolute inset-0 flex flex-row justify-between pointer-events-none"
-            >
-              <div
-                class="h-full w-1/6 bg-gradient-to-r from-black/50 to-transparent"
-              ></div>
-              <div
-                class="h-full w-1/6 bg-gradient-to-l from-black/50 to-transparent"
-              ></div>
-            </div>
-            @if (row.images.length > 1) {
-              <div
-                class="absolute inset-0 flex flex-row justify-between pointer-events-none"
-              >
-                <button
-                  (click)="goToPrevious(row.id)"
-                  class="h-full w-1/15 text-white cursor-pointer flex items-center justify-center pointer-events-auto"
-                >
-                  <app-arrow-icon class="w-8 sm:w-6 h-auto rotate-45" />
-                </button>
-                <button
-                  (click)="goToNext(row.id)"
-                  class="h-full w-1/15 text-white cursor-pointer flex items-center justify-center pointer-events-auto"
-                >
-                  <app-arrow-icon class="w-8 sm:w-6 h-auto -rotate-45" />
-                </button>
-              </div>
-            }
-            <div
-              class="absolute right-4 top-4 text-white text-sm sm:text-base md:text-lg lg:text-xl"
-            >
-              {{ currentIndex + 1 }}/{{ row.images.length }}
-            </div>
-          </div>
-        </div>
+        <app-image-carousel
+          class="flex-3 md:flex-auto overflow-hidden"
+          [images]="row.images"
+          [alt]="row | translated: 'title'"
+        />
       </section>
     }
   </div>

@@ -32,4 +32,12 @@
   .note {
     @apply text-xs md:text-sm text-text-muted;
   }
+
+  .popup {
+    @apply w-auto max-w-[90dvw] shadow-lg shadow-primary sm:max-w-lg md:max-w-2xl lg:max-w-3xl h-auto max-h-[90dvh] bg-bg p-4 sm:p-6 md:p-8;
+  }
+
+  .spinner {
+    @apply border-4 border-t-primary border-b-secondary border-l-secondary border-r-secondary rounded-full animate-spin;
+  }
 }

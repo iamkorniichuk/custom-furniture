@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, inject, Input } from '@angular/core';
+import { AfterViewInit, Component, inject } from '@angular/core';
 
 import { MapService } from '../../services/map';
 
@@ -8,7 +8,6 @@ import { MapService } from '../../services/map';
   templateUrl: './place-map.html',
 })
 export class PlaceMapComponent implements AfterViewInit {
-  @Input() class = '';
   private map = inject(MapService);
 
   ngAfterViewInit() {
