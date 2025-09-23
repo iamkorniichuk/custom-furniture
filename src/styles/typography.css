@@ -1,0 +1,29 @@
+@theme {
+  --default-font-family: "Inter", sans-serif;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/inter/Inter-Italic-VariableFont_opsz,wght.ttf")
+    format("truetype");
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}

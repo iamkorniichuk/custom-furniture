@@ -44,7 +44,6 @@ import { ArrowIconComponent } from '../../components/arrow-icon/arrow-icon';
     DatePipe,
   ],
   templateUrl: './portfolio.html',
-  styleUrl: './portfolio.css',
 })
 export class PortfolioComponent implements OnInit, AfterViewInit {
   private platformId = inject(PLATFORM_ID);

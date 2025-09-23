@@ -8,7 +8,6 @@ import { ContactsSectionComponent } from './sections/contacts/contacts';
   selector: 'app-contacts',
   imports: [CountriesSectionComponents, ContactsSectionComponent],
   templateUrl: './contacts.html',
-  styleUrl: './contacts.css',
 })
 export class ContactsComponent implements AfterViewInit {
   private sectionNavigation = inject(SectionNavigationService);

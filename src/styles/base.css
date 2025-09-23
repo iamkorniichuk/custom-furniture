@@ -1,0 +1,10 @@
+@layer base {
+  body {
+    font-family: "Inter", sans-serif;
+  }
+
+  :root {
+    --navbar-h: 0px;
+    --h-available: calc(1dvh * 100 - var(--navbar-h));
+  }
+}

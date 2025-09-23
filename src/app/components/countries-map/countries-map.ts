@@ -7,7 +7,6 @@ import { MapService } from '../../services/map';
   selector: 'app-countries-map',
   imports: [],
   templateUrl: './countries-map.html',
-  styleUrl: './countries-map.css',
 })
 export class CountriesMapComponent implements AfterViewInit {
   @Input() class = '';

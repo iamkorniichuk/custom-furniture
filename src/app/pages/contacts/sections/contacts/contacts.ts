@@ -15,7 +15,6 @@ import { ScrollSectionComponent } from '../../../../components/scroll-section/sc
     ScrollSectionComponent,
   ],
   templateUrl: './contacts.html',
-  styleUrl: './contacts.css',
 })
 export class ContactsSectionComponent {
   info = contacts;

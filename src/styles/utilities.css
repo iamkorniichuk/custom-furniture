@@ -1,0 +1,9 @@
+@layer utilities {
+  .h-available {
+    height: var(--h-available);
+  }
+
+  .max-h-available {
+    max-height: var(--h-available);
+  }
+}

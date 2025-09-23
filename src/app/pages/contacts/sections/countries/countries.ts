@@ -7,6 +7,5 @@ import { CountriesMapComponent } from '../../../../components/countries-map/coun
   selector: 'app-countries-section',
   imports: [CountriesMapComponent, TranslatePipe],
   templateUrl: './countries.html',
-  styleUrl: './countries.css',
 })
 export class CountriesSectionComponents {}

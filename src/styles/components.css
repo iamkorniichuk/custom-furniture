@@ -1,0 +1,35 @@
+@layer components {
+  .btn {
+    @apply flex items-center leading-none gap-1 px-5 py-3 md:px-4 md:py-3;
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-primary;
+  }
+
+  .btn-primary {
+    @apply text-lg font-medium text-secondary bg-primary hover:bg-primary-hover;
+  }
+
+  .btn-secondary {
+    @apply text-lg font-medium bg-secondary hover:bg-secondary-hover;
+  }
+
+  .link {
+    @apply flex items-center leading-none gap-1 hover:underline cursor-pointer;
+  }
+
+  .link-active {
+    @apply font-bold;
+  }
+
+  .input {
+    @apply text-text placeholder:text-text-muted p-2 border-2 border-primary outline-none
+        focus-visible:border-primary-hover;
+  }
+
+  .card {
+    @apply bg-bg-accent p-3 md:p-4 rounded-xl shadow-md;
+  }
+
+  .note {
+    @apply text-xs md:text-sm text-text-muted;
+  }
+}

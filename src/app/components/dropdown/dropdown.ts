@@ -17,7 +17,6 @@ import { ArrowIconComponent } from '../arrow-icon/arrow-icon';
   selector: 'app-dropdown',
   imports: [ArrowIconComponent, NgTemplateOutlet],
   templateUrl: './dropdown.html',
-  styleUrl: './dropdown.css',
 })
 export class DropdownComponent {
   private platformId = inject(PLATFORM_ID);

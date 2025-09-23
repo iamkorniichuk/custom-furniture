@@ -6,7 +6,6 @@ import { NavbarComponent } from './components/navbar/navbar';
   selector: 'app-root',
   imports: [RouterOutlet, NavbarComponent],
   templateUrl: './app.html',
-  styleUrl: './app.css',
 })
 export class App {
   protected readonly title = signal('custom-furniture');

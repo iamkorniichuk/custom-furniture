@@ -6,7 +6,6 @@ import { MapService } from '../../services/map';
   selector: 'app-place-map',
   imports: [],
   templateUrl: './place-map.html',
-  styleUrl: './place-map.css',
 })
 export class PlaceMapComponent implements AfterViewInit {
   @Input() class = '';

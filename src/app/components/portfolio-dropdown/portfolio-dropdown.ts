@@ -17,7 +17,6 @@ import { DropdownComponent } from '../dropdown/dropdown';
     DropdownComponent,
   ],
   templateUrl: './portfolio-dropdown.html',
-  styleUrl: './portfolio-dropdown.css',
 })
 export class PortfolioDropdownComponent {
   private languageService = inject(LanguageService);

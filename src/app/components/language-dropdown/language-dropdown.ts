@@ -7,7 +7,6 @@ import { DropdownComponent } from '../dropdown/dropdown';
   selector: 'app-language-dropdown',
   imports: [DropdownComponent],
   templateUrl: './language-dropdown.html',
-  styleUrl: './language-dropdown.css',
 })
 export class LanguageDropdownComponent {
   private languageService = inject(LanguageService);

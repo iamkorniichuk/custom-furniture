@@ -24,7 +24,6 @@ import { isPlatformBrowser } from '@angular/common';
     PortfolioDropdownComponent,
   ],
   templateUrl: './navbar.html',
-  styleUrls: ['./navbar.css'],
 })
 export class NavbarComponent implements OnInit, OnDestroy {
   private platformId = inject(PLATFORM_ID);
