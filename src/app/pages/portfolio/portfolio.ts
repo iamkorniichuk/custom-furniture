@@ -1,32 +1,22 @@
 import {
   Component,
-  signal,
   inject,
   OnInit,
   ViewChild,
   ElementRef,
   PLATFORM_ID,
   AfterViewInit,
+  signal,
 } from '@angular/core';
 import { isPlatformBrowser, NgClass } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
-import {
-  Firestore,
-  collection,
-  query,
-  orderBy,
-  limit,
-  startAfter,
-  getDocs,
-  where,
-  QueryConstraint,
-  DocumentData,
-} from '@angular/fire/firestore';
 import { InfiniteScrollDirective } from 'ngx-infinite-scroll';
+import { DocumentData } from '@angular/fire/firestore';
 
 import { TranslatedPipe } from '../../pipes/translated-pipe';
 import { Project, Room, RoomCode, roomOptions } from '../../shared/portfolio';
 import { ImageCarouseComponent } from '../../components/image-carousel/image-carousel';
+import { PortfolioService } from '../../services/portfolio';
 
 @Component({
   selector: 'app-portfolio',
@@ -37,30 +27,27 @@ import { ImageCarouseComponent } from '../../components/image-carousel/image-car
     ImageCarouseComponent,
   ],
   templateUrl: './portfolio.html',
+  providers: [PortfolioService],
 })
 export class PortfolioComponent implements OnInit, AfterViewInit {
   private platformId = inject(PLATFORM_ID);
 
   @ViewChild('scrollElement') scroll!: ElementRef<HTMLDivElement>;
   private route = inject(ActivatedRoute);
-  private firestore = inject(Firestore);
-  private collectionReference = collection(this.firestore, 'projects');
+  private portfolio = inject(PortfolioService);
 
-  private pageSize = 10;
-  private lastDocument: DocumentData | null = null;
-
-  selectedRoom = signal<Room>(roomOptions[0]);
   projects = signal<Project[]>([]);
+  selectedRoom = signal<Room>(roomOptions[0]);
+  lastDocument: DocumentData | null = null;
 
   async ngOnInit() {
     this.route.queryParamMap.subscribe((params) => {
       const code = params.get('room') as RoomCode | null;
       const room = roomOptions.find((r) => r.code === code) || roomOptions[0];
-      this.selectedRoom.set(room);
 
+      this.selectedRoom.set(room);
       this.projects.set([]);
-      this.lastDocument = null;
-      this.loadNextProjects();
+      this.loadProjects();
     });
   }
 
@@ -69,34 +56,14 @@ export class PortfolioComponent implements OnInit, AfterViewInit {
       this.scroll.nativeElement.scrollTop = 0;
   }
 
-  async loadNextProjects() {
-    if (!isPlatformBrowser(this.platformId)) return;
-
-    let q;
-    const constraints: QueryConstraint[] = [orderBy('datetime', 'desc')];
-    if (this.lastDocument) constraints.push(startAfter(this.lastDocument));
-    constraints.push(limit(this.pageSize));
-
-    if (this.selectedRoom().code) {
-      q = query(
-        this.collectionReference,
-        where('room', '==', this.selectedRoom().code),
-        ...constraints,
-      );
-    } else {
-      q = query(this.collectionReference, ...constraints);
+  async loadProjects() {
+    const { results, lastDocument } = await this.portfolio.read(
+      this.lastDocument,
+      this.selectedRoom().code,
+    );
+    if (results) {
+      this.lastDocument = lastDocument;
+      this.projects.update((current) => current.concat(results));
     }
-    const nextDocuments = (await getDocs(q)).docs;
-
-    const nextProjects: Project[] = [];
-    for (const row of nextDocuments) {
-      const data = row.data() as Project;
-      nextProjects.push(data);
-    }
-
-    this.projects.update((current) => current.concat(nextProjects));
-
-    this.lastDocument =
-      nextDocuments[nextDocuments.length - 1] ?? this.lastDocument;
   }
 }

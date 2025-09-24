@@ -29,6 +29,10 @@ export const serverRoutes: ServerRoute[] = [
     renderMode: RenderMode.Server,
   },
   {
+    path: ':language/admin',
+    renderMode: RenderMode.Server,
+  },
+  {
     path: ':language/login',
     renderMode: RenderMode.Prerender,
     async getPrerenderParams() {

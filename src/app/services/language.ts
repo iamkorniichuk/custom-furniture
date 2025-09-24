@@ -53,7 +53,7 @@ export class LanguageService {
       .subscribe(() => {
         const currentLanguageCode = this.extractCurrentLanguageCode();
         this.setLanguage(currentLanguageCode);
-        this.navigateToCurrentLanguage();
+        this.redirectToCurrentLanguage();
 
         this.router.events
           .pipe(filter((e) => e instanceof NavigationEnd))
@@ -117,7 +117,12 @@ export class LanguageService {
       localStorage.setItem(this.LANGUAGE_KEY, languageCode);
   }
 
-  navigateToCurrentLanguage() {
+  navigateWithLanguage(path: string) {
+    const languageCode = this.selectedLanguage().code;
+    this.router.navigate(['/', languageCode, path]);
+  }
+
+  redirectToCurrentLanguage() {
     const languageCode = this.selectedLanguage().code;
     const segments = this.getCurrentUrlSegments();
     const newSegments = this.withLanguageSegment(languageCode, segments);

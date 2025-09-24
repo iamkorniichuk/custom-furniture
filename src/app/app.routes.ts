@@ -4,6 +4,8 @@ import { PortfolioComponent } from './pages/portfolio/portfolio';
 import { NotFoundComponent } from './pages/not-found/not-found';
 import { ContactsComponent } from './pages/contacts/contacts';
 import { LoginComponent } from './pages/login/login';
+import { AdminComponent } from './pages/admin/admin';
+import { adminGuard } from './services/admin-guard';
 
 export const routes: Routes = [
   {
@@ -16,6 +18,11 @@ export const routes: Routes = [
           { path: 'portfolio', component: PortfolioComponent },
           { path: 'contacts', component: ContactsComponent },
           { path: 'login', component: LoginComponent },
+          {
+            path: 'admin',
+            component: AdminComponent,
+            canActivate: [adminGuard],
+          },
           { path: '**', component: NotFoundComponent },
         ],
       },

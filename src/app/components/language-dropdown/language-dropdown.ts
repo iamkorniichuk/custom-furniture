@@ -17,6 +17,6 @@ export class LanguageDropdownComponent {
 
   selectLanguage(language: Language) {
     this.languageService.setLanguage(language.code);
-    this.languageService.navigateToCurrentLanguage();
+    this.languageService.redirectToCurrentLanguage();
   }
 }

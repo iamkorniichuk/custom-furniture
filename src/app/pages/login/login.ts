@@ -12,8 +12,9 @@ import {
   ReactiveFormsModule,
   Validators,
 } from '@angular/forms';
-import { Router } from '@angular/router';
 import { TranslatePipe } from '@ngx-translate/core';
+
+import { LanguageService } from '../../services/language';
 
 @Component({
   selector: 'app-login',
@@ -27,8 +28,8 @@ export class LoginComponent {
   });
   authError: string | null = null;
   private auth = inject(Auth);
-  private router = inject(Router);
   private platformId = inject(PLATFORM_ID);
+  private language = inject(LanguageService);
 
   isLoading = signal<boolean>(false);
 
@@ -56,7 +57,7 @@ export class LoginComponent {
       );
       const tokens = await getIdTokenResult(credentials.user, true);
 
-      if (tokens.claims['admin']) this.router.navigate(['/admin']);
+      if (tokens.claims['admin']) this.language.navigateWithLanguage('admin');
       else {
         this.authError = 'auth/not-authorized';
         await this.auth.signOut();
