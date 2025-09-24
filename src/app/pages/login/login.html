@@ -58,16 +58,29 @@
       <button
         type="submit"
         class="btn btn-primary justify-center w-full"
-        [disabled]="form.invalid"
+        [disabled]="form.invalid || isLoading()"
       >
-        {{ "login.login" | translate }}
+        @if (isLoading()) {
+          <div class="h-5 w-5 spinner"></div>
+        } @else {
+          <span>{{ "login.login" | translate }}</span>
+        }
       </button>
       @if (authError) {
         <div class="text-sm text-red-600 mt-1">
-          @if (authError === "auth/invalid-credential") {
-            {{ "login.authInvalid" | translate }}
-          } @else {
-            {{ "login.authTryAgainLater" | translate }}
+          @switch (authError) {
+            @case ("auth/invalid-credential") {
+              {{ "login.authInvalid" | translate }}
+            }
+            @case ("auth/not-authorized") {
+              {{ "login.authNotAuthorized" | translate }}
+            }
+            @case ("auth/too-many-requests") {
+              {{ "login.authTooManyRequests" | translate }}
+            }
+            @default {
+              {{ "login.authTryAgainLater" | translate }}
+            }
           }
         </div>
       }
