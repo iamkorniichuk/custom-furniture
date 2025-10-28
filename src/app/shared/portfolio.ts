@@ -1,5 +1,5 @@
 import { Timestamp } from '@angular/fire/firestore';
-import { Image } from './images';
+import { ResponsiveImage } from './images';
 
 export type RoomCode =
   | 'kitchen'
@@ -32,7 +32,7 @@ export interface Project extends Record<string, unknown> {
   description_ua: string;
   datetime: Timestamp;
   room: RoomCode;
-  images: Image[];
+  images: ResponsiveImage[];
   id: string;
 }
 

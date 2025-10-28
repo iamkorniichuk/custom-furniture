@@ -2,15 +2,20 @@ import { Component, input, signal } from '@angular/core';
 
 import { ArrowIconComponent } from '../arrow-icon/arrow-icon';
 import { ContrastGradientComponent } from '../contrast-gradient/contrast-gradient';
-import { Image } from '../../shared/images';
+import { ResponsiveImage } from '../../shared/images';
+import { ResponsiveImageComponent } from '../responsive-image/responsive-image';
 
 @Component({
   selector: 'app-image-carousel',
-  imports: [ArrowIconComponent, ContrastGradientComponent],
+  imports: [
+    ArrowIconComponent,
+    ContrastGradientComponent,
+    ResponsiveImageComponent,
+  ],
   templateUrl: './image-carousel.html',
 })
 export class ImageCarouseComponent {
-  images = input.required<Image[]>();
+  images = input.required<ResponsiveImage[]>();
   alt = input<string>('');
 
   currentIndex = signal<number>(0);

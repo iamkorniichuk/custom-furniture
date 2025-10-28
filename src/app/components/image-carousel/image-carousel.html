@@ -1,65 +1,22 @@
-@let currentImage = images()[currentIndex()];
 <div class="group relative size-full overflow-hidden">
-  @if (!isLoaded()) {
-    <div class="absolute inset-0 flex items-center justify-center bg-bg-accent">
-      <div class="w-12 h-12 spinner"></div>
-    </div>
-  }
-  <picture class="size-full block">
-    @if (currentImage.orientation === "portrait") {
-      <source
-        [srcset]="
-          currentImage.paths.small +
-          ' 360w, ' +
-          currentImage.paths.medium +
-          ' 640w, ' +
-          currentImage.paths.large +
-          ' 960w, ' +
-          currentImage.paths.xlarge +
-          ' 1080w'
-        "
-        sizes="
-              (min-width: 1536px) 800px,  
-              (min-width: 1280px) 700px,  
-              (min-width: 768px) 500px,   
-              100vw                       
-            "
-      />
-    } @else {
-      <source
-        [srcset]="
-          currentImage.paths.small +
-          ' 480w, ' +
-          currentImage.paths.medium +
-          ' 800w, ' +
-          currentImage.paths.large +
-          ' 1200w, ' +
-          currentImage.paths.xlarge +
-          ' 1600w'
-        "
-        sizes="
-              (min-width: 1536px) 1280px, 
-              (min-width: 1280px) 1024px, 
-              (min-width: 768px) 768px,   
-              100vw                       
-            "
-      />
-    }
-    <img
-      [src]="currentImage.paths.medium"
-      [alt]="`${alt()} ${currentIndex() + 1}`"
-      class="w-full h-full object-cover"
-      loading="eager"
-      decoding="async"
-      (load)="isLoaded.set(true)"
+  @for (img of images(); track $index) {
+    <app-responsive-image
+      class="absolute inset-0 size-full"
+      imgClass="size-full object-cover"
+      [class.opacity-100]="$index === currentIndex()"
+      [class.opacity-0]="$index !== currentIndex()"
+      [image]="img"
+      [alt]="alt()"
+      [loading]="$first ? 'eager' : 'lazy'"
     />
-  </picture>
+  }
 
   <div
     class="md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300"
   >
     <app-contrast-gradient to="right" percentageSize="15" />
     <app-contrast-gradient to="left" percentageSize="15" />
+
     @if (images().length > 1) {
       <div
         class="absolute inset-0 flex flex-row justify-between pointer-events-none"
@@ -78,6 +35,7 @@
         </button>
       </div>
     }
+
     <div
       class="absolute right-4 top-4 text-secondary text-sm sm:text-base md:text-lg lg:text-xl"
     >

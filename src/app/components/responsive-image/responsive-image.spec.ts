@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BackgroundImageComponent } from './background-image';
+import { ResponsiveImageComponent } from './responsive-image';
 
-describe('BackgroundImageComponent', () => {
-  let component: BackgroundImageComponent;
-  let fixture: ComponentFixture<BackgroundImageComponent>;
+describe('ResponsiveImageComponent', () => {
+  let component: ResponsiveImageComponent;
+  let fixture: ComponentFixture<ResponsiveImageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [BackgroundImageComponent],
+      imports: [ResponsiveImageComponent],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(BackgroundImageComponent);
+    fixture = TestBed.createComponent(ResponsiveImageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,98 +1,322 @@
 [
   {
-    "small": "/furnitures/black-white-kitchen-fitted-interior-0_small.webp",
-    "medium": "/furnitures/black-white-kitchen-fitted-interior-0_medium.webp",
-    "large": "/furnitures/black-white-kitchen-fitted-interior-0_large.webp",
-    "xlarge": "/furnitures/black-white-kitchen-fitted-interior-0_xlarge.webp"
+    "paths": {
+      "image/avif": [
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fwhite-business_2309.avif?alt=media",
+          "width": 2309,
+          "height": 1732
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fwhite-business_1155.avif?alt=media",
+          "width": 1155,
+          "height": 866
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fwhite-business_577.avif?alt=media",
+          "width": 577,
+          "height": 433
+        }
+      ],
+      "image/webp": [
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fwhite-business_2309.webp?alt=media",
+          "width": 2309,
+          "height": 1732
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fwhite-business_1155.webp?alt=media",
+          "width": 1155,
+          "height": 866
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fwhite-business_577.webp?alt=media",
+          "width": 577,
+          "height": 433
+        }
+      ]
+    },
+    "width": 3200,
+    "height": 2400
   },
   {
-    "small": "/furnitures/brown-kitchen-furniture-1_small.webp",
-    "medium": "/furnitures/brown-kitchen-furniture-1_medium.webp",
-    "large": "/furnitures/brown-kitchen-furniture-1_large.webp",
-    "xlarge": "/furnitures/brown-kitchen-furniture-1_xlarge.webp"
+    "paths": {
+      "image/avif": [
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fluxury-white-wardrobe_2828.avif?alt=media",
+          "width": 2828,
+          "height": 1414
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fluxury-white-wardrobe_1414.avif?alt=media",
+          "width": 1414,
+          "height": 707
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fluxury-white-wardrobe_707.avif?alt=media",
+          "width": 707,
+          "height": 354
+        }
+      ],
+      "image/webp": [
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fluxury-white-wardrobe_2828.webp?alt=media",
+          "width": 2828,
+          "height": 1414
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fluxury-white-wardrobe_1414.webp?alt=media",
+          "width": 1414,
+          "height": 707
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fluxury-white-wardrobe_707.webp?alt=media",
+          "width": 707,
+          "height": 354
+        }
+      ]
+    },
+    "width": 8000,
+    "height": 4000
   },
   {
-    "small": "/furnitures/business-fitted-interior-5_small.webp",
-    "medium": "/furnitures/business-fitted-interior-5_medium.webp",
-    "large": "/furnitures/business-fitted-interior-5_large.webp",
-    "xlarge": "/furnitures/business-fitted-interior-5_xlarge.webp"
+    "paths": {
+      "image/avif": [
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fguestroom-white-furniture_2828.avif?alt=media",
+          "width": 2828,
+          "height": 1414
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fguestroom-white-furniture_1414.avif?alt=media",
+          "width": 1414,
+          "height": 707
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fguestroom-white-furniture_707.avif?alt=media",
+          "width": 707,
+          "height": 354
+        }
+      ],
+      "image/webp": [
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fguestroom-white-furniture_2828.webp?alt=media",
+          "width": 2828,
+          "height": 1414
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fguestroom-white-furniture_1414.webp?alt=media",
+          "width": 1414,
+          "height": 707
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fguestroom-white-furniture_707.webp?alt=media",
+          "width": 707,
+          "height": 354
+        }
+      ]
+    },
+    "width": 8000,
+    "height": 4000
   },
   {
-    "small": "/furnitures/consulting-room-furniture-0_small.webp",
-    "medium": "/furnitures/consulting-room-furniture-0_medium.webp",
-    "large": "/furnitures/consulting-room-furniture-0_large.webp",
-    "xlarge": "/furnitures/consulting-room-furniture-0_xlarge.webp"
+    "paths": {
+      "image/avif": [
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fconsulting-room_2309.avif?alt=media",
+          "width": 2309,
+          "height": 1732
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fconsulting-room_1155.avif?alt=media",
+          "width": 1155,
+          "height": 866
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fconsulting-room_577.avif?alt=media",
+          "width": 577,
+          "height": 433
+        }
+      ],
+      "image/webp": [
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fconsulting-room_2309.webp?alt=media",
+          "width": 2309,
+          "height": 1732
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fconsulting-room_1155.webp?alt=media",
+          "width": 1155,
+          "height": 866
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fconsulting-room_577.webp?alt=media",
+          "width": 577,
+          "height": 433
+        }
+      ]
+    },
+    "width": 8000,
+    "height": 6000
   },
   {
-    "small": "/furnitures/glass-luxury-white-wardrobe-1_small.webp",
-    "medium": "/furnitures/glass-luxury-white-wardrobe-1_medium.webp",
-    "large": "/furnitures/glass-luxury-white-wardrobe-1_large.webp",
-    "xlarge": "/furnitures/glass-luxury-white-wardrobe-1_xlarge.webp"
+    "paths": {
+      "image/avif": [
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fbrown-kitchen_2309.avif?alt=media",
+          "width": 2309,
+          "height": 1732
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fbrown-kitchen_1155.avif?alt=media",
+          "width": 1155,
+          "height": 866
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fbrown-kitchen_577.avif?alt=media",
+          "width": 577,
+          "height": 433
+        }
+      ],
+      "image/webp": [
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fbrown-kitchen_2309.webp?alt=media",
+          "width": 2309,
+          "height": 1732
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fbrown-kitchen_1155.webp?alt=media",
+          "width": 1155,
+          "height": 866
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fbrown-kitchen_577.webp?alt=media",
+          "width": 577,
+          "height": 433
+        }
+      ]
+    },
+    "width": 3200,
+    "height": 2400
   },
   {
-    "small": "/furnitures/guestroom-white-wood-tv-furniture-0_small.webp",
-    "medium": "/furnitures/guestroom-white-wood-tv-furniture-0_medium.webp",
-    "large": "/furnitures/guestroom-white-wood-tv-furniture-0_large.webp",
-    "xlarge": "/furnitures/guestroom-white-wood-tv-furniture-0_xlarge.webp"
+    "paths": {
+      "image/avif": [
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fblack-white-kitchen_2947.avif?alt=media",
+          "width": 2947,
+          "height": 1357
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fblack-white-kitchen_1473.avif?alt=media",
+          "width": 1473,
+          "height": 679
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fblack-white-kitchen_737.avif?alt=media",
+          "width": 737,
+          "height": 339
+        }
+      ],
+      "image/webp": [
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fblack-white-kitchen_2947.webp?alt=media",
+          "width": 2947,
+          "height": 1357
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fblack-white-kitchen_1473.webp?alt=media",
+          "width": 1473,
+          "height": 679
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fblack-white-kitchen_737.webp?alt=media",
+          "width": 737,
+          "height": 339
+        }
+      ]
+    },
+    "width": 3200,
+    "height": 1474
   },
   {
-    "small": "/furnitures/high-wood-white-kitchen-fitted-interior-1_small.webp",
-    "medium": "/furnitures/high-wood-white-kitchen-fitted-interior-1_medium.webp",
-    "large": "/furnitures/high-wood-white-kitchen-fitted-interior-1_large.webp",
-    "xlarge": "/furnitures/high-wood-white-kitchen-fitted-interior-1_xlarge.webp"
+    "paths": {
+      "image/avif": [
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fkidroom-furniture_2309.avif?alt=media",
+          "width": 2309,
+          "height": 1732
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fkidroom-furniture_1155.avif?alt=media",
+          "width": 1155,
+          "height": 866
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fkidroom-furniture_577.avif?alt=media",
+          "width": 577,
+          "height": 433
+        }
+      ],
+      "image/webp": [
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fkidroom-furniture_2309.webp?alt=media",
+          "width": 2309,
+          "height": 1732
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fkidroom-furniture_1155.webp?alt=media",
+          "width": 1155,
+          "height": 866
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fkidroom-furniture_577.webp?alt=media",
+          "width": 577,
+          "height": 433
+        }
+      ]
+    },
+    "width": 3200,
+    "height": 2400
   },
   {
-    "small": "/furnitures/kidroom-fitted-interior-4_small.webp",
-    "medium": "/furnitures/kidroom-fitted-interior-4_medium.webp",
-    "large": "/furnitures/kidroom-fitted-interior-4_large.webp",
-    "xlarge": "/furnitures/kidroom-fitted-interior-4_xlarge.webp"
-  },
-  {
-    "small": "/furnitures/levatating-tv-wardrobe-0_small.webp",
-    "medium": "/furnitures/levatating-tv-wardrobe-0_medium.webp",
-    "large": "/furnitures/levatating-tv-wardrobe-0_large.webp",
-    "xlarge": "/furnitures/levatating-tv-wardrobe-0_xlarge.webp"
-  },
-  {
-    "small": "/furnitures/levetating-white-guestroom-furniture-1_small.webp",
-    "medium": "/furnitures/levetating-white-guestroom-furniture-1_medium.webp",
-    "large": "/furnitures/levetating-white-guestroom-furniture-1_large.webp",
-    "xlarge": "/furnitures/levetating-white-guestroom-furniture-1_xlarge.webp"
-  },
-  {
-    "small": "/furnitures/light-angle-wardrobe-3_small.webp",
-    "medium": "/furnitures/light-angle-wardrobe-3_medium.webp",
-    "large": "/furnitures/light-angle-wardrobe-3_large.webp",
-    "xlarge": "/furnitures/light-angle-wardrobe-3_xlarge.webp"
-  },
-  {
-    "small": "/furnitures/tech-business-fitted-interior-1_small.webp",
-    "medium": "/furnitures/tech-business-fitted-interior-1_medium.webp",
-    "large": "/furnitures/tech-business-fitted-interior-1_large.webp",
-    "xlarge": "/furnitures/tech-business-fitted-interior-1_xlarge.webp"
-  },
-  {
-    "small": "/furnitures/white-black-kitchen-fitted-interior-0_small.webp",
-    "medium": "/furnitures/white-black-kitchen-fitted-interior-0_medium.webp",
-    "large": "/furnitures/white-black-kitchen-fitted-interior-0_large.webp",
-    "xlarge": "/furnitures/white-black-kitchen-fitted-interior-0_xlarge.webp"
-  },
-  {
-    "small": "/furnitures/white-double-tap-cabinet-1_small.webp",
-    "medium": "/furnitures/white-double-tap-cabinet-1_medium.webp",
-    "large": "/furnitures/white-double-tap-cabinet-1_large.webp",
-    "xlarge": "/furnitures/white-double-tap-cabinet-1_xlarge.webp"
-  },
-  {
-    "small": "/furnitures/wood-black-glass-kitchen-fitted-interior-2_small.webp",
-    "medium": "/furnitures/wood-black-glass-kitchen-fitted-interior-2_medium.webp",
-    "large": "/furnitures/wood-black-glass-kitchen-fitted-interior-2_large.webp",
-    "xlarge": "/furnitures/wood-black-glass-kitchen-fitted-interior-2_xlarge.webp"
-  },
-  {
-    "small": "/furnitures/wood-dark-levatating-furniture-1_small.webp",
-    "medium": "/furnitures/wood-dark-levatating-furniture-1_medium.webp",
-    "large": "/furnitures/wood-dark-levatating-furniture-1_large.webp",
-    "xlarge": "/furnitures/wood-dark-levatating-furniture-1_xlarge.webp"
+    "paths": {
+      "image/avif": [
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fwood-kitchen_2828.avif?alt=media",
+          "width": 2828,
+          "height": 1414
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fwood-kitchen_1414.avif?alt=media",
+          "width": 1414,
+          "height": 707
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fwood-kitchen_707.avif?alt=media",
+          "width": 707,
+          "height": 354
+        }
+      ],
+      "image/webp": [
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fwood-kitchen_2828.webp?alt=media",
+          "width": 2828,
+          "height": 1414
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fwood-kitchen_1414.webp?alt=media",
+          "width": 1414,
+          "height": 707
+        },
+        {
+          "src": "https://firebasestorage.googleapis.com/v0/b/iak-custom-furniture.firebasestorage.app/o/backgrounds%2Fwood-kitchen_707.webp?alt=media",
+          "width": 707,
+          "height": 354
+        }
+      ]
+    },
+    "width": 8000,
+    "height": 4000
   }
 ]

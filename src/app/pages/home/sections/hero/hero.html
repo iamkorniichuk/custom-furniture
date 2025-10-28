@@ -1,23 +1,27 @@
 <section
   id="hero"
-  class="relative h-full max-h-full w-full overflow-hidden snap-start snap-always"
+  class="relative size-full max-h-full overflow-hidden snap-start snap-always"
 >
-  <app-background-image
-    [sourcePaths]="backgroundImage1()"
-    class="transition-opacity duration-1000"
-    [class.opacity-0]="!showBackgroundImage1()"
-    [class.opacity-100]="showBackgroundImage1()"
+  <app-responsive-image
+    [image]="image1()"
+    loading="eager"
+    decoding="sync"
+    class="absolute inset-0 transition-opacity duration-1000"
+    [class.opacity-0]="!showImage1()"
+    [class.opacity-100]="showImage1()"
     alt="Background image 1"
+    imgClass="size-full object-cover"
   />
-  <app-background-image
-    [sourcePaths]="backgroundImage2()"
-    class="transition-opacity duration-1000"
-    [class.opacity-0]="showBackgroundImage1()"
-    [class.opacity-100]="!showBackgroundImage1()"
+  <app-responsive-image
+    [image]="image2()"
+    loading="eager"
+    decoding="sync"
+    class="absolute inset-0 transition-opacity duration-1000"
+    [class.opacity-0]="showImage1()"
+    [class.opacity-100]="!showImage1()"
     alt="Background image 2"
+    imgClass="size-full object-cover"
   />
-
-  <app-contrast-gradient to="top" percentageSize="25" />
 
   <div class="z-20 absolute inset-0 flex justify-center items-center">
     <div class="popup flex flex-col justify-between">

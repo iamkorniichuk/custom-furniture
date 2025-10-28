@@ -10,20 +10,14 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { isPlatformBrowser } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
-import { ImagePaths } from '../../../../shared/images';
+import { ResponsiveImage } from '../../../../shared/images';
 import { backgrounds } from '../../../../shared/backgrounds';
 import { contacts } from '../../../../shared/contacts';
-import { BackgroundImageComponent } from '../../../../components/background-image/background-image';
-import { ContrastGradientComponent } from '../../../../components/contrast-gradient/contrast-gradient';
+import { ResponsiveImageComponent } from '../../../../components/responsive-image/responsive-image';
 
 @Component({
   selector: 'app-hero-section',
-  imports: [
-    TranslatePipe,
-    RouterModule,
-    BackgroundImageComponent,
-    ContrastGradientComponent,
-  ],
+  imports: [TranslatePipe, RouterModule, ResponsiveImageComponent],
   templateUrl: './hero.html',
 })
 export class HeroSectionComponent implements OnInit, OnDestroy {
@@ -32,34 +26,34 @@ export class HeroSectionComponent implements OnInit, OnDestroy {
   info = contacts;
   private intervalId?: number;
 
-  backgroundImage1 = signal<ImagePaths | null>(null);
-  backgroundImage2 = signal<ImagePaths | null>(null);
-  showBackgroundImage1 = signal(true);
+  image1 = signal<ResponsiveImage>(backgrounds[0]);
+  image2 = signal<ResponsiveImage>(backgrounds[1]);
+  showImage1 = signal(true);
 
   ngOnInit() {
-    this.backgroundImage1.set(this.randomBackgroundImage());
-    this.backgroundImage2.set(this.randomBackgroundImage());
+    this.image1.set(this.randomImage());
+    this.image2.set(this.randomImage());
 
     if (isPlatformBrowser(this.platformId)) {
       this.intervalId = window.setInterval(() => {
-        this.swapBackgroundImages();
+        this.swapImages();
       }, 8_000);
     }
   }
 
-  private swapBackgroundImages() {
-    const next = this.randomBackgroundImage();
+  private swapImages() {
+    const next = this.randomImage();
 
-    if (this.showBackgroundImage1()) {
-      this.backgroundImage2.set(next);
+    if (this.showImage1()) {
+      this.image2.set(next);
     } else {
-      this.backgroundImage1.set(next);
+      this.image1.set(next);
     }
 
-    this.showBackgroundImage1.update((value) => !value);
+    this.showImage1.update((value) => !value);
   }
 
-  private randomBackgroundImage(): ImagePaths {
+  private randomImage(): ResponsiveImage {
     const idx = Math.floor(Math.random() * backgrounds.length);
     return backgrounds[idx];
   }

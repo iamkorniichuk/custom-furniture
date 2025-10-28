@@ -1,0 +1,35 @@
+@if (image()) {
+  <div
+    class="relative size-full"
+    [style.aspect-ratio]="`${image().width}/${image().height}`"
+  >
+    @if (!isLoaded()) {
+      <div
+        class="absolute inset-0 size-full load-placeholder"
+        aria-label="Loading image"
+      ></div>
+    }
+    <picture>
+      @for (format of priorityFormats; track format) {
+        @let imagePaths = image().paths[format];
+        <source
+          [attr.type]="format"
+          [attr.srcset]="buildSrcset(imagePaths)"
+          [attr.sizes]="sizes()"
+        />
+      }
+      <img
+        [src]="fallbackImages[0].src"
+        [sizes]="sizes()"
+        [srcset]="buildSrcset(fallbackImages)"
+        [alt]="alt()"
+        [loading]="loading()"
+        [decoding]="decoding()"
+        (load)="onLoad()"
+        [class.opacity-0]="!isLoaded()"
+        [class.opacity-100]="isLoaded()"
+        [class]="imgClass()"
+      />
+    </picture>
+  </div>
+}

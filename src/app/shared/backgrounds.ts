@@ -1,4 +1,5 @@
 import backgroundsData from '../../assets/backgrounds.json';
-import { ImagePaths } from './images';
+import { ResponsiveImage } from './images';
 
-export const backgrounds: ImagePaths[] = backgroundsData as ImagePaths[];
+export const backgrounds: ResponsiveImage[] =
+  backgroundsData as ResponsiveImage[];
