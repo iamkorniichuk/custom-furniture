@@ -58,7 +58,7 @@
       <button
         type="submit"
         class="btn btn-primary justify-center w-full"
-        [disabled]="form.invalid || isLoading()"
+        [disabled]="isLoading()"
       >
         @if (isLoading()) {
           <div class="h-5 w-5 spinner"></div>

@@ -43,7 +43,10 @@ export class LoginComponent {
 
   async login() {
     if (!isPlatformBrowser(this.platformId)) return;
-    if (this.form.invalid) return;
+    if (this.form.invalid) {
+      this.form.markAllAsTouched();
+      return;
+    }
 
     const { email, password } = this.form.value;
     if (!email || !password) return;

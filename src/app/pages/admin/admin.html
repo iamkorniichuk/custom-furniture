@@ -1,4 +1,134 @@
-<div class="h-available w-full overflow-auto p-5">
+<div class="h-available w-full overflow-auto p-5 bg-bg-muted">
+  <form
+    class="bg-bg flex flex-col gap-5 p-5"
+    [formGroup]="form"
+    (ngSubmit)="createProject()"
+  >
+    <fieldset class="flex flex-col card" formGroupName="title">
+      <h3>{{ "admin.titles" | translate }}</h3>
+      <hr class="my-2" />
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+        @for (language of availableLanguages; track language) {
+          <div class="flex flex-col">
+            <span class="flex flex-row gap-2">
+              <img class="size-5" [src]="language.src" [alt]="language.label" />
+              <label
+                [for]="language.code"
+                class="text-sm font-medium mb-1 text-gray-700"
+              >
+                {{ language.code.toUpperCase() }}
+              </label>
+            </span>
+
+            <input
+              [id]="language.code"
+              [formControlName]="language.code"
+              type="text"
+              placeholder="{{ 'admin.enterTitle' | translate }}"
+              class="px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition invalid:border-red-500 invalid:bg-red-50"
+            />
+
+            @if (
+              titles?.get(language.code)?.invalid &&
+              (titles?.get(language.code)?.dirty ||
+                titles?.get(language.code)?.touched)
+            ) {
+              <div class="text-sm text-red-600 mt-1">
+                @if (titles?.get(language.code)?.errors?.["required"]) {
+                  {{ "admin.titleRequired" | translate }}
+                }
+              </div>
+            }
+          </div>
+        }
+      </div>
+    </fieldset>
+
+    <fieldset class="flex flex-col card" formGroupName="description">
+      <h3>{{ "admin.descriptions" | translate }}</h3>
+      <hr class="my-2" />
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+        @for (language of availableLanguages; track language) {
+          <div class="flex flex-col">
+            <span class="flex flex-row gap-2 items-center mb-1">
+              <img class="size-5" [src]="language.src" [alt]="language.label" />
+              <label
+                [for]="language.code"
+                class="text-sm font-medium text-gray-700"
+              >
+                {{ language.code.toUpperCase() }}
+              </label>
+            </span>
+
+            <textarea
+              [id]="language.code"
+              [formControlName]="language.code"
+              rows="3"
+              placeholder="{{ 'admin.enterDescription' | translate }}"
+              class="px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition invalid:border-red-500 invalid:bg-red-50 resize-none"
+            ></textarea>
+
+            @if (
+              descriptions?.get(language.code)?.invalid &&
+              (descriptions?.get(language.code)?.dirty ||
+                descriptions?.get(language.code)?.touched)
+            ) {
+              <div class="text-sm text-red-600 mt-1">
+                @if (descriptions?.get(language.code)?.errors?.["required"]) {
+                  {{ "admin.descriptionRequired" | translate }}
+                }
+              </div>
+            }
+          </div>
+        }
+      </div>
+    </fieldset>
+
+    <label for="room">{{ "admin.room" | translate }}:</label>
+    <select id="room" formControlName="room">
+      @for (option of selectRoomOptions; track option.code) {
+        <option [ngValue]="option.code">
+          {{ option | translated: "title" }}
+        </option>
+      }
+    </select>
+    @if (room?.invalid && (room?.dirty || room?.touched)) {
+      <div class="text-sm text-danger mt-1">
+        @if (room?.errors?.["required"]) {
+          {{ "admin.roomRequired" | translate }}
+        }
+      </div>
+    }
+
+    <label for="images">{{ "admin.images" | translate }}:</label>
+    <input
+      id="images"
+      type="file"
+      multiple
+      (change)="onFilesSelected($event)"
+    />
+    @if (images?.dirty || images?.touched) {
+      <div class="text-sm text-danger mt-1">
+        @if (selectedFiles.length < 1) {
+          {{ "admin.imagesLength" | translate }}
+        }
+      </div>
+    }
+
+    <button
+      type="submit"
+      class="btn btn-primary justify-center w-full"
+      [disabled]="isLoading()"
+    >
+      @if (isLoading()) {
+        <div class="h-5 w-5 spinner"></div>
+      } @else {
+        <span>{{ "admin.create" | translate }}</span>
+      }
+    </button>
+  </form>
+
   <table class="w-full border border-text-muted bg-bg text-left text-sm">
     <thead>
       <tr class="bg-bg-accent text-text font-semibold">
@@ -14,12 +144,12 @@
           class="hover:bg-bg-accent/40 transition-colors"
           [ngClass]="{ 'bg-bg-muted': $odd }"
         >
-          <td class="px-4 py-2">{{ row | translated: "title" }}</td>
+          <td class="px-4 py-2 text-wrap">{{ row | translated: "title" }}</td>
           <td class="px-4 py-2 whitespace-nowrap">
-            {{ row["datetime"].toDate() | date: "short" }}
+            {{ row["datetime"].toDate() | date: "dd/MM/yy" }}
           </td>
           <td class="px-4 py-2">{{ getRoom(row) | translated: "title" }}</td>
-          <td class="px-4 py-2 text-center space-x-2">
+          <td class="px-4 py-2 text-center space-x-2 text-nowrap">
             <button class="inline-flex btn btn-primary text-sm">Edit</button>
             <button class="inline-flex btn btn-primary text-sm">Delete</button>
           </td>

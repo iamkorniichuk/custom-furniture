@@ -36,15 +36,7 @@ export interface Project extends Record<string, unknown> {
   id: string;
 }
 
-export const roomOptions: Room[] = [
-  {
-    code: null,
-    title_cs: 'Vše',
-    title_de: 'Alle',
-    title_en: 'All',
-    title_pl: 'Wszystkie',
-    title_ua: 'Всі',
-  },
+export const selectRoomOptions: Room[] = [
   {
     code: 'kitchen',
     title_cs: 'Kuchyně',
@@ -101,4 +93,16 @@ export const roomOptions: Room[] = [
     title_pl: 'Korytarz',
     title_ua: 'Коридор',
   },
+];
+
+export const roomOptions: Room[] = [
+  {
+    code: null,
+    title_cs: 'Vše',
+    title_de: 'Alle',
+    title_en: 'All',
+    title_pl: 'Wszystkie',
+    title_ua: 'Всі',
+  },
+  ...selectRoomOptions,
 ];

@@ -1,6 +1,6 @@
 @layer components {
   .btn {
-    @apply flex items-center leading-none gap-1 px-5 py-3 md:px-4 md:py-3;
+    @apply flex items-center justify-center leading-none gap-1 px-5 py-3 md:px-4 md:py-3;
     @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-primary;
   }
 
@@ -20,8 +20,9 @@
     @apply font-bold;
   }
 
-  .input {
-    @apply text-text placeholder:text-text-muted p-2 border-2 border-primary outline-none
+  input,
+  textarea {
+    @apply bg-bg text-text placeholder:text-text-muted p-2 border-2 border-primary outline-none
         focus-visible:border-primary-hover;
   }
 
@@ -34,7 +35,7 @@
   }
 
   .popup {
-    @apply w-auto max-w-[90dvw] shadow-lg shadow-primary sm:max-w-lg md:max-w-2xl lg:max-w-3xl h-auto max-h-[90dvh] bg-bg p-4 sm:p-6 md:p-8;
+    @apply absolute w-auto max-w-[90dvw] shadow-lg shadow-primary sm:max-w-lg md:max-w-2xl lg:max-w-3xl h-auto max-h-[90dvh] bg-bg p-4 sm:p-6 md:p-8;
   }
 
   .load-placeholder {
