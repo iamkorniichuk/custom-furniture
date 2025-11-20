@@ -64,6 +64,7 @@
     "@types/node": "^20.17.19",
     "@vendure/ngx-translate-extract": "^10.0.1",
     "angular-eslint": "20.2.0",
+    "baseline-browser-mapping": "^2.8.29",
     "eslint": "^9.33.0",
     "husky": "^8.0.0",
     "jasmine-core": "~5.8.0",
