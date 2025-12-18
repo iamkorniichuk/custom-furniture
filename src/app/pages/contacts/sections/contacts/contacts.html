@@ -1,9 +1,9 @@
 <section
   id="contacts"
-  class="relative snap-start snap-always h-available w-full flex overflow-hidden"
+  class="relative snap-start snap-always h-available w-full overflow-hidden"
 >
   <div
-    class="flex-1 h-available flex flex-col justify-center items-start p-6 sm:p-8 space-y-6"
+    class="h-available flex flex-col justify-center items-start p-6 sm:p-8 space-y-6"
   >
     <h2 class="text-2xl sm:text-3xl font-semibold flex items-center gap-2">
       {{ "contacts.title" | translate }}
@@ -97,8 +97,4 @@
       </p>
     </div>
   </div>
-
-  <app-place-map class="hidden md:flex md:flex-1 h-available w-full z-10" />
-
-  <app-scroll-section fragment="countries" />
 </section>

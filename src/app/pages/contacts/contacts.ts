@@ -1,12 +1,11 @@
 import { Component, inject, AfterViewInit } from '@angular/core';
 
 import { SectionNavigationService } from '../../services/section-navigation';
-import { CountriesSectionComponents } from './sections/countries/countries';
 import { ContactsSectionComponent } from './sections/contacts/contacts';
 
 @Component({
   selector: 'app-contacts',
-  imports: [CountriesSectionComponents, ContactsSectionComponent],
+  imports: [ContactsSectionComponent],
   templateUrl: './contacts.html',
   styleUrl: './contacts.css',
 })
